@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+:root {
+  --header-height: 3rem;
+  --nav-width: 68px;
+  --first-color: #235dd9;
+  --first-color-light: #afa5d9;
+  --white-color: #f7f6fb;
+  --body-font: "Nunito", sans-serif;
+  --normal-font-size: 0.875rem;
+  --z-fixed: 100;
+  --bs-info-rgb: 9, 165, 190;
+  --primary-link-color: #003171;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  font-family: var(--body-font);
+  font-size: calc(var(--normal-font-size) - 0.08rem);
+  transition: 0.5s;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  .offcanvas {
+    width: 100% !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+  .offcanvas {
+    width: 100% !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .offcanvas {
+    width: 80% !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .offcanvas {
+    width: 50% !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .offcanvas {
+    width: 50% !important;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-link-color) !important;
+}
+
+.badge {
+  line-height: normal;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.3125rem;
+  font-size: calc(var(--normal-font-size) - 0.2rem);
+}
+
+.bg-soft-info {
+  background-color: rgba(9, 165, 190, 0.1) !important;
+}
+
+.text-info {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
+}
+
+.bg-soft-secondary {
+  background-color: rgba(113, 134, 157, 0.1) !important;
+}
+
+.text-secondary {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+
+.bg-soft-success {
+  background-color: rgba(0, 201, 167, 0.1) !important;
+}
+.text-success {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+}
+
+.bg-soft-danger {
+  background-color: rgba(237, 76, 120, 0.1) !important;
+}
+.text-danger {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+}
+
+.bg-soft-warning {
+  background-color: rgba(245, 202, 153, 0.1) !important;
+}
+.text-warning {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+}
+.bg-soft-primary {
+  background-color: rgba(55, 125, 255, 0.1) !important;
+}
+.text-primary {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+.bg-soft-dark {
+  background-color: rgba(19, 33, 68, 0.1) !important;
+}
+.text-dark {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+}
+
+#orders {
+  background-color: #fff;
+}
+
+.order .form-check-inline {
+  margin-right: 0.3rem !important;
+}
+
+#divSearch input[type="search"] {
+  border-radius: 2px;
+  border: 1px solid #f6f6f6;
+}
+
+#divSearch input[type="search"]:focus {
+  outline: none;
+}
+
+#divSearch button {
+  background-color: #fff;
+  color: #ccc;
+  outline: 0;
+  border: 0;
+}
+
+#divSearch button:hover {
+  color: #444;
+  background-color: #e7e8eb;
+}
+
+.actionbar-button {
+  border: 0;
+  background-color: #fff;
+}
+
+.actionbar-button:hover {
+  background-color: #efefef;
+}
+
+.order-no label {
+  cursor: pointer;
+}
+
+.modal-backdrop {
+  z-index: 0 !important;
+}

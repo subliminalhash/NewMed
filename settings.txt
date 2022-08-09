@@ -1,0 +1,4 @@
+Open orders:
+1. in modal
+2. Side panel
+3. Separate page
