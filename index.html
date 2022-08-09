@@ -49,14 +49,14 @@
       <!-- ####################### ACTION BAR ####################### -->
       <div class="action-bar">
         <div class="row">
-          <div id="divActions" class="bg-warning p-2">
-            <button type="button" class="actionbar-button p-2" title="Yenile">
+          <div id="divActions" class="bg-light p-2">
+            <button type="button" class="actionbar-button" title="Yenile">
               <i class="fa fa-refresh"></i>
             </button>
 
             <button
               type="button"
-              class="actionbar-button p-2"
+              class="actionbar-button"
               title="Arşive at"
             >
               <i class="fa fa-archive"></i>
@@ -64,7 +64,7 @@
 
             <button
               type="button"
-              class="actionbar-button p-2"
+              class="actionbar-button"
               title="Okunmuş / Okunmamış"
             >
               <i class="fa fa-envelope"></i>
@@ -72,7 +72,7 @@
 
             <button
               type="button"
-              class="actionbar-button p-2"
+              class="actionbar-button"
               title="Durum Güncelle"
             >
               <i class="fa fa-tasks"></i>
@@ -80,7 +80,7 @@
 
             <button
               type="button"
-              class="actionbar-button p-2 btn-danger"
+              class="actionbar-button  btn-danger"
               title="Sil"
             >
               <i class="fa fa-trash-alt text-danger"></i>
@@ -110,8 +110,9 @@
                     <a href="#" class="fs-6">Eda Enver Eczanesi</a>
                   </strong>
                 
+                  <span class="order-datetime d-inline d-md-none"><time datetime="2022-08-06T10:32">28.08.2022 @ 10:32</time></span>
                   <span class="d-none d-md-inline"
-                    > -- Toplam <strong>4</strong> kalem<strong>32</strong>parça
+                    > --  Toplam <strong>4</strong> kalem<strong>32</strong>parça
                     ve<strong>₺123.45</strong></span
                   >
                 </span>
@@ -149,15 +150,13 @@
             </div>
 
             <div class="col-2 g-0 d-flex align-items-center justify-content-end">
-<div class="p-2">
-  <span class="order-datetime me-4"
-  ><time datetime="2022-08-06T10:32">28 Agu</time></span
->
+              <div class="p-2">
+                <span class="order-datetime me-4 d-none d-md-inline"><time datetime="2022-08-06T10:32">28 Agu</time></span>
 
-<a href="#" class="bg-white p-3 btnOrderDetail"
-  ><i class="fa fa-chevron-right"></i
-></a>
-</div>
+                <a href="#" class="bg-white p-3 btnOrderDetail">
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -169,17 +168,47 @@
 <!-- ####################### OFFCANVAS - FILTERS ####################### -->
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
-    <h5 id="offcanvasExampleLabel">Offcanvas right</h5>
+    <h5 id="offcanvasExampleLabel">Detaylı Filtreleme</h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <input type="text" class="form-control">
+
+    <div class="filterDatesContainer mb-3">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control form-control-sm" placeholder="Başlangıç Tarihi">
+        <span class="input-group-text"><a href="#"><i class="fa fa-calendar"></i></a></span>
+        <input type="text" class="form-control form-control-sm" placeholder="Bitiş Tarihi">
+        <span class="input-group-text"><a href="#"><i class="fa fa-calendar"></i></a></span>
+      </div>
+    </div>
+
+    <div class="filterCustomerContainer mb-3">
+      <input type="text" class="form-control form-control-sm mb-2" placeholder="Müşteri(ler) seçiniz.">
+      <span class="badge bg-soft-secondary text-secondary me-2">Laika Gökcekuş Eczanesi <a href="#"><i class="fa fa-times"></i></a></span> 
+      <span class="badge bg-soft-secondary text-secondary me-2">Eda Enver Eczanesi <a href="#"><i class="fa fa-times"></i></a></span> 
+      <span class="badge bg-soft-secondary text-secondary me-2">Kuzey Eczanesi <a href="#"><i class="fa fa-times"></i></a></span> 
+    </div>
+
+    <div class="filterStatusContainer mb-3">
+      <input type="text" class="form-control form-control-sm mb-2" placeholder="Sipariş Durumu" id="txtFilterStatus">
+    </div>
+
+    <select class="form-select" id="validationTagsClear" name="tags_json[]" multiple data-allow-clear="true"  data-server="data.json"
+    data-live-server="1">
+      <option disabled hidden value="">Choose a tag...</option>
+    </select>
+    
   </div>
 </div>
 
 
     <!-- <script data-main="scripts/main" src="scripts/require.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script type="module">
+      import Tags from "https://cdn.jsdelivr.net/gh/lekoala/bootstrap5-tags@master/tags.js";
+      Tags.init("select");
+    </script>
 <!-- 
     <script type="module" src="scripts/autocomplete.js"></script>
 
