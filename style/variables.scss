@@ -1,0 +1,51 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+:root {
+  // --header-height: 3rem;
+  // --nav-width: 68px;
+  // --first-color: #235dd9;
+  // --first-color-light: #afa5d9;
+  // --white-color: #f7f6fb;
+  --body-font: "Open Sans", sans-serif;
+  --normal-font-size: 0.875rem;
+  // --z-fixed: 100;
+  // --bs-info-rgb: 9, 165, 190;
+  // --primary-link-color: #003171;
+}
+
+$primary: #0d6efd;
+$secondary: #aaa;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #ab2e3c;
+$light: #f8f9fa;
+$dark: #343a40;
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+  facebook: #3b5998,
+  // you can add as many 'custom' colors as you like
+  twitter: #55acee,
+  linkedin: #007bb5,
+  gmail: #dd5347,
+  whatsapp: #12af0a,
+  soft-primary: rgba(55, 125, 255, 0.1),
+  soft-secondary: rgba(113, 134, 157, 0.1),
+  soft-info: rgba(9, 165, 190, 0.1),
+  soft-warning: rgba(245, 202, 153, 0.1),
+  soft-danger: rgba(237, 76, 120, 0.1),
+  soft-success: rgba(0, 201, 167, 0.1),
+  soft-dark: rgba(19, 33, 68, 0.1),
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";

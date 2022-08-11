@@ -1,0 +1,26 @@
+[
+  {
+    "value": "1",
+    "label": "Bakiye Alındı"
+  },
+  {
+    "value": "2",
+    "label": "Alındı - Henüz İşlem Görmedi"
+  },
+  {
+    "value": "3",
+    "label": "Alındı - İşlem Görüyor"
+  },
+  {
+    "value": "4",
+    "label": "Dağıtımda"
+  },
+  {
+    "value": "5",
+    "label": "Teslim Edildi"
+  },
+  {
+    "value": "6",
+    "label": "İptal Edildi"
+  }
+]
