@@ -49,10 +49,6 @@ a {
   margin-right: 0.3rem !important;
 }
 
-#divSearch {
-  border: 1px solid #f6f6f6;
-}
-
 #divSearch input[type="search"] {
   border: 0 !important;
 }
@@ -72,6 +68,12 @@ a {
   color: #444;
   background-color: #e7e8eb;
 }
+
+// #divSearch.show {
+//   border-top: 1px solid #f6f6f6 !important;
+//   border-left: 1px solid #f6f6f6 !important;
+//   border-right: 1px solid #f6f6f6 !important;
+// }
 
 .order-no label {
   cursor: pointer;
@@ -94,7 +96,6 @@ a {
 }
 #divSearchSuggestionsWrapper {
   position: absolute;
-  top: -2px;
   width: 100%;
 }
 

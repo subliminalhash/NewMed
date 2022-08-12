@@ -11987,6 +11987,7 @@ body {
 
 .btn-circle {
   width: 36px;
+  width: 36px;
   height: 36px;
   padding: 8px 0px;
   border-radius: 18px;
@@ -12059,10 +12060,6 @@ a {
   margin-right: 0.3rem !important;
 }
 
-#divSearch {
-  border: 1px solid #f6f6f6;
-}
-
 #divSearch input[type=search] {
   border: 0 !important;
 }
@@ -12106,7 +12103,6 @@ a {
 
 #divSearchSuggestionsWrapper {
   position: absolute;
-  top: -2px;
   width: 100%;
 }
 
