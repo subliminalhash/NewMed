@@ -94,5 +94,10 @@ a {
 }
 #divSearchSuggestionsWrapper {
   position: absolute;
+  top: -2px;
   width: 100%;
+}
+
+.history-item:hover {
+  color: $primary;
 }

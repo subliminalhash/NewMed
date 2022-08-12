@@ -11986,12 +11986,12 @@ body {
 }
 
 .btn-circle {
-  width: 33px;
-  height: 33px;
+  width: 30px;
+  height: 30px;
   padding: 6px 0px;
   border-radius: 15px;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.42857;
 }
 
@@ -12106,5 +12106,10 @@ a {
 
 #divSearchSuggestionsWrapper {
   position: absolute;
+  top: -2px;
   width: 100%;
+}
+
+.history-item:hover {
+  color: #0d6efd;
 }/*# sourceMappingURL=orders-list.css.map */
