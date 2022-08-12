@@ -1,0 +1,55 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: var(--body-font);
+  font-size: calc(var(--normal-font-size) - 0.08rem);
+  transition: 0.5s;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.3125rem;
+  font-size: calc(var(--normal-font-size) - 0.2rem);
+}
+
+.btn-circle {
+  width: 33px;
+  height: 33px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.42857;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #3b3b3b;
+  border: 0;
+}
+
+.btn-white:hover,
+.btn-white:active,
+.btn-white:focus {
+  background-color: #f0f0f0;
+  color: #3b3b3b;
+}
+
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}/*# sourceMappingURL=common.css.map */

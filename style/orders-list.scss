@@ -1,3 +1,6 @@
+@import "variables.scss";
+@import "common.scss";
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 576px) {
   .offcanvas {
@@ -8,7 +11,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 576px) {
   .offcanvas {
-    width: 100% !important;
+    width: 90% !important;
   }
 }
 
@@ -46,9 +49,12 @@ a {
   margin-right: 0.3rem !important;
 }
 
-#divSearch input[type="search"] {
-  border-radius: 2px;
+#divSearch {
   border: 1px solid #f6f6f6;
+}
+
+#divSearch input[type="search"] {
+  border: 0 !important;
 }
 
 #divSearch input[type="search"]:focus {
@@ -67,20 +73,28 @@ a {
   background-color: #e7e8eb;
 }
 
-.actionbar-button {
-  padding: 10px;
-  border: 0;
-  background-color: #fff;
-}
-
-.actionbar-button:hover {
-  background-color: #efefef;
-}
-
 .order-no label {
   cursor: pointer;
 }
 
 .modal-backdrop {
   z-index: 0 !important;
+}
+
+.order-no input[type="checkbox"]:hover {
+  border-color: $primary;
+}
+
+.dropDownMenuContent,
+.dropDownMenuContent label {
+  font-size: 0.8rem;
+}
+#divSearchBar {
+  position: relative;
+}
+#divSearchSuggestionsWrapper {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
 }

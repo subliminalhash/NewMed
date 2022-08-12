@@ -1,0 +1,18 @@
+[
+  {
+    "value": "1",
+    "label": "Kredili Satış"
+  },
+  {
+    "value": "2",
+    "label": "Peşin - Nakit"
+  },
+  {
+    "value": "3",
+    "label": "Peşin - Kredi Kartı"
+  },
+  {
+    "value": "4",
+    "label": "Peşin - Banka Transferi"
+  }
+]
