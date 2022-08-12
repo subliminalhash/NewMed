@@ -51,96 +51,65 @@
 
       <!-- ####################### ACTION BAR ####################### -->
       <div id="divActionBar" class="bg-white mb-3">
-        <div class="row">
-          <div class="col-9">
-            <div id="divActions" class="p-2">
-    <button type="button" class="btn btn-white btn-circle title="Yenile">
-      <i class="fa fa-refresh"></i>
-    </button>
+        <div class="row p-2">
+          <div class="col d-flex justify-content-between">
+              <div id="actionButtons" class="">
+                <button type="button" class="btn btn-white btn-circle" title="Yenile"><i class="fa fa-refresh"></i></button>
+                <button type="button" class="btn btn-white btn-circle" title="Arşive at"><i class="fa fa-archive"></i></button>
+                <button type="button" class="btn btn-white btn-circle" title="Okunmuş / Okunmamış"><i class="fa fa-envelope"></i></button>
+                <button type="button" class="btn btn-white btn-circle" title="Durum Güncelle"><i class="fa fa-tasks"></i></button>
+                <button type="button" class="btn btn-white btn-circle btn-danger" title="Sil"><i class="fa fa-trash-alt text-danger"></i></button>
+              </div>
 
-    <button
-      type="button"
-      class="btn btn-white btn-circle"
-      title="Arşive at"
-    >
-      <i class="fa fa-archive"></i>
-    </button>
+              <div id="sortButtons" class="">
+                <button id="btnSortMenu" class="btn btn-white btn-circle" type="button" data-bs-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"><i class="fa-solid fa-arrow-down-a-z"></i></button>
+                <ul id="sortOptions" class="dropdown-menu rounded-0 border-0 p-2 dropDownMenuContent">
+                  <li>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="rdSortDirection" id="sortDirAZ" value="option1" checked>
+                        <label class="form-check-label" for="sortDirAZ"><i class="fa fa-arrow-down-a-z"></i></label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="rdSortDirection" id="rdSortDirZA" value="option2">
+                        <label class="form-check-label" for="rdSortDirZA"><i class="fa fa-arrow-down-z-a"></i></label>
+                      </div>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label" for="exampleRadios1">
+                        Tarihe Göre
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                      <label class="form-check-label" for="exampleRadios2">
+                        Müşteri Adına Göre
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                      <label class="form-check-label" for="exampleRadios3">
+                        Toplam Tutara Göre
+                      </label>
+                    </div>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><button type="button" class="btn btn-soft-secondary btn-sm">Sırala</button></li>
+                </ul>
 
-    <button
-      type="button"
-      class="btn btn-white btn-circle
-      title="Okunmuş / Okunmamış"
-    >
-      <i class="fa fa-envelope"></i>
-    </button>
-
-    <button
-      type="button"
-      class="btn btn-white btn-circle
-      title="Durum Güncelle"
-    >
-      <i class="fa fa-tasks"></i>
-    </button>
-
-    <button
-      type="button"
-      class="btn btn-white btn-circle btn-danger"
-      title="Sil"
-    >
-      <i class="fa fa-trash-alt text-danger"></i>
-    </button>
+                <button id="btnMoreMenu" class="btn btn-white btn-circle" type="button" data-bs-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-menu rounded-0 border-0 p-2 dropDownMenuContent">
+                  <li>other</li>
+                  <li>menu</li>
+                  <li>items</li>
+                </ul>
+              </div>
           </div>
-      </div>
-
-    <div class="col-3 text-end">
-      <div id="divSort" class="p-2">
-        <button id="btnSortMenu" class="btn btn-white btn-circle" type="button" data-bs-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"><i class="fa-solid fa-arrow-down-a-z"></i></button>
-        <ul id="sortOptions" class="dropdown-menu rounded-0 border-0 p-2 dropDownMenuContent">
-          <li>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="rdSortDirection" id="sortDirAZ" value="option1" checked>
-                <label class="form-check-label" for="sortDirAZ"><i class="fa fa-arrow-down-a-z"></i></label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="rdSortDirection" id="rdSortDirZA" value="option2">
-                <label class="form-check-label" for="rdSortDirZA"><i class="fa fa-arrow-down-z-a"></i></label>
-              </div>
-          </li>
-          <li><hr class="dropdown-divider"></li>
-          <li>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
-                Tarihe Göre
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-              <label class="form-check-label" for="exampleRadios2">
-                Müşteri Adına Göre
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
-              <label class="form-check-label" for="exampleRadios3">
-                Toplam Tutara Göre
-              </label>
-            </div>
-          </li>
-          <li><hr class="dropdown-divider"></li>
-          <li><button type="button" class="btn btn-soft-secondary btn-sm">Sırala</button></li>
-        </ul>
-
-        <button id="btnMoreMenu" class="btn btn-white btn-circle" type="button" data-bs-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical"></i></button>
-        <ul class="dropdown-menu rounded-0 border-0 p-2 dropDownMenuContent">
-          <li>other</li>
-          <li>menu</li>
-          <li>items</li>
-        </ul>
-      </div>
-    </div>
         </div>
       </div>
+
 
       <!-- ####################### ORDERS ####################### -->
       <div class="orders bg-white">

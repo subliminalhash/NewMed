@@ -4,7 +4,12 @@
 // });
 
 const search = document.getElementById("q");
-const searchddl = document.getElementById("divSearchSuggestionsWrapper");
+
 search.addEventListener("focus", function (e) {
+  const searchddl = document.getElementById("divSearchSuggestionsWrapper");
+  const inputTop = search.offsetTop;
+  const inputHeight = search.offsetHeight;
+  searchddl.style.top = inputTop + inputHeight;
+
   searchddl.classList.toggle("d-none");
 });
