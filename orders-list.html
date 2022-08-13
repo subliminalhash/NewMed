@@ -77,9 +77,35 @@
         <div class="row p-2">
           <div class="col d-flex justify-content-between">
               <div id="actionButtons" class="">
-                <button type="button" class="btn btn-white btn-circle" title="Yenile"><i class="fa-regular fa-square"></i></button>
+                <button type="button" class="btn btn-white btn-circle" title="Seç" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-regular fa-square"></i></button>
+                <ul id="selectOptions" class="dropdown-menu rounded-0 border-0 p-2 dropDownMenuContent">
+                  <li class="mb-3">
+                    <div class="">
+                      <button class="btn btn-soft-secondary btn-sm">Hepsi</button>
+                      <button class="btn btn-soft-secondary btn-sm">Hiçbiri</button>
+                        <button class="btn btn-soft-secondary btn-sm">Yeniler</button>
+                    </div>
+                  </li>
+                  <li class="mb-3">
+                    <select name="ddlSelectOrderStatus" id="ddlSelectOrderStatus" class="form-select form-select-sm">
+                      <option value="0" disabled="disabled" selected>-- Durumu --</option>
+                      <option value="1">Falan</option>
+                      <option value="2">Filan</option>
+                      <option value="3">Feslikan</option>
+                    </select>
+                  </li>
+                  <li class="mb-3">
+                    <select name="ddlSelectOrdersOrderTakenBy" id="ddlSelectOrdersOrderTakenBy" class="form-select form-select-sm">
+                      <option value="0" disabled="disabled" selected>-- Siparişi Oluşturan --</option>
+                      <option value="1">Falan</option>
+                      <option value="2">Filan</option>
+                      <option value="3">Feslikan</option>
+                    </select>
+                  </li>                  
+                </ul>
                 <button type="button" class="btn btn-white btn-circle" title="Yenile"><i class="fa fa-refresh"></i></button>
                 <button type="button" class="btn btn-white btn-circle" title="Yazdır"><i class="fa fa-print"></i></button>
+                <button type="button" class="btn btn-white btn-circle" title="Paylaş"><i class="fa-solid fa-share-nodes"></i></button>
                 <button type="button" class="btn btn-white btn-circle" title="Arşive at"><i class="fa fa-archive"></i></button>
                 <button type="button" class="btn btn-white btn-circle" title="Okunmuş / Okunmamış"><i class="fa fa-envelope"></i></button>
                 <button type="button" class="btn btn-white btn-circle" title="Durum Güncelle"><i class="fa fa-tasks"></i></button>
@@ -87,7 +113,7 @@
               </div>
 
               <div id="sortButtons" class="">
-                <button id="btnSortMenu" class="btn btn-white btn-circle" type="button" data-bs-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"><i class="fa-solid fa-arrow-down-a-z"></i></button>
+                <button id="btnSortMenu" class="btn btn-white btn-circle" type="button" data-bs-toggle="dropdown"  data-bs-auto-close="outside" aria-expanded="false"><i class="fa-solid fa-arrow-down-a-z"></i></button>
                 <ul id="sortOptions" class="dropdown-menu rounded-0 border-0 p-2 dropDownMenuContent">
                   <li>
                       <div class="form-check form-check-inline">
@@ -137,7 +163,7 @@
 
 
       <!-- ####################### ORDERS ####################### -->
-      <div class="orders">
+      <div class="orders bg-white">
                 <div class="row order">
                   <div class="col-10">
                     <div class="order p-2">
@@ -216,6 +242,18 @@
   <div class="offcanvas-body">
 
     <div class="filterDatesContainer mb-3">
+      <div id="searchTypes" class="mb-3">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="searchType" id="searchFilter" value="true" checked>
+          <label class="form-check-label" for="searchFilter">Listeyi Filtrele</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="searchType" id="searchNew" value="false">
+          <label class="form-check-label" for="searchNew">Yeni Arama yap</label>
+        </div>
+      </div>
+
+
       <div class="input-group mb-3">
         <input type="text" class="form-control form-control-sm" placeholder="Başlangıç Tarihi">
         <span class="input-group-text"><a href="#"><i class="fa fa-calendar"></i></a></span>
@@ -225,14 +263,14 @@
     </div>
 
     <div class="filterCustomerContainer mb-3">
-      <select class="form-select from-select-sm" id="ddlFilterCustomers" data-badge-style="soft-secondary" name="customers_json[]" multiple data-allow-clear="true"  data-server="customers.json"
+      <select class="form-select from-select-sm tobeTagged" id="ddlFilterCustomers" data-badge-style="soft-secondary" name="customers_json[]" multiple data-allow-clear="true"  data-server="customers.json"
       data-live-server="1" placeholder="Müşteriler">
         <option disabled hidden value="">Müşteriler</option>
       </select>
     </div>
 
     <div class="filterStatusContainer mb-3">
-      <select class="form-select from-select-sm" id="ddlFilterStatuses" data-badge-style="soft-secondary" name="statuses_json[]" multiple data-allow-clear="true"  data-server="statuses.json"
+      <select class="form-select from-select-sm tobeTagged" id="ddlFilterStatuses" data-badge-style="soft-secondary" name="statuses_json[]" multiple data-allow-clear="true"  data-server="statuses.json"
       data-live-server="1" placeholder="Sipariş Durumu...">
         <option disabled hidden value="">Sipariş Durumu...</option>
       </select>
@@ -240,20 +278,34 @@
 
 
     <div class="filterOrderBy mb-3">
-      <select class="form-select from-select-sm" id="ddlOrderBy" data-badge-style="soft-secondary" name="sellers_json[]" multiple data-allow-clear="true"  data-server="sellers.json"
+      <select class="form-select from-select-sm tobeTagged" id="ddlOrderBy" data-badge-style="soft-secondary" name="sellers_json[]" multiple data-allow-clear="true"  data-server="sellers.json"
       data-live-server="1" placeholder="Satıcılar">
         <option disabled hidden value="">Satıcılar</option>
       </select>
     </div>
 
     <div class="filterPaymentType mb-3">
-      <select class="form-select from-select-sm" id="ddlSalesTypes" data-badge-style="soft-secondary" name="salesTypes_json[]" multiple data-allow-clear="true"  data-server="salesTypes.json"
+      <select class="form-select from-select-sm tobeTagged" id="ddlSalesTypes" data-badge-style="soft-secondary" name="salesTypes_json[]" multiple data-allow-clear="true"  data-server="salesTypes.json"
       data-live-server="1" placeholder="Ödeme Biçimleri">
         <option disabled hidden value="">Ödeme Biçimleri</option>
       </select>
     </div>
 
-    <button class="btn btn-soft-secondary btn-sm" id="btnFilter">Filtrele</button>
+    <div class="form-check">
+      <input  class="form-check-input" type="checkbox" name="chkSelectFiltered" id="chkSelectFiltered">
+      <label class="form-check-label" for="chkSelectFiltered"> Sonuçları seçili konuma getir.</label>
+    </div>
+
+    <div id="divArchiveSearchCheckbox" class="form-check d-none">
+      <input class="form-check-input" type="checkbox" name="chkSearchArchived" id="chkSearchArchived" value="">
+      <label class="form-check-label" for="chkSearchArchived"> Arşivlenmiş kayıtlar da aransın.</label>
+    </div>
+
+    
+
+    <div class="d-grid gap-2 mt-3">
+      <button class="btn btn-soft-secondary btn-sm" id="btnFilter">Filtrele</button>
+    </div>
     
   </div>
 </div>
@@ -264,7 +316,7 @@
 
     <script type="module">
       import Tags from "./src/js/tags.js";
-      Tags.init("select");
+      Tags.init(".tobeTagged");
     </script>
 
   </body>

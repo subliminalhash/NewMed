@@ -42,6 +42,24 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
   });
 
+  // make Arşivde Ara option visible only if Yeni Arama Yap radio is selected
+  const searchTypeRadioButtons = document.querySelectorAll(
+    'input[name="searchType"]'
+  );
+
+  searchTypeRadioButtons.forEach((rd) => {
+    rd.addEventListener("change", () => {
+      const chkSearchArchive = document.getElementById(
+        "divArchiveSearchCheckbox"
+      );
+
+      rd.id === "searchNew"
+        ? chkSearchArchive.classList.remove("d-none")
+        : chkSearchArchive.classList.add("d-none");
+      console.log(rd.id);
+    });
+  });
+
   // ##### development mockup data -- delete later.
   const order = `<div class="row order">
                <div class="col-10">
