@@ -41,12 +41,32 @@ a {
   color: var(--primary-link-color) !important;
 }
 
-#orders {
-  background-color: #fff;
+/* width */
+.orders::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.orders::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.orders::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.orders::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .order .form-check-inline {
   margin-right: 0.3rem !important;
+}
+
+.order:hover {
+  background-color: #e7e8eb;
 }
 
 #divSearch input[type="search"] {
@@ -77,6 +97,11 @@ a {
 
 .order-no label {
   cursor: pointer;
+}
+
+.orders hr {
+  margin-top: 3px !important;
+  margin-bottom: 3px !important;
 }
 
 .modal-backdrop {
