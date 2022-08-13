@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                    </div>
                    <span class="order-customer-span">
                      <strong>
-                       <a href="#" class="fs-6">Yusuf Tandoğan Girne Eczanesi (Girne)</a>
+                       <a href="#" class="">Yusuf Tandoğan Girne Eczanesi (Girne)</a>
                      </strong>
                      <span class="order-datetime d-inline d-md-none"><time datetime="2022-08-06T10:32">28.08 @ 10:32</time></span>
                      <span class="d-none d-md-inline"

@@ -12052,6 +12052,10 @@ a {
   color: var(--primary-link-color) !important;
 }
 
+.orders {
+  font-size: 0.8rem;
+}
+
 /* width */
 .orders::-webkit-scrollbar {
   width: 8px;
