@@ -130,3 +130,18 @@ a {
 .history-item:hover {
   color: $primary;
 }
+
+a.editable {
+  border-bottom: 1px dotted $success;
+}
+a.editable:hover +span+ i, /* when link is hovered select i */
+a.editable + span:hover+ i, /* when space after link is hovered select i */
+a.editable + span + i:hover {
+  /* when icon is hovered select i */
+  visibility: visible;
+}
+
+a.editable + span + i {
+  /* in all other case hide it */
+  visibility: hidden;
+}

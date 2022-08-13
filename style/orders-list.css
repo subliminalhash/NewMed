@@ -12137,4 +12137,20 @@ a {
 
 .history-item:hover {
   color: #0d6efd;
+}
+
+a.editable {
+  border-bottom: 1px dotted #198754;
+}
+
+a.editable:hover + span + i,
+a.editable + span:hover + i,
+a.editable + span + i:hover {
+  /* when icon is hovered select i */
+  visibility: visible;
+}
+
+a.editable + span + i {
+  /* in all other case hide it */
+  visibility: hidden;
 }/*# sourceMappingURL=orders-list.css.map */

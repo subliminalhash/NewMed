@@ -106,7 +106,6 @@
                 <button type="button" class="btn btn-white btn-circle" title="Yenile"><i class="fa fa-refresh"></i></button>
                 <button type="button" class="btn btn-white btn-circle" title="Yazdır"><i class="fa fa-print"></i></button>
                 <button type="button" class="btn btn-white btn-circle" title="Arşive at"><i class="fa fa-archive"></i></button>
-                <button type="button" class="btn btn-white btn-circle" title="Okunmuş / Okunmamış"><i class="fa fa-envelope"></i></button>
                 <button type="button" class="btn btn-white btn-circle" title="Durum Güncelle"><i class="fa fa-tasks"></i></button>
                 <button type="button" class="btn btn-white btn-danger btn-circle" title="Sil"><i class="fa fa-trash-alt text-danger"></i></button>
               </div>
@@ -307,15 +306,15 @@
 
 <!-- ####################### OFFCANVAS - ORDER DETAILS ####################### -->
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offCanvasOrderDetails" aria-labelledby="offCanvasOrderDetailsLabel">
-  <div class="offcanvas-header">
-    <h5 id="offCanvasOrderDetailsLabel">#2345 Yusuf Tandoğan Girne Eczanesi</h5>
+  <div class="offcanvas-header align-items-center">
+        <p id="offCanvasOrderDetailsLabel" class="fs-6"><strong>#2345 Yusuf Tandoğan Girne Eczanesi</strong></p>
+        <p>28 Ağustos 2022, Pazartesi @ 10:34</p>
   </div>
   <div class="offcanvas-body">
     <div id="orderDetailsActions" class="p-2 d-flex align-items-center justify-content-between bg-light">
         <div>
           <button type="button" class="btn btn-white btn-circle" title="Yazdır"><i class="fa fa-print"></i></button>
           <button type="button" class="btn btn-white btn-circle" title="Arşive at"><i class="fa fa-archive"></i></button>
-          <button type="button" class="btn btn-white btn-circle" title="Okunmuş / Okunmamış"><i class="fa fa-envelope"></i></button>
           <button type="button" class="btn btn-white btn-circle" title="Paylaş"><i class="fa-solid fa-share-nodes"></i></i></button>
           <button type="button" class="btn btn-white btn-circle" title="Sil"><i class="fa fa-trash-alt text-danger"></i></button>   
         </div>
@@ -326,7 +325,8 @@
     </div>
 
     <div class="orderDetailsTable">
-      <table class="table table-sm">
+
+      <table class="table table-striped">
         <thead>
           <tr>
             <th>Adet</th>
@@ -335,21 +335,128 @@
             <th>İndirim</th>
             <th>KDV</th>
             <th>Toplam</th>
-            <th></th>
+            <th>
+              <a href="#" data-bs-toggle="dropdown" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+              <ul class="dropdown-menu rounded-0 border-0 p-2 dropDownMenuContent">
+                <li>menu</li>
+                <li>items</li>
+              </ul>
+            </th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>10</td>
+            <td><span contenteditable="true">10</span></td>
             <td>HLT.801380 - HealthAid - HLT A-Z MULTIVIT TABS 30S</td>
             <td>152,56</td>
             <td>-</td>
             <td>76,28</td>
             <td>1525,6</td>
-            <td></td>
+            <td>
+              <a href="#" data-bs-toggle="dropdown" data-bs-toggle="dropdown" class="mb-2" aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+              <ul class="dropdown-menu rounded-0 border-0 p-3 dropDownMenuContent">
+                <li class="mb-3"><a href="#"><i class="fa-solid fa-list-ol me-1"></i> Miktar Düzelt</a></li>
+                <li class="mb-3"><a href="#"><i class="fa-solid fa-xmark me-1"></i> Siparişten Çıkart</a></li>
+                <li class="mb-3"><a href="#"><i class="fa-solid fa-list me-1"></i> İstek Listesine Ekle</a></li>
+              </ul>
+            </td>
           </tr>
+          <tr>
+            <td>12</td>
+            <td>HLT.801005 - HealthAid - HLT BETA CAROTENE 15 MG 30 CAPS <small class="text-primary">5+1 kampanyalı</small></td>
+            <td>152,56</td>
+            <td>-</td>
+            <td>8.53</td>
+            <td>170,6</td>
+            <td>              <a href="#" data-bs-toggle="dropdown" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+              <ul class="dropdown-menu rounded-0 border-0 p-2 dropDownMenuContent">
+                <li>other</li>
+                <li>menu</li>
+                <li>items</li>
+              </ul></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>HLT.801103 - HealthAid - HLT BIOTIN 5000UG CAPS 60S <small class="text-primary">%20 indirimli</small></td>
+            <td>251,376</td>
+            <td>50</td>
+            <td>25,14</td>
+            <td>502,74</td>
+            <td>              <a href="#" data-bs-toggle="dropdown" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+              <ul class="dropdown-menu rounded-0 border-0 p-2 dropDownMenuContent">
+                <li>other</li>
+                <li>menu</li>
+                <li>items</li>
+              </ul></td>
+          </tr>  
+          <tr>
+            <td colspan="7" class="p-0">
+              <div class="alert alert-info d-flex align-items-center rounded-0 p-2 m-0" role="alert">
+                <strong><i class="fa-solid fa-circle-info"></i></strong>
+                <div class="ms-2">
+                  Yıldız Balcı tarafından eklendi
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><span contenteditable="true">3</span></td>
+            <td>WLT.603009 - Wellington - WLT 5-HTP PLUS (VIT B3+B6) 60 CAPS</td>
+            <td>152,56</td>
+            <td>-</td>
+            <td>76,28</td>
+            <td>1525,6</td>
+            <td>
+              <a href="#" data-bs-toggle="dropdown" data-bs-toggle="dropdown" class="mb-2" aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+              <ul class="dropdown-menu rounded-0 border-0 p-3 dropDownMenuContent">
+                <li class="mb-3"><a href="#"><i class="fa-solid fa-list-ol me-1"></i> Miktar Düzelt</a></li>
+                <li class="mb-3"><a href="#"><i class="fa-solid fa-xmark me-1"></i> Siparişten Çıkart</a></li>
+                <li class="mb-3"><a href="#"><i class="fa-solid fa-list me-1"></i> İstek Listesine Ekle</a></li>
+              </ul>
+            </td>
+          </tr>        
         </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5" class="text-end">Toplam</td>
+            <td>123</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="5"  class="text-end">Indirim</td>
+            <td>1222</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="5"  class="text-end">KDV</td>
+            <td>3343</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="5"  class="text-end">Genel Toplam</td>
+            <td>334</td>
+            <td>&nbsp;</td>
+          </tr>
+        </tfoot>
       </table>
+
+      <div class="alert alert-warning d-flex align-items-center rounded-0 p-2" role="alert">
+        <strong><i class="fa-solid fa-note-sticky"></i> Müşteri Notları:</strong>
+        <div class="ms-2">
+          An example warning alert with an icon
+        </div>
+      </div>
+
+      <div class="alert alert-info d-flex align-items-center rounded-0 p-2" role="alert">
+        <strong><i class="fa-solid fa-note-sticky"></i> Dahili Notlar:</strong>
+        <div class="ms-2">
+          An example warning alert with an icon
+        </div>
+      </div>
+    </div>
+
+    <div class="orderDetailsMainActions p-2">
+      <a href="#" class="editable" id="aSetStatus" contenteditable="true">Alındı - İşlem Görmedi</a><span>&nbsp;</span><i class="fa fa-pencil"></i>
     </div>
   </div>
 </div>
