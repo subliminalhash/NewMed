@@ -2,39 +2,39 @@
 @import "common.scss";
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 576px) {
-  .offcanvas {
-    width: 100% !important;
-  }
-}
+// @media only screen and (max-width: 576px) {
+//   .offcanvas {
+//     width: 100% !important;
+//   }
+// }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 576px) {
-  .offcanvas {
-    width: 90% !important;
-  }
-}
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 576px) {
+//   .offcanvas {
+//     width: 90% !important;
+//   }
+// }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .offcanvas {
-    width: 80% !important;
-  }
-}
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {
+//   .offcanvas {
+//     width: 80% !important;
+//   }
+// }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .offcanvas {
-    width: 50% !important;
-  }
-}
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {
+//   .offcanvas {
+//     width: 50% !important;
+//   }
+// }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .offcanvas {
-    width: 50% !important;
-  }
-}
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {
+//   .offcanvas {
+//     width: 50% !important;
+//   }
+// }
 
 a {
   text-decoration: none;
