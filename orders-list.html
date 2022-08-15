@@ -232,10 +232,11 @@
 
 
 <!-- ####################### OFFCANVAS - FILTERS ####################### -->
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offCanvasFilters" aria-labelledby="offCanvasFiltersLabel">
-  <div class="offcanvas-header">
-    <h5 id="offCanvasFiltersLabel">Detaylı Filtreleme</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+<div class="offcanvas offcanvas-larger-width offcanvas-end" tabindex="-1" id="offCanvasFilters" aria-labelledby="offCanvasFiltersLabel">
+  <div class="d-flex justify-content-between align-items-center p-2 border-bottom">
+    <a href="#" class="btn btn-circle btn-white fa-2x text-reset d-sm-block d-md-none" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-arrow-left"></i></a>
+    <h5 class="m-0">Detaylı Filtreleme</h5>
+    <button type="button" class="btn-close text-reset d-none d-md-block" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
 
@@ -297,21 +298,23 @@
       <label class="form-check-label" for="chkSearchArchived"> Arşivlenmiş kayıtlar da aransın.</label>
     </div>
 
-    <div class="d-grid gap-2 mt-3">
-      <button class="btn btn-soft-secondary btn-sm" id="btnFilter">Filtrele</button>
+    <div class="d-grid gap-2 mt-3 d-md-flex justify-content-md-end">
+      <button class="btn btn-primary btn-sm me-md-2" id="btnFilter">Filtrele</button>
     </div>
     
   </div>
 </div>
 
 <!-- ####################### OFFCANVAS - ORDER DETAILS ####################### -->
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offCanvasOrderDetails" aria-labelledby="offCanvasOrderDetailsLabel">
-  <div class="d-flex justify-content-between align-items-center p-3 m-2 border-bottom">
-    <a href="#" class="btn btn-circle btn-white fa-2x text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-arrow-left"></i></a>
+<div class="offcanvas offcanvas-top offcanvas-top-full-length" tabindex="-1" id="offCanvasOrderDetails" aria-labelledby="offCanvasOrderDetailsLabel">
+  <div class="d-flex justify-content-between align-items-center p-2 border-bottom">
+    <a href="#" class="btn btn-circle btn-white fa-2x text-reset d-sm-block d-md-none" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-arrow-left"></i></a>
+    <h5 class="m-0">Sipariş Detayları</h5>
+    <button type="button" class="btn-close text-reset d-none d-md-block" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-header align-items-center">
-        <p id="offCanvasOrderDetailsLabel" class="fs-6"><strong>#2345 Yusuf Tandoğan Girne Eczanesi</strong></p>
-        <p>28 Ağustos 2022, Pazartesi @ 10:34</p>
+        <p id="offCanvasOrderDetailsLabel" class="fs-6"><strong>#2345 Yusuf Tandoğan Girne Eczanesi</strong><br/><small>28 Ağustos 2022, Pazartesi @ 10:34</small></p>
+        
   </div>
   <div class="offcanvas-body">
     <div id="orderDetailsActions" class="p-2 d-flex align-items-center justify-content-between bg-light">
@@ -349,7 +352,7 @@
         </thead>
         <tbody>
           <tr>
-            <td><span contenteditable="true">10</span></td>
+            <td><span class="editable">10</span></td>
             <td>HLT.801380 - HealthAid - HLT A-Z MULTIVIT TABS 30S</td>
             <td>152,56</td>
             <td>-</td>

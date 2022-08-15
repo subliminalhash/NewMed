@@ -2,3 +2,5 @@ Open orders:
 1. in modal
 2. Side panel
 3. Separate page
+
++ Orders can be ammended/edited e.g. sipariş verdikten sonra her role için o siparişi edit yapabilip yapamayacağını belirleyen settingdir. Örneğin x eczane için y plasiyer sipariş almıştır. Bu siparişi sadece ofis ve admin güncelleyebilir. Veyahut alınan hiçbir sipariş güncellenemez ve ancak elimizde yoktur diye işaretlenebilir.

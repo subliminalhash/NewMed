@@ -15,17 +15,18 @@
   // --primary-link-color: #003171;
 }
 
-$primary: #0d6efd;
+$primary: #4285f4;
 $secondary: #aaa;
-$success: #198754;
-$info: #0dcaf0;
-$warning: #ffc107;
-$danger: #ab2e3c;
+$success: #00c851;
+$info: #33b5e5;
+$warning: #ffbb33;
+$danger: #ff4444;
 $light: #f8f9fa;
 $dark: #343a40;
 
 $theme-colors: (
   primary: $primary,
+  primary-dark: #0d47a1,
   secondary: $secondary,
   success: $success,
   info: $info,
@@ -46,6 +47,14 @@ $theme-colors: (
   soft-danger: rgba(237, 76, 120, 0.1),
   soft-success: rgba(0, 201, 167, 0.1),
   soft-dark: rgba(19, 33, 68, 0.1),
+  danger-dark: #cc0000,
+  warning-dark: #ff8800,
+  success-dark: #007e33,
+  info-dark: #0099cc,
+  tertiary: #2bbbad,
+  tertiary-dark: #00695c,
+  quaternary: #aa66cc,
+  quaternary-dark: #9933cc,
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
