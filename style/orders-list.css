@@ -12793,36 +12793,37 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 576px) {
-  .offcanvas-larger-width {
+  .offcanvas {
     width: 100% !important;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 576px) {
-  .offcanvas-larger-width {
+  .offcanvas {
     width: 90% !important;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .offcanvas-larger-width {
+  .offcanvas {
     width: 80% !important;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .offcanvas-larger-width {
-    width: 50% !important;
+  .offcanvas {
+    width: 70% !important;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .offcanva-larger-width {
-    width: 50% !important;
+  .offcanvas {
+    width: 60% !important;
   }
 }
-.offcanvas-top-full-length {
-  height: 90% !important;
+.offcanvas-header {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 a {
@@ -12902,6 +12903,10 @@ a {
 .dropDownMenuContent,
 .dropDownMenuContent label {
   font-size: 0.8rem;
+}
+
+.dropDownMenuContent li:hover {
+  background-color: #f8f9fa;
 }
 
 #divSearchBar {
