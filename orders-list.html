@@ -26,10 +26,12 @@
       <!-- MAIN CONTAINER-->
       <div class="d-flex justify-content-between mt-3 align-items-center">
         <h4>Siparişler</h4>
-        <a href="#" class="btn btn-soft-success" id="btnNewOrder"><i class="fa fa-plus"></i> Yeni Sipariş</a>
+        <a href="#" class="btn btn-soft-success" id="btnNewOrder" data-bs-toggle="offcanvas" data-bs-target="#offCanvasOrderCreate" aria-controls="offCanvasOrderCreate"><i class="fa fa-plus"></i> Yeni Sipariş</a>
       </div>
       
       <hr />
+<!-- ####################### NOTIFICATION AREA ####################### -->
+<div class="alert alert-danger d-none" id="errorNotifications"></div>
 
       <!-- ####################### SEARCH BAR ####################### -->
       <div id="divSearchBar" class="mb-3">
@@ -321,7 +323,7 @@
         <div>
           <button type="button" class="btn btn-white btn-circle" title="Yazdır"><i class="fa fa-print"></i></button>
           <button type="button" class="btn btn-white btn-circle" title="Arşive at"><i class="fa fa-archive"></i></button>
-          <button type="button" class="btn btn-white btn-circle" title="Paylaş"><i class="fa-solid fa-share-nodes"></i></i></button>
+          <button id="btnShareOrder" type="button" class="btn btn-white btn-circle" title="Paylaş"><i class="fa-solid fa-share-nodes"></i></i></button>
           <button type="button" class="btn btn-white btn-circle" title="Aktar"><i class="fa-solid fa-file-export"></i></button>
           <button type="button" class="btn btn-white btn-circle" title="Sil"><i class="fa fa-trash-alt"></i></button>   
         </div>
@@ -421,7 +423,7 @@
             </td>
           </tr>
           <tr>
-            <td><span contenteditable="true">3</span></td>
+            <td><span class="">3</span></td>
             <td><span class="text-danger">0</span></td>
             <td>WLT 5-HTP PLUS (VIT B3+B6) 60 CAPS</td>
             <td>152,56</td>
@@ -467,6 +469,50 @@
     <button id="btnPreviousOrder" class="btn btn-secondary btn-sm">Sonraki <i class="fa-solid fa-circle-right"></i> </button>
   </div>
 </div>
+
+<!-- ####################### OFFCANVAS - ORDER CREATE ####################### -->
+<div class="offcanvas offcanvas-large-width offcanvas-end" tabindex="-1" id="offCanvasOrderCreate" aria-labelledby="offCanvasOrderCreate">
+  <div class="d-flex justify-content-between align-items-center p-2 border-bottom">
+    <a href="#" class="btn btn-circle btn-white fa-2x text-reset d-sm-block d-md-none" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-arrow-left"></i></a>
+    <h5 class="m-0">Yeni Sipariş</h5>
+    <button type="button" class="btn-close text-reset d-none d-md-block" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <!-- customer selection layer -->
+    <div id="orderCreateSelectCustomer" class="justify-content-center mb-3">
+      <div id="orderCreateDdlCustomersWrapper">
+        <select class="form-select tobeTagged" id="ddlCustomers" data-badge-style="customer-selection-badge" name="customers_json[]" data-allow-clear="true"  data-server="customers.json"
+        data-live-server="1" placeholder="Müşteriler">
+        </select>
+      </div>
+      <div id="orderCreateCustomerNameTitle" class="align-items-center d-flex"></div>
+    </div>
+    <!-- search & filter section -->
+    <div id="orderProductSearch" class="">
+      <div id="orderProductSarchInputWrapper">
+        <div class="input-group border">
+          <input type="search" class="form-control border-0" id="txtSearchProducts">
+          <button class="btn" type="button"><i class="fa fa-search"></i></button>
+        </div>
+        <div id="divProductSearchSuggestions" class="d-none p-0 m-0 border-end border-start border-bottom">
+          <ul>
+            <li>Falan</li>
+            <li>asdfadsf</li>
+            <li>asfa fasdf adsf adsf ad</li>
+            <li>asfa fasdf adsf adsf ad</li>
+            <li>asfa fasdf adsf adsf ad</li>
+            <li>asfa fasdf adsf adsf ad</li>
+            <li>asfa fasdf adsf adsf ad</li>
+            <li>asfa fasdf adsf adsf ad</li>
+            <li>asfa fasdf adsf adsf ad</li>
+            <li>asfa fasdf adsf adsf ad</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
 <script type="module" src="./src/js/orders-list.js"></script>
     <!-- <script data-main="scripts/main" src="scripts/require.js"></script> -->

@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const calculateOrdersHeight = () => {
     const distanceFromOrdersToTop =
       window.pageYOffset + ordersDiv.getBoundingClientRect().top;
-
     ordersDiv.setAttribute(
       "style",
       "height:" +
@@ -58,6 +57,92 @@ document.addEventListener("DOMContentLoaded", function (event) {
         : chkSearchArchive.classList.add("d-none");
       console.log(rd.id);
     });
+
+    // ################################ SHARE ORDER ###################################
+    const btn = document.querySelector("#btnShareOrder");
+    const resultPara = document.querySelector("#errorNotifications");
+
+    // Share must be triggered by "user activation"
+    btn.addEventListener("click", async () => {
+      try {
+        const shareData = {
+          title: "MDN",
+          text: "Learn web development on MDN!",
+          url: "https://developer.mozilla.org",
+        };
+
+        await navigator.share(shareData);
+        resultPara.textContent = "MDN shared successfully";
+      } catch (err) {
+        resultPara.textContent = `Error: ${err}`;
+      }
+    });
+  });
+
+  // ORDER DETAILS
+  // when product search input gains focus, display product suggestions if length is more than 2 chars
+  const productSearchSuggestionsDiv = document.getElementById(
+    "divProductSearchSuggestions"
+  );
+  const productSearchSuggestionsInput =
+    document.getElementById("txtSearchProducts");
+  productSearchSuggestionsInput.addEventListener("keyup", () => {
+    console.log(productSearchSuggestionsInput.value.length);
+    if (productSearchSuggestionsInput.value.trim().length < 2) return;
+
+    productSearchSuggestionsDiv.classList.remove("d-none");
+    const inputTop = productSearchSuggestionsInput.offsetTop;
+    const inputHeight = productSearchSuggestionsInput.offsetHeight;
+    productSearchSuggestionsDiv.style.top = inputTop + inputHeight;
+  });
+
+  // adds a click event listener to elements outside of the search suggestions div and closes it if the clicked area is outside.
+  window.addEventListener("click", (e) => {
+    if (e.target.id === "txtSearchProducts") return;
+
+    const withinBoundaries = e
+      .composedPath()
+      .includes(productSearchSuggestionsDiv);
+
+    if (
+      !withinBoundaries &&
+      !productSearchSuggestionsDiv.classList.contains("d-none")
+    ) {
+      productSearchSuggestionsDiv.classList.add("d-none");
+      //document.getElementById("divSearch").classList.remove("show");
+    }
+  });
+
+  const ddlCustomers = document.getElementById("ddlCustomers");
+  const ddlCustomersWrapper = document.getElementById(
+    "orderCreateSelectCustomer"
+  );
+
+  ddlCustomers.addEventListener("change", () => {
+    const custId = ddlCustomers.value;
+    const custName = ddlCustomers.textContent.trim();
+
+    const parent = document.querySelector("#orderCreateDdlCustomersWrapper");
+    parent.classList.add("d-none");
+
+    const customerNameWrapper = document.getElementById(
+      "orderCreateCustomerNameTitle"
+    );
+
+    const h5 = document.createElement("h5");
+    h5.classList.add("m-0");
+    h5.style.display = "inline-block";
+    h5.textContent = custName;
+
+    const a = document.createElement("a");
+    a.href = "#";
+    a.classList.add("btn", "btn-circle", "btn-white", "ms-2");
+
+    const i = document.createElement("i");
+    i.classList.add("fa", "fa-times");
+    a.appendChild(i);
+
+    customerNameWrapper.append(h5, a);
   });
 
   // ##### development mockup data -- delete later.

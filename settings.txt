@@ -3,8 +3,16 @@ Open orders:
 2. Side panel
 3. Separate page
 
++ order list default view: Grouped by customer | ordered by date | Grouped by status
+
 + Orders can be ammended/edited e.g. sipariş verdikten sonra her role için o siparişi edit yapabilip yapamayacağını belirleyen settingdir. Örneğin x eczane için y plasiyer sipariş almıştır. Bu siparişi sadece ofis ve admin güncelleyebilir. Veyahut alınan hiçbir sipariş güncellenemez ve ancak elimizde yoktur diye işaretlenebilir.
 
 + Show stock numbers for certain customers
 
 + certain statuses can only be changed by an admin. ornegin a status which has a boolean value true for isCompletesOrder should also have a canOnlyBeChangedByAdmin set to true as well
+
++ What name should be displayed in orders? Options are:
+  - Person in Charge
+  - Business name
+  - Person in Charge / Business name
+  - Business Name / Person in Charge

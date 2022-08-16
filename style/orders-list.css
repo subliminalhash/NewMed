@@ -12922,22 +12922,22 @@ a {
   color: #4285f4;
 }
 
-.editable {
-  border-bottom: 1px dotted #8540f5;
+.bg-customer-selection-badge {
+  padding: 10px;
+  border-width: 2px;
+  background-color: #4285f4;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.editable:hover {
-  cursor: pointer;
+#orderProductSearch {
+  position: relative;
 }
 
-.editable:hover + span + i,
-.editable + span:hover + i,
-.editable + span + i:hover {
-  /* when icon is hovered select i */
-  visibility: visible;
-}
-
-.editable + span + i {
-  /* in all other case hide it */
-  visibility: hidden;
+#divProductSearchSuggestions {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 10px;
 }/*# sourceMappingURL=orders-list.css.map */

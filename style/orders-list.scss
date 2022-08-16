@@ -139,20 +139,22 @@ a {
   color: $primary;
 }
 
-.editable {
-  border-bottom: 1px dotted $indigo-400;
-}
-.editable:hover {
-  cursor: pointer;
-}
-.editable:hover +span+ i, /* when link is hovered select i */
-.editable + span:hover+ i, /* when space after link is hovered select i */
-.editable + span + i:hover {
-  /* when icon is hovered select i */
-  visibility: visible;
+.bg-customer-selection-badge {
+  padding: 10px;
+  border-width: 2px;
+  background-color: $primary;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.editable + span + i {
-  /* in all other case hide it */
-  visibility: hidden;
+// order details
+#orderProductSearch {
+  position: relative;
+}
+#divProductSearchSuggestions {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 10px;
 }

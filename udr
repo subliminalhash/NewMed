@@ -1,0 +1,8 @@
+# Notes on orders:
+
+- Orders cannot be merged.
+- However, merged order view can be obtained by two ways
+  - Grouping orders by customer
+  - Order details page displays other orders of the same customer
+  - When printing, offer the option to print customer orders as merged. For this to happen, a certain statuses must be matched. E.g. a completed order, archived etc cannot be included.
+- Order item quantities may only be adjusted by specific role(s)

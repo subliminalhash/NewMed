@@ -1,6 +1,6 @@
 /**
  * Bootstrap 5 (and 4!) tags
- *
+ * https://github.com/lekoala/bootstrap5-tags
  * Turns your select[multiple] into nice tags lists
  *
  * Required Bootstrap 5 styles:
