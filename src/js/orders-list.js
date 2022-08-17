@@ -67,23 +67,28 @@ document.addEventListener("DOMContentLoaded", function (event) {
         image: btn.dataset.imgsrc,
         brand: btn.dataset.brand,
         brandabbrv: btn.dataset.brandabbrv,
+        qty: qtyInput.value,
       });
     });
   });
 
   const createOrderItem = (product) => {
-    console.log("product: " + product);
     let html = `${orderItem}`;
-    console.log("html before:" + html);
-    html.replaceAll("{{productid}}", product.id);
-    html.replaceAll("{{name}}", product.name);
-    html.replaceAll("{{price1}}", product.price1);
-    html.replaceAll("{{price2}}", product.price2);
-    html.replaceAll("{{vat}}", product.vat);
-    html.replaceAll("{{image}}", product.image);
-    html.replaceAll("{{brand}}", product.brand);
-    html.replaceAll("{{brandabbrv}}", product.brandabbrv);
-    console.log("html after: " + html);
+
+    html = html.replaceAll("{{productid}}", product.id);
+    html = html.replaceAll("{{name}}", product.name);
+    html = html.replaceAll("{{price1}}", product.price1);
+    html = html.replaceAll("{{price2}}", product.price2);
+    html = html.replaceAll("{{vat}}", product.vat);
+    html = html.replaceAll("{{image}}", product.image);
+    html = html.replaceAll("{{brand}}", product.brand);
+    html = html.replaceAll("{{brandabbrv}}", product.brandabbrv);
+    html = html.replaceAll("{{qty}}", product.qty);
+    html = html.replaceAll(
+      "{{campaign}}",
+      product.campaign === "-" ? "-" : product.campaign
+    );
+
     document.getElementById("tblItemsBody").innerHTML = html;
   };
 
