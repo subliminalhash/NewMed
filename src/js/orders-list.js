@@ -113,6 +113,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
   });
 
+  // ***************** ORDER CREATE *******************
   const ddlCustomers = document.getElementById("ddlCustomers");
   const ddlCustomersWrapper = document.getElementById(
     "orderCreateSelectCustomer"
@@ -144,6 +145,27 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     customerNameWrapper.append(h5, a);
   });
+
+  const showProductPhotos = () => {
+    const suggestionsDiv = document.getElementById(
+      "divProductSearchSuggestions"
+    );
+
+    const images = suggestionsDiv.querySelectorAll("img");
+
+    if (!Shekel.Utility.isMobile()) {
+      for (let image of images) {
+        const src = image.dataset.src;
+        image.setAttribute("src", src);
+      }
+    }
+  };
+
+  addEventListener("resize", (event) => {
+    showProductPhotos();
+  });
+
+  showProductPhotos();
 
   // ##### development mockup data -- delete later.
   const order = `<div class="row order">
