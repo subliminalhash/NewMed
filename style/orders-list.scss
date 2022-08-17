@@ -158,3 +158,28 @@ a {
   width: 100%;
   padding: 10px;
 }
+
+#divProductSearchSuggestions td {
+  vertical-align: middle;
+}
+
+// order create
+.quantityWrapper {
+  width: 110px;
+}
+
+.quantityWrapper .qty {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.quantityWrapper .btn {
+  border-color: transparent;
+  border-radius: 0;
+  background-color: $light;
+}
+
+.quantityWrapper .btn:hover {
+  background-color: mix($light, $dark, 90%) !important;
+}

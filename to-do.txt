@@ -1,0 +1,10 @@
+- Add brand abbreviation to brands. eg. Healthaid abbr would be HLT
+
+- Price table should have a dropdown to allow max 20 price levels
+- Each level will have a table like editing page and allow a nickname to be assigned to each price e.g.:
+
+  - Price 1 ___toptan___
+  - Price 2 ___psf___
+  - Price 3 ___
+
+TODO:

@@ -8,6 +8,10 @@ Open orders:
 + Orders can be ammended/edited e.g. sipariş verdikten sonra her role için o siparişi edit yapabilip yapamayacağını belirleyen settingdir. Örneğin x eczane için y plasiyer sipariş almıştır. Bu siparişi sadece ofis ve admin güncelleyebilir. Veyahut alınan hiçbir sipariş güncellenemez ve ancak elimizde yoktur diye işaretlenebilir.
 
 + Show stock numbers for certain customers
++ Load product images in 
+  - Platform      Order Details       Order Create
+    Mobile         false                false
+    Web            true                 true
 
 + certain statuses can only be changed by an admin. ornegin a status which has a boolean value true for isCompletesOrder should also have a canOnlyBeChangedByAdmin set to true as well
 
