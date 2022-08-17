@@ -20,3 +20,7 @@ Open orders:
   - Business name
   - Person in Charge / Business name
   - Business Name / Person in Charge
+
+  + Max number of quantities a product can be added to basket
+    - Shekel Admin: 0
+    - Shekel B2C:   0

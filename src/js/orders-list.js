@@ -1,4 +1,92 @@
 document.addEventListener("DOMContentLoaded", function (event) {
+  /*!
+   * Get previous sibling of an element that matches a test condition
+   * (c) 2021 Chris Ferdinandi, MIT License, https://gomakethings.com
+   * @param  {Node}     elem     The element
+   * @param  {Function} callback The test condition
+   * @return {Node}              The sibling
+   */
+  function getPreviousSibling(elem, callback) {
+    // Get the next sibling element
+    let sibling = elem.previousElementSibling;
+
+    // If there's no callback, return the first sibling
+    if (!callback || typeof callback !== "function") return sibling;
+
+    // If the sibling matches our test condition, use it
+    // If not, jump to the next sibling and continue the loop
+    let index = 0;
+    while (sibling) {
+      if (callback(sibling, index, elem)) return sibling;
+      index++;
+      sibling = sibling.previousElementSibling;
+    }
+  }
+
+  // listen for the keydown event
+  window.addEventListener("keydown", function (event) {
+    // if current cursor is not in txtSearchProducts textbox, then stop code execution.
+    if (
+      !document.activeElement ===
+      this.document.getElementById("txtSearchProducts")
+    )
+      return;
+
+    // else, if we are pressing ALT + Numped Add, focus the qty input textbox so we can start typing immediately.
+    if (event.altKey && event.code === "NumpadAdd") {
+      event.preventDefault();
+      const qtyInput = document.querySelectorAll(".qty")[0];
+      qtyInput.focus();
+    }
+  });
+
+  window.addEventListener("keydown", function (event) {
+    if (event.altKey && event.code === "NumpadEnter") {
+      event.preventDefault();
+
+      const addToCart = document.querySelectorAll(".addtocart")[0];
+      addToCart.click();
+    }
+  });
+
+  const product = {};
+
+  const addToCartButtons = document.querySelectorAll(".addtocart");
+  addToCartButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const qtyInput = getPreviousSibling(btn, (sibling) =>
+        sibling.matches(".qty")
+      );
+      createOrderItem({
+        id: btn.dataset.productid,
+        name: btn.dataset.productname,
+        price1: btn.dataset.price1,
+        price2: btn.dataset.price2,
+        vat: btn.dataset.vat,
+        campaign: btn.dataset.campaign,
+        image: btn.dataset.imgsrc,
+        brand: btn.dataset.brand,
+        brandabbrv: btn.dataset.brandabbrv,
+      });
+    });
+  });
+
+  const createOrderItem = (product) => {
+    console.log("product: " + product);
+    let html = `${orderItem}`;
+    console.log("html before:" + html);
+    html.replaceAll("{{productid}}", product.id);
+    html.replaceAll("{{name}}", product.name);
+    html.replaceAll("{{price1}}", product.price1);
+    html.replaceAll("{{price2}}", product.price2);
+    html.replaceAll("{{vat}}", product.vat);
+    html.replaceAll("{{image}}", product.image);
+    html.replaceAll("{{brand}}", product.brand);
+    html.replaceAll("{{brandabbrv}}", product.brandabbrv);
+    console.log("html after: " + html);
+    document.getElementById("tblItemsBody").innerHTML = html;
+  };
+
   const search = document.getElementById("q");
   const searchddl = document.getElementById("divSearchSuggestionsWrapper");
   const ordersDiv = document.querySelector(".orders");
@@ -236,4 +324,26 @@ document.addEventListener("DOMContentLoaded", function (event) {
   for (var i = 1; i <= 100; i++) {
     ordersDiv.innerHTML += order;
   }
+
+  // ##### ORDER ITEM
+  const orderItem = `<tr>
+  <td class="d-none d-md-table-cell"><img src="" data-src="{{image}}"></td>
+  <td class="d-none d-md-table-cell">{{brandabbrv}}</td>
+  <td>{{name}}</td>
+  <td>{{price1}}</td>
+  <td>{{vat}}</td>
+  <td>{{price2}}</td>
+  <td>{{campaign}}</td>
+  <td>
+    <div class="quantityWrapper float-end">
+      <div class="b-0 p-0 m-0 border d-flex">
+        <div class="text-danger d-flex align-items-center p-2">{{stock}}</div>
+        <button class="btn qtyChange decrement" type="button">-</button>
+        <input type="text" class="form-control qty" value="{{qty}}" autocomplete="off">
+        <button class="btn qtyChange increment" type="button">+</button>
+        <button class="btn addtocart" type="button" data-productid="{{productid}}" ><i class="fa-solid fa-cart-plus"></i></button>
+      </div>
+    </div>
+  </td>
+</tr>`;
 });

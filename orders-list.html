@@ -491,10 +491,10 @@
     <div id="orderProductSearch" class="">
       <div id="orderProductSarchInputWrapper">
         <div class="input-group border">
-          <input type="search" class="form-control border-0" id="txtSearchProducts">
+          <input type="search" class="form-control border-0" id="txtSearchProducts" autocomplete="off" placeholder="Ürün adı, markası, kodu veya barkodu yazın">
           <button class="btn" type="button"><i class="fa fa-search"></i></button>
         </div>
-        <div id="divProductSearchSuggestions" class="d-none p-0 m-0 border-end border-start border-bottom">
+        <div id="divProductSearchSuggestions" class="d-none p-0 m-0 border-end border-start border-bottom bg-white">
           <table class="table">
             <tbody>
               <tr>
@@ -508,9 +508,11 @@
                 <td>
                   <div class="quantityWrapper float-end">
                     <div class="b-0 p-0 m-0 border d-flex">
+                      <div class="text-danger d-flex align-items-center p-2">0</div>
                       <button class="btn qtyChange decrement" type="button">-</button>
-                      <input type="text" class="form-control qty">
+                      <input type="text" class="form-control qty" value="0" autocomplete="off">
                       <button class="btn qtyChange increment" type="button">+</button>
+                      <button class="btn addtocart" type="button" data-productid="1" data-productname="Aquaflow 30 Caps" data-price1="90.3" data-vat="5" data-price2="125.24" data-campaign="5+1" data-imgsrc="https://via.placeholder.com/60" data-brand="HealthAid" data-brandabbrv="HLT"><i class="fa-solid fa-cart-plus"></i></button>
                     </div>
                   </div>
                 </td>
@@ -537,6 +539,13 @@
           </table>
         </div>
       </div>
+    </div>
+
+    <!-- ordered items list-->
+    <div id="orderedItems">
+      <table id="tblItems">
+        <tbody id="tblItemsBody"></tbody>
+      </table>
     </div>
   </div>
 
