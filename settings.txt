@@ -4,6 +4,11 @@ Open orders:
 3. Separate page
 
 + order list default view: Grouped by customer | ordered by date | Grouped by status
++ Basket Add method: 
+  - Incremental/Decremental
+  - Dropdown with quantities and campaigns with an option for a custom input
+
++ Display stock places and inventory quantities on order page.
 
 + Orders can be ammended/edited e.g. sipariş verdikten sonra her role için o siparişi edit yapabilip yapamayacağını belirleyen settingdir. Örneğin x eczane için y plasiyer sipariş almıştır. Bu siparişi sadece ofis ve admin güncelleyebilir. Veyahut alınan hiçbir sipariş güncellenemez ve ancak elimizde yoktur diye işaretlenebilir.
 
@@ -24,3 +29,7 @@ Open orders:
   + Max number of quantities a product can be added to basket
     - Shekel Admin: 0
     - Shekel B2C:   0
+
+
+    ########################## GLOBAL SETTINGS ##########################
+    Default stock keeping unit: Depo 1

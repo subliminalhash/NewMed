@@ -12802,11 +12802,17 @@ body {
   .offcanvas {
     width: 90% !important;
   }
+  .offcanvas-full {
+    width: 100% !important;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .offcanvas {
     width: 80% !important;
+  }
+  .offcanvas-full {
+    width: 100% !important;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -12814,11 +12820,17 @@ body {
   .offcanvas {
     width: 70% !important;
   }
+  .offcanvas-full {
+    width: 100% !important;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .offcanvas {
     width: 60% !important;
+  }
+  .offcanvas-full {
+    width: 100% !important;
   }
 }
 .offcanvas-header {
@@ -12960,4 +12972,17 @@ a {
 
 .quantityWrapper .btn:hover {
   background-color: #e4e6e7 !important;
+}
+
+.price {
+  color: #666666;
+  font-size: 0.7rem;
+}
+
+.productcode {
+  color: #aaa;
+}
+
+.customerSummaryCard p {
+  margin: 0;
 }/*# sourceMappingURL=orders-list.css.map */

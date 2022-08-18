@@ -237,6 +237,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
     a.appendChild(i);
 
     customerNameWrapper.append(h5, a);
+    document.getElementById("txtSearchProducts").focus();
+
+    // reset the textbox to its default value after a customer is de-selected by clicking on the x icon after it's name
+    a.addEventListener("click", () => {
+      a.remove();
+      h5.remove();
+      parent.classList.remove("d-none");
+      document.getElementById("ddlCustomers").options.length = 0;
+      document.querySelector(".bg-customer-selection-badge").remove();
+      document.getElementById("txtSearchProducts").focus();
+    });
   });
 
   const showProductPhotos = () => {
