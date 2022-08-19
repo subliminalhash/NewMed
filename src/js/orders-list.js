@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   let liSelectedProductSuggestion;
   let liProductIndex = -1;
   let next;
+
   // END -----------------------------------------------------------
 
   // event handler to detect keydown of up and down arrow keys to enable
@@ -86,12 +87,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   });
 
   // END - LIST SELECTION FOR PRODUCTS IN ORDER CRERATE
-  const btnConfirmProductQuantity = document.getElementById(
-    "btnConfirmProductQuantity"
-  );
-  btnConfirmProductQuantity.addEventListener("click", (e) => {
-    alert(txtProductQuantity.value);
-  });
 
   function getPreviousSibling(elem, callback) {
     // Get the next sibling element
