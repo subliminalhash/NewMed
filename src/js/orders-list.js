@@ -1,11 +1,98 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-  /*!
-   * Get previous sibling of an element that matches a test condition
-   * (c) 2021 Chris Ferdinandi, MIT License, https://gomakethings.com
-   * @param  {Node}     elem     The element
-   * @param  {Function} callback The test condition
-   * @return {Node}              The sibling
-   */
+  // variables for enabling up/down arrow keys for product selection
+  // in the product suggestions div in order create offcanvas
+  const ul = document.getElementById("ulProductSuggestions");
+  const productQuantityDialog = document.getElementById(
+    "dialogProductQuantity"
+  );
+  const txtProductQuantity = document.getElementById("txtProductQuantity");
+
+  let liSelectedProductSuggestion;
+  let liProductIndex = -1;
+  let next;
+  // END -----------------------------------------------------------
+
+  // event handler to detect keydown of up and down arrow keys to enable
+  // selection of a particular product in the product suggestions div
+  // in order create offcanvas
+  document.addEventListener(
+    "keydown",
+    function (event) {
+      if (!ul.classList.contains("d-none")) {
+        // LIST SELECTION FOR PRODUCT SUGGESTIONS IN ORDER CREATE
+        const len = ul.getElementsByTagName("li").length - 1;
+        console.log(event.code);
+        if (event.code === "ArrowDown") {
+          liProductIndex++;
+          //down
+          if (liSelectedProductSuggestion) {
+            liSelectedProductSuggestion.classList.remove("bg-light");
+            next = ul.getElementsByTagName("li")[liProductIndex];
+            if (typeof next !== undefined && liProductIndex <= len) {
+              liSelectedProductSuggestion = next;
+            } else {
+              liProductIndex = 0;
+              liSelectedProductSuggestion = ul.getElementsByTagName("li")[0];
+            }
+            liSelectedProductSuggestion.classList.add("bg-light");
+          } else {
+            liProductIndex = 0;
+
+            liSelectedProductSuggestion = ul.getElementsByTagName("li")[0];
+            liSelectedProductSuggestion.classList.add("bg-light");
+          }
+        } else if (event.code === "ArrowUp") {
+          //up
+          if (liSelectedProductSuggestion) {
+            liSelectedProductSuggestion.classList.remove("bg-light");
+            liProductIndex--;
+            next = ul.getElementsByTagName("li")[liProductIndex];
+            if (typeof next !== undefined && liProductIndex >= 0) {
+              liSelectedProductSuggestion = next;
+            } else {
+              liProductIndex = len;
+              liSelectedProductSuggestion = ul.getElementsByTagName("li")[len];
+            }
+            liSelectedProductSuggestion.classList.add("bg-light");
+          } else {
+            liProductIndex = 0;
+            liSelectedProductSuggestion = ul.getElementsByTagName("li")[len];
+            liSelectedProductSuggestion.classList.add("bg-light");
+          }
+        }
+      }
+    },
+    false
+  );
+
+  document.addEventListener("keypress", (e) => {
+    if (e.code === "Enter" || e.code === "NumpadEnter") {
+      // enter keypress event for PRODUCT SUGGESTION SELECTION
+      if (!ul.classList.contains("d-none") && !productQuantityDialog.open) {
+        // only run this event if ul is visible.
+
+        productQuantityDialog.showModal();
+        txtProductQuantity.focus();
+      }
+
+      if (
+        productQuantityDialog.open &&
+        txtProductQuantity == document.activeElement
+      ) {
+        console.log("dialog open and quantity active");
+        alert(txtProductQuantity.value);
+      }
+    }
+  });
+
+  // END - LIST SELECTION FOR PRODUCTS IN ORDER CRERATE
+  const btnConfirmProductQuantity = document.getElementById(
+    "btnConfirmProductQuantity"
+  );
+  btnConfirmProductQuantity.addEventListener("click", (e) => {
+    alert(txtProductQuantity.value);
+  });
+
   function getPreviousSibling(elem, callback) {
     // Get the next sibling element
     let sibling = elem.previousElementSibling;
@@ -15,10 +102,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     // If the sibling matches our test condition, use it
     // If not, jump to the next sibling and continue the loop
-    let index = 0;
+    let liProductIndex = 0;
     while (sibling) {
-      if (callback(sibling, index, elem)) return sibling;
-      index++;
+      if (callback(sibling, liProductIndex, elem)) return sibling;
+      liProductIndex++;
       sibling = sibling.previousElementSibling;
     }
   }
@@ -148,7 +235,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
       rd.id === "searchNew"
         ? chkSearchArchive.classList.remove("d-none")
         : chkSearchArchive.classList.add("d-none");
-      console.log(rd.id);
     });
 
     // ################################ SHARE ORDER ###################################
@@ -180,7 +266,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const productSearchSuggestionsInput =
     document.getElementById("txtSearchProducts");
   productSearchSuggestionsInput.addEventListener("keyup", () => {
-    console.log(productSearchSuggestionsInput.value.length);
     if (productSearchSuggestionsInput.value.trim().length < 2) return;
 
     productSearchSuggestionsDiv.classList.remove("d-none");
@@ -237,7 +322,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     a.appendChild(i);
 
     customerNameWrapper.append(h5, a);
-    document.getElementById("txtSearchProducts").focus();
 
     // reset the textbox to its default value after a customer is de-selected by clicking on the x icon after it's name
     a.addEventListener("click", () => {

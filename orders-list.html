@@ -521,51 +521,71 @@
           <button class="btn" type="button"><i class="fa fa-search"></i></button>
         </div>
         <div id="divProductSearchSuggestions" class="d-none p-0 m-0 border-end border-start border-bottom bg-white">
-          <table class="table">
-            <tbody>
-              <tr>
-                <td class="d-none d-md-table-cell"><img src="" data-src="https://via.placeholder.com/60"></td>
-                <td>
-                  <small>HLT</small><br/>
-                  <span>AQUAFLOW 30 TABS</span> <br/>
-                  <span>Toptan: 50.29</span> <span>PSF: 84.25</span> <span>KDV: 5.21 (%5) </span>
-                </td>
-                <td>-</td>
-                <td>
-                  <div class="quantityWrapper float-end">
-                    <div class="b-0 p-0 m-0 border d-flex">
-                      <div class="text-danger d-flex align-items-center p-2">0</div>
-                      <button class="btn qtyChange decrement" type="button">-</button>
-                      <input type="text" class="form-control qty" value="0" autocomplete="off">
-                      <button class="btn qtyChange increment" type="button">+</button>
-                      <button class="btn addtocart" type="button" data-productid="1" data-productname="Aquaflow 30 Caps" data-price1="90.3" data-vat="5" data-price2="125.24" data-campaign="5+1" data-imgsrc="https://via.placeholder.com/60" data-brand="HealthAid" data-brandabbrv="HLT"><i class="fa-solid fa-cart-plus"></i></button>
-                    </div>
+          <ul id="ulProductSuggestions" class="list-group">
+              <li class="list-group-item">
+                <div class="d-flex align-items-center justify-content-start">
+                  <img src="" data-src="https://via.placeholder.com/60"  class="me-2">
+                  <div>
+                    <small class="brand">HealthAid</small> <small class="productcode">HLT.602584</small><br/>
+                    <span class="productname"><strong>VIT B12 SUBLINGUAL (methylcobal) 1000UG 60 TAB</strong></span> <br/>
+                    <span class="price">Toptan: 90.69</span> <span class="price">PSF: 125.25</span> <span class="price">KDV: 5.21 (%5)</span>
                   </div>
+                  <a href="#" class="btn btn-circle btn-white ms-auto "><i class="fa fa-plus"></i></a>
+                </div>
                 </td>
-              </tr>
-              <tr>
-                <td class="d-none d-md-table-cell"><img src="" data-src="https://via.placeholder.com/60"></td>
-                <td>
-                  <small class="brand">HealthAid</small> <small class="productcode">HLT.602584</small><br/>
-                  <span class="productname"><strong>VIT B12 SUBLINGUAL (methylcobal) 1000UG 60 TAB</strong></span> <br/>
-                  <span class="price">Toptan: 90.69</span> <span class="price">PSF: 125.25</span> <span class="price">KDV: 5.21 (%5)</span>
-                </td>
-                <td>-</td>
-                <td>
-                  <div class="quantityWrapper float-end">
-                    <div class="b-0 p-0 m-0 border d-flex">
-                      <button class="btn qtyChange decrement" type="button">-</button>
-                      <input type="text" class="form-control qty">
-                      <button class="btn qtyChange increment" type="button">+</button>
-                    </div>
+              </li>
+
+              <!-- 2 -->
+              <li class="list-group-item">
+                <div class="d-flex align-items-center justify-content-start">
+                  <img src="" data-src="https://via.placeholder.com/60"  class="me-2">
+                  <div>
+                    <small class="brand">HealthAid</small> <small class="productcode">HLT.602584</small><br/>
+                    <span class="productname"><strong>VIT B12 SUBLINGUAL (methylcobal) 1000UG 60 TAB</strong></span> <br/>
+                    <span class="price">Toptan: 90.69</span> <span class="price">PSF: 125.25</span> <span class="price">KDV: 5.21 (%5)</span>
                   </div>
+                  <a href="#" class="btn btn-circle btn-white ms-auto "><i class="fa fa-plus"></i></a>
+                </div>
                 </td>
-              </tr>
-            </tbody>
-          </table>
+              </li>
+
+              <!-- 3 -->
+              <li class="list-group-item">
+                <div class="d-flex align-items-center justify-content-start">
+                  <img src="" data-src="https://via.placeholder.com/60"  class="me-2">
+                  <div>
+                    <small class="brand">HealthAid</small> <small class="productcode">HLT.602584</small><br/>
+                    <span class="productname"><strong>VIT B12 SUBLINGUAL (methylcobal) 1000UG 60 TAB</strong></span> <br/>
+                    <span class="price">Toptan: 90.69</span> <span class="price">PSF: 125.25</span> <span class="price">KDV: 5.21 (%5)</span>
+                  </div>
+                  <a href="#" class="btn btn-circle btn-white ms-auto "><i class="fa fa-plus"></i></a>
+                </div>
+                </td>
+              </li>
+
+              <!-- 4 -->
+              <li class="list-group-item">
+                <div class="d-flex align-items-center justify-content-start">
+                  <img src="" data-src="https://via.placeholder.com/60"  class="me-2">
+                  <div>
+                    <small class="brand">HealthAid</small> <small class="productcode">HLT.602584</small><br/>
+                    <span class="productname"><strong>VIT B12 SUBLINGUAL (methylcobal) 1000UG 60 TAB</strong></span> <br/>
+                    <span class="price">Toptan: 90.69</span> <span class="price">PSF: 125.25</span> <span class="price">KDV: 5.21 (%5)</span>
+                  </div>
+                  <a href="#" class="btn btn-circle btn-white ms-auto "><i class="fa fa-plus"></i></a>
+                </div>
+                </td>
+              </li>
+          </ul>
         </div>
       </div>
     </div>
+
+    <!-- dialog - product quantity -->
+    <dialog id="dialogProductQuantity">
+        <input id="txtProductQuantity" type="number" class="form-control form-control-sm">
+        <button id="btnConfirmProductQuantity" class="btn btn-primary">Tamam</button>
+    </dialogid>
 
     <!-- ordered items list-->
     <div id="orderedItems">
