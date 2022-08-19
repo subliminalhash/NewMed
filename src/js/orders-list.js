@@ -74,15 +74,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
         productQuantityDialog.showModal();
         txtProductQuantity.focus();
       }
-
-      if (
-        productQuantityDialog.open &&
-        txtProductQuantity == document.activeElement
-      ) {
-        console.log("dialog open and quantity active");
-        alert(txtProductQuantity.value);
-      }
     }
+  });
+
+  const formAcceptProductQuantity = document.getElementById(
+    "frmAcceptProductQuantity"
+  );
+  formAcceptProductQuantity.addEventListener("submit", (e) => {
+    const qty = formAcceptProductQuantity.querySelector("input").value;
+    alert(qty);
   });
 
   // END - LIST SELECTION FOR PRODUCTS IN ORDER CRERATE
@@ -109,79 +109,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
       sibling = sibling.previousElementSibling;
     }
   }
-
-  // listen for the keydown event
-  window.addEventListener("keydown", function (event) {
-    // if current cursor is not in txtSearchProducts textbox, then stop code execution.
-    if (
-      !document.activeElement ===
-      this.document.getElementById("txtSearchProducts")
-    )
-      return;
-
-    // else, if we are pressing ALT + Numped Add, focus the qty input textbox so we can start typing immediately.
-    if (event.altKey && event.code === "NumpadAdd") {
-      event.preventDefault();
-      const qtyInput = document.querySelectorAll(".qty")[0];
-      qtyInput.focus();
-    }
-  });
-
-  window.addEventListener("keydown", function (event) {
-    if (event.altKey && event.code === "NumpadEnter") {
-      event.preventDefault();
-
-      const addToCart = document.querySelectorAll(".addtocart")[0];
-      addToCart.click();
-    }
-  });
-
-  const product = {};
-
-  const addToCartButtons = document.querySelectorAll(".addtocart");
-  addToCartButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const qtyInput = getPreviousSibling(btn, (sibling) =>
-        sibling.matches(".qty")
-      );
-      createOrderItem({
-        id: btn.dataset.productid,
-        name: btn.dataset.productname,
-        price1: btn.dataset.price1,
-        price2: btn.dataset.price2,
-        vat: btn.dataset.vat,
-        campaign: btn.dataset.campaign,
-        image: btn.dataset.imgsrc,
-        brand: btn.dataset.brand,
-        brandabbrv: btn.dataset.brandabbrv,
-        qty: qtyInput.value,
-      });
-    });
-  });
-
-  const createOrderItem = (product) => {
-    let html = `${orderItem}`;
-
-    html = html.replaceAll("{{productid}}", product.id);
-    html = html.replaceAll("{{name}}", product.name);
-    html = html.replaceAll("{{price1}}", product.price1);
-    html = html.replaceAll("{{price2}}", product.price2);
-    html = html.replaceAll("{{vat}}", product.vat);
-    html = html.replaceAll("{{image}}", product.image);
-    html = html.replaceAll("{{brand}}", product.brand);
-    html = html.replaceAll("{{brandabbrv}}", product.brandabbrv);
-    html = html.replaceAll("{{qty}}", product.qty);
-    html = html.replaceAll(
-      "{{campaign}}",
-      product.campaign === "-" ? "-" : product.campaign
-    );
-
-    document.getElementById("tblItemsBody").innerHTML = html;
-  };
-
-  const search = document.getElementById("q");
-  const searchddl = document.getElementById("divSearchSuggestionsWrapper");
-  const ordersDiv = document.querySelector(".orders");
 
   // this function calculates the height of the orders div by calculating height on the other elements on top of this div and then covering the complete visible space of the remaining viewable area.
   const calculateOrdersHeight = () => {
