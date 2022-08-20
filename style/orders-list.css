@@ -12952,10 +12952,14 @@ a {
   left: 0;
   width: 100%;
   padding: 10px;
+  height: 25rem;
+  overflow-y: auto;
 }
 
-#divProductSearchSuggestions td {
-  vertical-align: middle;
+#divProductSearchSuggestions li:hover,
+#divProductSearchSuggestions li:focus {
+  color: #4285f4;
+  outline: none;
 }
 
 .quantityWrapper .qty {

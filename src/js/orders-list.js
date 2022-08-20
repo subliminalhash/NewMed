@@ -5,11 +5,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const productQuantityDialog = document.getElementById(
     "dialogProductQuantity"
   );
+  const productSearchSuggestionsDiv = document.getElementById(
+    "divProductSearchSuggestions"
+  );
   const txtProductQuantity = document.getElementById("txtProductQuantity");
 
   let liSelectedProductSuggestion;
   let liProductIndex = -1;
   let next;
+
+  let products;
+  const productsPromise = fetch("./Products.json")
+    .then((data) => data.json())
+    .then((results) => (products = results));
 
   // END -----------------------------------------------------------
 
@@ -17,76 +25,82 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // selection of a particular product in the product suggestions div
   // in order create offcanvas
   document.addEventListener(
-    "keydown",
+    "keyup",
     function (event) {
-      if (!ul.classList.contains("d-none")) {
-        // LIST SELECTION FOR PRODUCT SUGGESTIONS IN ORDER CREATE
-        const len = ul.getElementsByTagName("li").length - 1;
-        console.log(event.code);
-        if (event.code === "ArrowDown") {
-          liProductIndex++;
-          //down
-          if (liSelectedProductSuggestion) {
-            liSelectedProductSuggestion.classList.remove("bg-light");
-            next = ul.getElementsByTagName("li")[liProductIndex];
-            if (typeof next !== undefined && liProductIndex <= len) {
-              liSelectedProductSuggestion = next;
-            } else {
-              liProductIndex = 0;
-              liSelectedProductSuggestion = ul.getElementsByTagName("li")[0];
-            }
-            liSelectedProductSuggestion.classList.add("bg-light");
-          } else {
-            liProductIndex = 0;
+      if (ul.classList.contains("d-none")) return;
 
-            liSelectedProductSuggestion = ul.getElementsByTagName("li")[0];
-            liSelectedProductSuggestion.classList.add("bg-light");
-          }
-        } else if (event.code === "ArrowUp") {
-          //up
-          if (liSelectedProductSuggestion) {
-            liSelectedProductSuggestion.classList.remove("bg-light");
-            liProductIndex--;
-            next = ul.getElementsByTagName("li")[liProductIndex];
-            if (typeof next !== undefined && liProductIndex >= 0) {
-              liSelectedProductSuggestion = next;
-            } else {
-              liProductIndex = len;
-              liSelectedProductSuggestion = ul.getElementsByTagName("li")[len];
-            }
-            liSelectedProductSuggestion.classList.add("bg-light");
+      // LIST SELECTION FOR PRODUCT SUGGESTIONS IN ORDER CREATE
+      const len = ul.getElementsByTagName("li").length - 1;
+      if (event.code === "ArrowDown") {
+        liProductIndex++;
+        //down
+        if (liSelectedProductSuggestion) {
+          liSelectedProductSuggestion.classList.remove("bg-light");
+          next = ul.getElementsByTagName("li")[liProductIndex];
+          if (typeof next !== undefined && liProductIndex <= len) {
+            liSelectedProductSuggestion = next;
           } else {
             liProductIndex = 0;
-            liSelectedProductSuggestion = ul.getElementsByTagName("li")[len];
-            liSelectedProductSuggestion.classList.add("bg-light");
+            liSelectedProductSuggestion = ul.getElementsByTagName("li")[0];
           }
+          liSelectedProductSuggestion.classList.add("bg-light");
+        } else {
+          liProductIndex = 0;
+
+          liSelectedProductSuggestion = ul.getElementsByTagName("li")[0];
+          liSelectedProductSuggestion.classList.add("bg-light");
+        }
+      } else if (event.code === "ArrowUp") {
+        //up
+        if (liSelectedProductSuggestion) {
+          liSelectedProductSuggestion.classList.remove("bg-light");
+          liProductIndex--;
+          next = ul.getElementsByTagName("li")[liProductIndex];
+          if (typeof next !== undefined && liProductIndex >= 0) {
+            liSelectedProductSuggestion = next;
+          } else {
+            liProductIndex = len;
+            liSelectedProductSuggestion = ul.getElementsByTagName("li")[len];
+          }
+          liSelectedProductSuggestion.classList.add("bg-light");
+        } else {
+          liProductIndex = 0;
+          liSelectedProductSuggestion = ul.getElementsByTagName("li")[len];
+          liSelectedProductSuggestion.classList.add("bg-light");
         }
       }
+      liSelectedProductSuggestion.focus();
     },
     false
   );
 
-  document.addEventListener("keypress", (e) => {
-    if (e.code === "Enter" || e.code === "NumpadEnter") {
-      // enter keypress event for PRODUCT SUGGESTION SELECTION
-      if (!ul.classList.contains("d-none") && !productQuantityDialog.open) {
-        // only run this event if ul is visible.
+  // document.addEventListener("keypress", (e) => {
+  //   if (e.code === "Enter" || e.code === "NumpadEnter") {
+  //     // enter keypress event for PRODUCT SUGGESTION SELECTION
+  //     if (!ul.classList.contains("d-none") && !productQuantityDialog.open) {
+  //       // only run this event if ul is visible.
 
-        productQuantityDialog.showModal();
-        txtProductQuantity.focus();
-      }
-    }
-  });
+  //       productQuantityDialog.showModal();
+  //       txtProductQuantity.focus();
+  //     }
 
-  const formAcceptProductQuantity = document.getElementById(
-    "frmAcceptProductQuantity"
-  );
-  formAcceptProductQuantity.addEventListener("submit", (e) => {
-    const qty = formAcceptProductQuantity.querySelector("input").value;
-    alert(qty);
-  });
+  //     if (
+  //       productQuantityDialog.open &&
+  //       txtProductQuantity == document.activeElement
+  //     ) {
+  //       console.log("dialog open and quantiti");
+  //       alert(txtProductQuantity.value);
+  //     }
+  //   }
+  // });
 
   // END - LIST SELECTION FOR PRODUCTS IN ORDER CRERATE
+  const btnConfirmProductQuantity = document.getElementById(
+    "btnConfirmProductQuantity"
+  );
+  btnConfirmProductQuantity.addEventListener("click", (e) => {
+    alert(txtProductQuantity.value);
+  });
 
   function getPreviousSibling(elem, callback) {
     // Get the next sibling element
@@ -104,6 +118,67 @@ document.addEventListener("DOMContentLoaded", function (event) {
       sibling = sibling.previousElementSibling;
     }
   }
+
+  // listen for the keydown event on Product Search textbox (txtSearchProducts)
+  txtSearchProducts.addEventListener("keyup", function (event) {
+    const searchTerm = document.getElementById("txtSearchProducts").value;
+    if (searchTerm.length < 4) return;
+
+    productSearchSuggestionsDiv.classList.remove("d-none");
+    const inputTop = txtSearchProducts.offsetTop;
+    const inputHeight = txtSearchProducts.offsetHeight;
+    productSearchSuggestionsDiv.style.top = inputTop + inputHeight;
+
+    let results = [];
+    let html = "";
+    ul.innerHTML = "";
+    results = products.filter((p) =>
+      p.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
+    results.forEach((p) => {
+      html += `<li tabIndex="-1" class="list-group-item" data-productid="${
+        p.pid
+      }" data-brand="${p.brandname}" data-productname="${
+        p.name
+      }" data-price1="${p.price1 / 100}" 
+            data-price2="${p.price2 / 100}" 
+            data-vat="${p.vat}" 
+            data-vat-percent="${p.vatpercent}" 
+            data-productcode="${p.code}" 
+            data-barcode="4645646465464" data-campaignid="2">
+            <div class="d-flex align-items-center justify-content-start">
+              <img src="./${p.image}" data-src="./${
+        p.image
+      }" class="me-2" width="60">
+              <div>
+                <small class="brand">${
+                  p.brandname
+                }</small> <small class="productcode">${p.code}</small><br/>
+                <span class="productname"><strong>${
+                  p.name
+                }</strong></span> <br/><span class="price">Toptan: ${
+        p.price1 / 100
+      }
+                </span> <span class="price">PSF: ${
+                  p.price2 / 100
+                }</span> <span class="price">KDV: ${p.vat / 100} (%${
+        p.vatpercent
+      })</span>
+              </div>
+              <a href="#" class="btn btn-circle btn-white ms-auto "><i class="fa fa-plus"></i></a>
+            </div>
+            </td>
+          </li>`;
+      ul.innerHTML = html;
+    });
+  });
+
+  const product = {};
+
+  const search = document.getElementById("q");
+  const searchddl = document.getElementById("divSearchSuggestionsWrapper");
+  const ordersDiv = document.querySelector(".orders");
 
   // this function calculates the height of the orders div by calculating height on the other elements on top of this div and then covering the complete visible space of the remaining viewable area.
   const calculateOrdersHeight = () => {
@@ -181,20 +256,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   });
 
   // ORDER DETAILS
-  // when product search input gains focus, display product suggestions if length is more than 2 chars
-  const productSearchSuggestionsDiv = document.getElementById(
-    "divProductSearchSuggestions"
-  );
-  const productSearchSuggestionsInput =
-    document.getElementById("txtSearchProducts");
-  productSearchSuggestionsInput.addEventListener("keyup", () => {
-    if (productSearchSuggestionsInput.value.trim().length < 2) return;
-
-    productSearchSuggestionsDiv.classList.remove("d-none");
-    const inputTop = productSearchSuggestionsInput.offsetTop;
-    const inputHeight = productSearchSuggestionsInput.offsetHeight;
-    productSearchSuggestionsDiv.style.top = inputTop + inputHeight;
-  });
 
   // adds a click event listener to elements outside of the search suggestions div and closes it if the clicked area is outside.
   window.addEventListener("click", (e) => {
@@ -343,7 +404,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                </div>
              </div><hr/>`;
 
-  for (var i = 1; i <= 100; i++) {
+  for (var i = 1; i <= 50; i++) {
     ordersDiv.innerHTML += order;
   }
 

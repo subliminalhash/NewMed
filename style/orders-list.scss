@@ -173,10 +173,14 @@ a {
   left: 0;
   width: 100%;
   padding: 10px;
+  height: 25rem;
+  overflow-y: auto;
 }
 
-#divProductSearchSuggestions td {
-  vertical-align: middle;
+#divProductSearchSuggestions li:hover,
+#divProductSearchSuggestions li:focus {
+  color: $primary;
+  outline: none;
 }
 
 .quantityWrapper .qty {
