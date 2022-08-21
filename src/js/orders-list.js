@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   let liProductIndex = -1;
   let next;
 
+  // load this from server in production
   let products;
   const productsPromise = fetch("./Products.json")
     .then((data) => data.json())
@@ -74,34 +75,40 @@ document.addEventListener("DOMContentLoaded", function (event) {
     false
   );
 
-  // document.addEventListener("keypress", (e) => {
-  //   if (e.code === "Enter" || e.code === "NumpadEnter") {
-  //     // enter keypress event for PRODUCT SUGGESTION SELECTION
-  //     if (!ul.classList.contains("d-none") && !productQuantityDialog.open) {
-  //       // only run this event if ul is visible.
+  const displayQuantityModal = (el) => {
+    console.log(el);
+    const productId = el.dataset.productid,
+      name = el.dataset.productname;
 
-  //       productQuantityDialog.showModal();
-  //       txtProductQuantity.focus();
-  //     }
+    document.getElementById("hdnProductId").value = productId;
+    document.getElementById("productNameSpan").textContent = name;
 
-  //     if (
-  //       productQuantityDialog.open &&
-  //       txtProductQuantity == document.activeElement
-  //     ) {
-  //       console.log("dialog open and quantiti");
-  //       alert(txtProductQuantity.value);
-  //     }
-  //   }
-  // });
+    productQuantityDialog.showModal();
+    txtProductQuantity.focus();
+  };
 
-  // END - LIST SELECTION FOR PRODUCTS IN ORDER CRERATE
-  const btnConfirmProductQuantity = document.getElementById(
-    "btnConfirmProductQuantity"
-  );
-  btnConfirmProductQuantity.addEventListener("click", (e) => {
-    alert(txtProductQuantity.value);
+  document
+    .querySelector("#frmAcceptProductQuantity")
+    .addEventListener("submit", () => {
+      // inject a product row into the dom
+
+      console.log(document.getElementById("hdnProductId").value);
+      console.log(document.getElementById("txtProductQuantity").value);
+      // close the dialog
+      productQuantityDialog.close();
+    });
+
+  document.addEventListener("keyup", (e) => {
+    if (e.code === "Enter" || e.code === "NumpadEnter") {
+      // enter keypress event for PRODUCT SUGGESTION SELECTION
+      if (!ul.classList.contains("d-none") && !productQuantityDialog.open) {
+        // only run this event if ul is visible and if modal is not already open
+        displayQuantityModal(e.target);
+      }
+    }
   });
 
+  // END - LIST SELECTION FOR PRODUCTS IN ORDER CRERATE
   function getPreviousSibling(elem, callback) {
     // Get the next sibling element
     let sibling = elem.previousElementSibling;
