@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function (event) {
   // variables for enabling up/down arrow keys for product selection
   // in the product suggestions div in order create offcanvas
+  const productsSearchTextBox = document.getElementById("txtSearchProducts");
   const ul = document.getElementById("ulProductSuggestions");
   const productQuantityDialog = document.getElementById(
     "dialogProductQuantity"
@@ -118,19 +119,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // listening to form submit event but by listening to dialog close event.
   // https://blog.logrocket.com/using-the-dialog-element/
   productQuantityDialog.addEventListener("close", (e) => {
-    //event.preventDefault();
-    //closeQuantityModal("submit");
-
     if (productQuantityDialog.returnValue === "cancel") {
       document.getElementById("hdnProductId").value = "";
       ddlProductQuantity.selectedIndex = 0;
       document.getElementById("productNameSpan").textContent = "";
-      document.getElementById("txtSearchProducts").focus();
+      productsSearchTextBox.focus();
     } else if (productQuantityDialog.returnValue === "send") {
       // submit the form
       document.getElementById("frmAcceptProductQuantity").submit();
 
-      // al bu bilgiyi ne yaparsan yap
+      // selected values - al bu bilgiyi ne yaparsan yap
       const productId = document.getElementById("hdnProductId").value;
       const orderQty = document.getElementById("ddlProductQuantity").value;
       const name = document.getElementById("productNameSpan").textContent;
@@ -142,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
       //focus back in the product search textbox
 
-      document.getElementById("txtSearchProducts").focus();
+      productsSearchTextBox.focus();
 
       // inject a product row into the dom
       //**
@@ -202,14 +200,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 
-  // listen for the keydown event on Product Search textbox (txtSearchProducts)
-  txtSearchProducts.addEventListener("keyup", function (event) {
-    const searchTerm = document.getElementById("txtSearchProducts").value;
+  // listen for the keydown event on Product Search textbox (productsSearchTextBox)
+  productsSearchTextBox.addEventListener("keyup", function (event) {
+    const searchTerm = productsSearchTextBox.value;
     if (searchTerm.length < 3) return;
 
     productSearchSuggestionsDiv.classList.remove("d-none");
-    const inputTop = txtSearchProducts.offsetTop;
-    const inputHeight = txtSearchProducts.offsetHeight;
+    const inputTop = productsSearchTextBox.offsetTop;
+    const inputHeight = productsSearchTextBox.offsetHeight;
     productSearchSuggestionsDiv.style.top = inputTop + inputHeight;
 
     let results = [];
@@ -355,7 +353,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   // adds a click event listener to elements outside of the search suggestions div and closes it if the clicked area is outside.
   document.addEventListener("click", (e) => {
-    if (e.target.id === "txtSearchProducts") return;
+    if (e.target.id === "productsSearchTextBox") return;
     if (e.target.id === "ddlProductQuantity") return;
 
     const withinBoundaries = e
@@ -410,7 +408,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       parent.classList.remove("d-none");
       document.getElementById("ddlCustomers").options.length = 0;
       document.querySelector(".bg-customer-selection-badge").remove();
-      document.getElementById("txtSearchProducts").focus();
+      productsSearchTextBox.focus();
     });
   });
 
