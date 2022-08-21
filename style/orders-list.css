@@ -12791,6 +12791,11 @@ body {
   -webkit-box-shadow: none !important;
 }
 
+dialog {
+  border: 1px solid #aaa !important;
+  padding: 1.5rem;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 576px) {
   .offcanvas {

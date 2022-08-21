@@ -1,3 +1,4 @@
+@import "variables.scss";
 *,
 ::before,
 ::after {
@@ -52,4 +53,9 @@ body {
   box-shadow: none !important;
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
+}
+
+dialog {
+  border: 1px solid $secondary !important;
+  padding: 1.5rem;
 }

@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const productSearchSuggestionsDiv = document.getElementById(
     "divProductSearchSuggestions"
   );
-  const txtProductQuantity = document.getElementById("txtProductQuantity");
+  const ddlProductQuantity = document.getElementById("ddlProductQuantity");
 
   let liSelectedProductSuggestion;
   let liProductIndex = -1;
@@ -22,61 +22,81 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   // END -----------------------------------------------------------
 
+  // move up and down
+  const ProductSelectionWithKeyboard = (event) => {
+    // if suggestion list is not open there is no need to listen for this event...
+    if (ul.classList.contains("d-none")) return;
+
+    // LIST SELECTION FOR PRODUCT SUGGESTIONS IN ORDER CREATE
+    const len = ul.getElementsByTagName("li").length - 1;
+    if (event.code === "ArrowDown") {
+      liProductIndex++;
+      //down
+      if (liSelectedProductSuggestion) {
+        liSelectedProductSuggestion.classList.remove("bg-light");
+        next = ul.getElementsByTagName("li")[liProductIndex];
+        if (typeof next !== undefined && liProductIndex <= len) {
+          liSelectedProductSuggestion = next;
+        } else {
+          liProductIndex = 0;
+          liSelectedProductSuggestion = ul.getElementsByTagName("li")[0];
+        }
+        liSelectedProductSuggestion.classList.add("bg-light");
+      } else {
+        liProductIndex = 0;
+
+        liSelectedProductSuggestion = ul.getElementsByTagName("li")[0];
+        liSelectedProductSuggestion.classList.add("bg-light");
+      }
+    } else if (event.code === "ArrowUp") {
+      //up
+      if (liSelectedProductSuggestion) {
+        liSelectedProductSuggestion.classList.remove("bg-light");
+        liProductIndex--;
+        next = ul.getElementsByTagName("li")[liProductIndex];
+        if (typeof next !== undefined && liProductIndex >= 0) {
+          liSelectedProductSuggestion = next;
+        } else {
+          liProductIndex = len;
+          liSelectedProductSuggestion = ul.getElementsByTagName("li")[len];
+        }
+        liSelectedProductSuggestion.classList.add("bg-light");
+      } else {
+        liProductIndex = 0;
+        liSelectedProductSuggestion = ul.getElementsByTagName("li")[len];
+        liSelectedProductSuggestion.classList.add("bg-light");
+      }
+    }
+    if (liSelectedProductSuggestion) liSelectedProductSuggestion.focus();
+  };
   // event handler to detect keydown of up and down arrow keys to enable
   // selection of a particular product in the product suggestions div
   // in order create offcanvas
   document.addEventListener(
     "keyup",
-    function (event) {
-      if (ul.classList.contains("d-none")) return;
+    function (e) {
+      // if quantity dialog is open, we don't mean to select a product and it means
+      // we are pressing the keys to select quantity. So do not navigate the product list
+      // if the product quantity dialog is open..
 
-      // LIST SELECTION FOR PRODUCT SUGGESTIONS IN ORDER CREATE
-      const len = ul.getElementsByTagName("li").length - 1;
-      if (event.code === "ArrowDown") {
-        liProductIndex++;
-        //down
-        if (liSelectedProductSuggestion) {
-          liSelectedProductSuggestion.classList.remove("bg-light");
-          next = ul.getElementsByTagName("li")[liProductIndex];
-          if (typeof next !== undefined && liProductIndex <= len) {
-            liSelectedProductSuggestion = next;
-          } else {
-            liProductIndex = 0;
-            liSelectedProductSuggestion = ul.getElementsByTagName("li")[0];
-          }
-          liSelectedProductSuggestion.classList.add("bg-light");
-        } else {
-          liProductIndex = 0;
-
-          liSelectedProductSuggestion = ul.getElementsByTagName("li")[0];
-          liSelectedProductSuggestion.classList.add("bg-light");
-        }
-      } else if (event.code === "ArrowUp") {
-        //up
-        if (liSelectedProductSuggestion) {
-          liSelectedProductSuggestion.classList.remove("bg-light");
-          liProductIndex--;
-          next = ul.getElementsByTagName("li")[liProductIndex];
-          if (typeof next !== undefined && liProductIndex >= 0) {
-            liSelectedProductSuggestion = next;
-          } else {
-            liProductIndex = len;
-            liSelectedProductSuggestion = ul.getElementsByTagName("li")[len];
-          }
-          liSelectedProductSuggestion.classList.add("bg-light");
-        } else {
-          liProductIndex = 0;
-          liSelectedProductSuggestion = ul.getElementsByTagName("li")[len];
-          liSelectedProductSuggestion.classList.add("bg-light");
-        }
+      if (!productQuantityDialog.open) {
+        ProductSelectionWithKeyboard(e);
       }
-      liSelectedProductSuggestion.focus();
     },
     false
   );
 
+  productQuantityDialog.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      e.stopPropagation();
+      if (productQuantityDialog.open) {
+        document.querySelector(".btnCloseWithEscape").click();
+        return false;
+      }
+    }
+  });
+
   const displayQuantityModal = (el) => {
-    console.log(el);
     const productId = el.dataset.productid,
       name = el.dataset.productname;
 
@@ -84,26 +104,83 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.getElementById("productNameSpan").textContent = name;
 
     productQuantityDialog.showModal();
-    txtProductQuantity.focus();
+    ddlProductQuantity.focus();
   };
 
-  document
-    .querySelector("#frmAcceptProductQuantity")
-    .addEventListener("submit", () => {
+  // document
+  //   .getElementById("btnConfirmProductQuantity")
+  //   .addEventListener("click", (e) => {
+  //     e.preventDefault();
+  //     document.querySelector("#frmAcceptProductQuantity").submit();
+  //   });
+
+  // form values inside of the dialog element can be received by not
+  // listening to form submit event but by listening to dialog close event.
+  // https://blog.logrocket.com/using-the-dialog-element/
+  productQuantityDialog.addEventListener("close", (e) => {
+    //event.preventDefault();
+    //closeQuantityModal("submit");
+
+    console.log(productQuantityDialog.returnValue);
+    if (productQuantityDialog.returnValue === "cancel") {
+      document.getElementById("hdnProductId").value = "";
+      ddlProductQuantity.selectedIndex = 0;
+      document.getElementById("productNameSpan").textContent = "";
+      document.getElementById("txtSearchProducts").focus();
+    } else if (productQuantityDialog.returnValue === "send") {
+      // submit the form
+      document.getElementById("frmAcceptProductQuantity").submit();
+
+      // al bu bilgiyi ne yaparsan yap
+      const productId = document.getElementById("hdnProductId").value;
+      const orderQty = document.getElementById("ddlProductQuantity").value;
+      const name = document.getElementById("productNameSpan").textContent;
+
+      // reset values
+      document.getElementById("hdnProductId").value = "";
+      ddlProductQuantity.value = "1";
+      document.getElementById("productNameSpan").textContent = "";
+
+      //focus back in the product search textbox
+
+      document.getElementById("txtSearchProducts").focus();
+
       // inject a product row into the dom
+      //**
+      //** Code goes here
+      //**
 
-      console.log(document.getElementById("hdnProductId").value);
-      console.log(document.getElementById("txtProductQuantity").value);
-      // close the dialog
-      productQuantityDialog.close();
-    });
+      // display a toast for the added product
+      document.querySelector(
+        ".toast-body"
+      ).textContent = `${orderQty} adet ${name} sepete eklendi.`;
+      const toast = new bootstrap.Toast(document.querySelector(".toast"), {
+        animation: false,
+        delay: 3000,
+      });
+      toast.show();
+    } else {
+      console.error(`other: ${productQuantityDialog.returnValue}`);
+    }
+    return false;
+  });
 
-  document.addEventListener("keyup", (e) => {
+  //*************** ENTER KEYPRESS EVENT **************** */
+  document.addEventListener("keypress", (e) => {
     if (e.code === "Enter" || e.code === "NumpadEnter") {
       // enter keypress event for PRODUCT SUGGESTION SELECTION
       if (!ul.classList.contains("d-none") && !productQuantityDialog.open) {
         // only run this event if ul is visible and if modal is not already open
         displayQuantityModal(e.target);
+        return;
+      }
+
+      // if the dialog is open, then it means we are entering a quantity
+      if (productQuantityDialog.open) {
+        if (document.activeElement === ddlProductQuantity) {
+          document.querySelector(".btnAddQuantity").click();
+        }
+        return false;
       }
     }
   });
@@ -129,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // listen for the keydown event on Product Search textbox (txtSearchProducts)
   txtSearchProducts.addEventListener("keyup", function (event) {
     const searchTerm = document.getElementById("txtSearchProducts").value;
-    if (searchTerm.length < 4) return;
+    if (searchTerm.length < 3) return;
 
     productSearchSuggestionsDiv.classList.remove("d-none");
     const inputTop = txtSearchProducts.offsetTop;
@@ -173,12 +250,25 @@ document.addEventListener("DOMContentLoaded", function (event) {
         p.vatpercent
       })</span>
               </div>
-              <a href="#" class="btn btn-circle btn-white ms-auto "><i class="fa fa-plus"></i></a>
+              <button class="btnAddToBasket btn btn-circle btn-white ms-auto"><i class="fa fa-plus" ></i></button>
             </div>
             </td>
           </li>`;
       ul.innerHTML = html;
     });
+  });
+
+  // we are adding event listener to the container div and use event bubbling to
+  // listen for the click event of the ---dynamically created buttons---
+  // because the event handler will not be available on the button itself
+  ul.addEventListener("click", (e) => {
+    if (
+      e.target.classList.contains("btnAddToBasket") ||
+      e.target.parentElement.classList.contains("btnAddToBasket")
+    ) {
+      const el = e.target.closest("li");
+      displayQuantityModal(el);
+    }
   });
 
   const product = {};
@@ -215,11 +305,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   // adds a click event listener to elements outside of the search suggestions div and closes it if the clicked area is outside.
   window.addEventListener("click", (e) => {
-    if (e.target.id === "q") return;
+    console.log(productQuantityDialog.open);
+    if (e.target.id === "q" || productQuantityDialog.open) return;
 
     const withinBoundaries = e.composedPath().includes(searchddl);
 
     if (!withinBoundaries && !searchddl.classList.contains("d-none")) {
+      console.log("closing");
       searchddl.classList.add("d-none");
       document.getElementById("divSearch").classList.remove("show");
     }
@@ -324,26 +416,26 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
   });
 
-  const showProductPhotos = () => {
-    const suggestionsDiv = document.getElementById(
-      "divProductSearchSuggestions"
-    );
+  // const showProductPhotos = () => {
+  //   const suggestionsDiv = document.getElementById(
+  //     "divProductSearchSuggestions"
+  //   );
 
-    const images = suggestionsDiv.querySelectorAll("img");
+  //   const images = suggestionsDiv.querySelectorAll("img");
 
-    if (!Shekel.Utility.isMobile()) {
-      for (let image of images) {
-        const src = image.dataset.src;
-        image.setAttribute("src", src);
-      }
-    }
-  };
+  //   if (!Shekel.Utility.isMobile()) {
+  //     for (let image of images) {
+  //       const src = image.dataset.src;
+  //       image.setAttribute("src", src);
+  //     }
+  //   }
+  // };
 
-  addEventListener("resize", (event) => {
-    showProductPhotos();
-  });
+  // addEventListener("resize", (event) => {
+  //   showProductPhotos();
+  // });
 
-  showProductPhotos();
+  // showProductPhotos();
 
   // ##### development mockup data -- delete later.
   const order = `<div class="row order">
