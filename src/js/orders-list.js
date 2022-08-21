@@ -121,7 +121,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     //event.preventDefault();
     //closeQuantityModal("submit");
 
-    console.log(productQuantityDialog.returnValue);
     if (productQuantityDialog.returnValue === "cancel") {
       document.getElementById("hdnProductId").value = "";
       ddlProductQuantity.selectedIndex = 0;
@@ -305,13 +304,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   // adds a click event listener to elements outside of the search suggestions div and closes it if the clicked area is outside.
   window.addEventListener("click", (e) => {
-    console.log(productQuantityDialog.open);
     if (e.target.id === "q" || productQuantityDialog.open) return;
 
     const withinBoundaries = e.composedPath().includes(searchddl);
 
     if (!withinBoundaries && !searchddl.classList.contains("d-none")) {
-      console.log("closing");
       searchddl.classList.add("d-none");
       document.getElementById("divSearch").classList.remove("show");
     }
@@ -357,8 +354,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // ORDER DETAILS
 
   // adds a click event listener to elements outside of the search suggestions div and closes it if the clicked area is outside.
-  window.addEventListener("click", (e) => {
+  document.addEventListener("click", (e) => {
     if (e.target.id === "txtSearchProducts") return;
+    if (e.target.id === "ddlProductQuantity") return;
 
     const withinBoundaries = e
       .composedPath()

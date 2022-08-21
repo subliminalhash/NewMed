@@ -1,4 +1,26 @@
 @import "variables.scss";
+
+$twitter: #55acee;
+$linkedin: #007bb5;
+$facebook: #3b5998;
+$gmail: #dd5347;
+$whatsapp: #12af0a;
+$soft-primary: rgba(55, 125, 255, 0.1);
+$soft-secondary: rgba(113, 134, 157, 0.1);
+$soft-info: rgba(9, 165, 190, 0.1);
+$soft-warning: rgba(245, 202, 153, 0.1);
+$soft-danger: rgba(237, 76, 120, 0.1);
+$soft-success: rgba(0, 201, 167, 0.1);
+$soft-dark: rgba(19, 33, 68, 0.1);
+$danger-dark: #cc0000;
+$warning-dark: #ff8800;
+$success-dark: #007e33;
+$info-dark: #0099cc;
+$tertiary: #2bbbad;
+$tertiary-dark: #00695c;
+$quaternary: #aa66cc;
+$quaternary-dark: #9933cc;
+
 *,
 ::before,
 ::after {
