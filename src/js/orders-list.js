@@ -105,8 +105,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // initially pressed the ESC key.
   offCanvasOrderCreate.addEventListener("hide.bs.offcanvas", (e) => {
     if (!divProductSearchSuggestions.classList.contains("d-none")) {
-        "sorry can't close offcanvas. product suggestion is visible."
-      );
       return e.preventDefault();
     }
   });
@@ -119,6 +117,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         return;
         // or if the product suggestions div is open, then close that one.
       } else if (!divProductSearchSuggestions.classList.contains("d-none")) {
+        console.log("esc clicked, closing product suggestions");
         divProductSearchSuggestions.classList.add("d-none");
         return;
       } else if (offCanvasOrderCreate.classList.contains("show")) {
