@@ -142,7 +142,25 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const productId = el.dataset.productid,
       name = el.dataset.productname;
 
+    let basketItem = {
+      productId: el.dataset.productid,
+      brand: el.dataset.brand,
+      name: el.dataset.productname,
+      price1: el.dataset.price1,
+      price2: el.dataset.price2,
+      vat: el.dataset.vat,
+      vatpercent: el.dataset.vatPercent,
+      code: el.dataset.productcode,
+      barcode: el.dataset.barcode,
+      campaign: el.dataset.campaignid,
+      qty: undefined,
+    };
+
+    let hdnBasketItem = document.getElementById("hdnBasketItem");
+    hdnBasketItem.value = JSON.stringify(basketItem);
+
     hdnProductId.value = productId;
+
     spnProductName.textContent = name;
 
     productQuantityDialog.showModal();
@@ -173,7 +191,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
       const productId = hdnProductId.value;
       const orderQty = ddlProductQuantity.value;
       const name = spnProductName.textContent;
-
+      let basketItem = JSON.parse(hdnBasketItem.value);
+      basketItem.qty = orderQty;
+      console.log(basketItem);
       // reset values
       hdnProductId.value = "";
       ddlProductQuantity.value = "1";
@@ -399,6 +419,30 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   // ORDER DETAILS
 
+  const addProductRow = (product) => {
+    return `
+  <div class="product d-flex align-items-center justify-content-between">
+    <!-- photo -->
+    <div class="productphoto"><img src="${product.img}" width="60"></div>
+    <!-- details -->
+    <div class="productdetails">${product.name}</div>
+    <!-- basket actions -->
+    <div class="basketactions text-right">
+      <div id="basketActionsWrapper">
+        <button class="btn btn-white btn-circle remove"><i class="fa fa-trash"></i></button>
+        <select class="form-select form-select-sm">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  `;
+  };
+
   // adds a click event listener to elements outside of the search suggestions div and closes it if the clicked area is outside.
   document.addEventListener("click", (e) => {
     if (e.target === productQuantityDialog) return;
@@ -424,6 +468,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     "orderCreateSelectCustomer"
   );
 
+  // when a customer is selected, the tags input disappears and
+  // customer name span with a close button appears.
   ddlCustomers.addEventListener("change", () => {
     const custId = ddlCustomers.value;
     const custName = ddlCustomers.textContent.trim();
