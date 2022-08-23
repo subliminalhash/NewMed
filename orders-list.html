@@ -473,7 +473,7 @@
 <!-- ####################### OFFCANVAS - ORDER CREATE ####################### -->
 <div class="offcanvas offcanvas-full offcanvas-end" tabindex="-1" id="offCanvasOrderCreate" aria-labelledby="offCanvasOrderCreate">
   <div class="d-flex justify-content-between align-items-center p-2 border-bottom">
-    <a href="#" class="btn btn-circle btn-white fa-2x text-reset d-sm-block d-md-none" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-arrow-left"></i></a>
+    <a href="#" class="btnCloseOffCanvasOrderCreate btn btn-circle btn-white fa-2x text-reset d-sm-block d-md-none" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-arrow-left"></i></a>
     <h5 class="m-0">Yeni Sipariş</h5>
     <button type="button" class="btn-close text-reset d-none d-md-block" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
@@ -633,8 +633,8 @@
           <option value="98">98</option>
           <option value="99">99</option>
         </select>
-        <button class="btnAddQuantity btn btn-primary" value="send">Tamam</button>
-        <button class="btnCloseWithEscape btn btn-outline-danger" value="cancel">İptal</button>
+        <button id="btnQuantityDialogAdd" class="btnAddQuantity btn btn-primary" value="send">Tamam</button>
+        <button id="btnQuantityDialogCancel" class="btnCloseWithEscape btn btn-outline-danger" value="cancel">İptal</button>
         <input type="hidden" id="hdnProductId">
       </form>
     </dialogid>

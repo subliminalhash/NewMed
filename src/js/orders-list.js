@@ -1,15 +1,28 @@
 document.addEventListener("DOMContentLoaded", function (event) {
   // variables for enabling up/down arrow keys for product selection
   // in the product suggestions div in order create offcanvas
+  const body = document.querySelector("body");
   const productsSearchTextBox = document.getElementById("txtSearchProducts");
   const ul = document.getElementById("ulProductSuggestions");
   const productQuantityDialog = document.getElementById(
     "dialogProductQuantity"
   );
-  const productSearchSuggestionsDiv = document.getElementById(
+  const divProductSearchSuggestions = document.getElementById(
     "divProductSearchSuggestions"
   );
+
+  // order create variables
+  const hdnProductId = document.getElementById("hdnProductId");
+  const spnProductName = document.getElementById("productNameSpan");
   const ddlProductQuantity = document.getElementById("ddlProductQuantity");
+  const frmAcceptProductQuantity = document.getElementById(
+    "frmAcceptProductQuantity"
+  );
+  const btnQuantityDialogAdd = document.getElementById("btnQuantityDialogAdd");
+  const btnQuantityDialogCancel = document.getElementById(
+    "btnQuantityDialogCancel"
+  );
+  const offCanvasOrderCreate = document.getElementById("offCanvasOrderCreate");
 
   let liSelectedProductSuggestion;
   let liProductIndex = -1;
@@ -87,22 +100,51 @@ document.addEventListener("DOMContentLoaded", function (event) {
     false
   );
 
-  productQuantityDialog.addEventListener("keydown", (e) => {
+  // just about when the OrderCreate offcanvas is about to close, check if product suggestions is open.
+  // if product suggestions div is open, then we probably mean to close that, instead of the offcanvas when we
+  // initially pressed the ESC key.
+  offCanvasOrderCreate.addEventListener("hide.bs.offcanvas", (e) => {
+    if (!divProductSearchSuggestions.classList.contains("d-none")) {
+        "sorry can't close offcanvas. product suggestion is visible."
+      );
+      return e.preventDefault();
+    }
+  });
+
+  body.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
-      e.stopPropagation();
+      // if quantity dialog (order create) open, close it and do not propagete
       if (productQuantityDialog.open) {
-        document.querySelector(".btnCloseWithEscape").click();
-        return false;
+        btnQuantityDialogCancel.click();
+        return;
+        // or if the product suggestions div is open, then close that one.
+      } else if (!divProductSearchSuggestions.classList.contains("d-none")) {
+        divProductSearchSuggestions.classList.add("d-none");
+        return;
+      } else if (offCanvasOrderCreate.classList.contains("show")) {
+        // find a way to programatically hide offcanvas.
+        // until then, we trigger click event of the close button...
+        document.querySelector(".btnCloseOffCanvasOrderCreate").click();
       }
     }
+  });
+
+  // we stop propagation for the click event of the below two buttons in order
+  // to prevent open product suggestion div from closing when these are clicked.
+  btnQuantityDialogCancel.addEventListener("click", (e) => {
+    e.stopPropagation();
+  });
+
+  btnQuantityDialogAdd.addEventListener("click", (e) => {
+    e.stopPropagation();
   });
 
   const displayQuantityModal = (el) => {
     const productId = el.dataset.productid,
       name = el.dataset.productname;
 
-    document.getElementById("hdnProductId").value = productId;
-    document.getElementById("productNameSpan").textContent = name;
+    hdnProductId.value = productId;
+    spnProductName.textContent = name;
 
     productQuantityDialog.showModal();
     ddlProductQuantity.focus();
@@ -120,23 +162,23 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // https://blog.logrocket.com/using-the-dialog-element/
   productQuantityDialog.addEventListener("close", (e) => {
     if (productQuantityDialog.returnValue === "cancel") {
-      document.getElementById("hdnProductId").value = "";
+      hdnProductId.value = "";
       ddlProductQuantity.selectedIndex = 0;
-      document.getElementById("productNameSpan").textContent = "";
+      spnProductName.textContent = "";
       productsSearchTextBox.focus();
     } else if (productQuantityDialog.returnValue === "send") {
       // submit the form
-      document.getElementById("frmAcceptProductQuantity").submit();
+      frmAcceptProductQuantity.submit();
 
       // selected values - al bu bilgiyi ne yaparsan yap
-      const productId = document.getElementById("hdnProductId").value;
-      const orderQty = document.getElementById("ddlProductQuantity").value;
-      const name = document.getElementById("productNameSpan").textContent;
+      const productId = hdnProductId.value;
+      const orderQty = ddlProductQuantity.value;
+      const name = spnProductName.textContent;
 
       // reset values
-      document.getElementById("hdnProductId").value = "";
+      hdnProductId.value = "";
       ddlProductQuantity.value = "1";
-      document.getElementById("productNameSpan").textContent = "";
+      spnProductName.textContent = "";
 
       //focus back in the product search textbox
 
@@ -156,8 +198,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
         delay: 3000,
       });
       toast.show();
-    } else {
-      console.error(`other: ${productQuantityDialog.returnValue}`);
     }
     return false;
   });
@@ -205,10 +245,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const searchTerm = productsSearchTextBox.value;
     if (searchTerm.length < 3) return;
 
-    productSearchSuggestionsDiv.classList.remove("d-none");
+    // display product suggestions div
+    divProductSearchSuggestions.classList.remove("d-none");
+
+    // lock the offcanvas so it does not close on esc key
+    const bsOffcanvas = new bootstrap.Offcanvas("#offCanvasOrderCreate", {
+      keyboard: false,
+    });
+
     const inputTop = productsSearchTextBox.offsetTop;
     const inputHeight = productsSearchTextBox.offsetHeight;
-    productSearchSuggestionsDiv.style.top = inputTop + inputHeight;
+    divProductSearchSuggestions.style.top = inputTop + inputHeight;
 
     let results = [];
     let html = "";
@@ -312,6 +359,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
   });
 
+  const isClickOutsideOf = (el) => {}; // do this function later
+
   // make Arşivde Ara option visible only if Yeni Arama Yap radio is selected
   const searchTypeRadioButtons = document.querySelectorAll(
     'input[name="searchType"]'
@@ -353,18 +402,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   // adds a click event listener to elements outside of the search suggestions div and closes it if the clicked area is outside.
   document.addEventListener("click", (e) => {
+    if (e.target === productQuantityDialog) return;
     if (e.target.id === "productsSearchTextBox") return;
     if (e.target.id === "ddlProductQuantity") return;
 
     const withinBoundaries = e
       .composedPath()
-      .includes(productSearchSuggestionsDiv);
+      .includes(divProductSearchSuggestions);
 
     if (
       !withinBoundaries &&
-      !productSearchSuggestionsDiv.classList.contains("d-none")
+      !divProductSearchSuggestions.classList.contains("d-none")
     ) {
-      productSearchSuggestionsDiv.classList.add("d-none");
+      divProductSearchSuggestions.classList.add("d-none");
       //document.getElementById("divSearch").classList.remove("show");
     }
   });
