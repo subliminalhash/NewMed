@@ -1,6 +1,6 @@
 [
   {
-    "pid": 265,
+    "id": 265,
     "code": "DRO.00102",
     "name": "DRO ALOE VERA CONCENTRATED CREAM 50ML",
     "summary": null,
@@ -21,10 +21,10 @@
     "productslug": "dro-aloe-vera-concentrated-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 266,
+    "id": 266,
     "code": "DRO.00103",
     "name": "DRO ALOE VERA SKIN LOTION 200ML",
     "summary": null,
@@ -45,10 +45,10 @@
     "productslug": "dro-aloe-vera-skin-lotion-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 267,
+    "id": 267,
     "code": "DRO.00104",
     "name": "DRO ALOE VERA DOUBLE STRENGTH GEL 200ML",
     "summary": null,
@@ -69,10 +69,10 @@
     "productslug": "dro-aloe-vera-double-strength-gel-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 268,
+    "id": 268,
     "code": "DRO.00105",
     "name": "DRO ALOE VERA BODY BUTTER 200ML",
     "summary": null,
@@ -93,10 +93,10 @@
     "productslug": "dro-aloe-vera-body-butter-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 269,
+    "id": 269,
     "code": "DRO.00106",
     "name": "DRO ALOE VERA DEODORANT 50ML",
     "summary": null,
@@ -117,10 +117,10 @@
     "productslug": "dro-aloe-vera-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 270,
+    "id": 270,
     "code": "DRO.00107",
     "name": "DRO ALOE VERA HAND WASH 250ML",
     "summary": null,
@@ -141,10 +141,10 @@
     "productslug": "dro-aloe-vera-hand-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 271,
+    "id": 271,
     "code": "DRO.00108",
     "name": "DRO ALOE VERA SOAP 100G",
     "summary": "",
@@ -165,10 +165,10 @@
     "productslug": "dro-aloe-vera-soap-100g",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 272,
+    "id": 272,
     "code": "DRO.00109",
     "name": "DRO ALOE VERA BODY WASH 250ML",
     "summary": null,
@@ -189,10 +189,10 @@
     "productslug": "dro-aloe-vera-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 273,
+    "id": 273,
     "code": "DRO.00110",
     "name": "DRO ALOE VERA WET WIPES 20^S",
     "summary": null,
@@ -213,10 +213,10 @@
     "productslug": "dro-aloe-vera-wet-wipes-20s",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 274,
+    "id": 274,
     "code": "DRO.00111",
     "name": "DRO ALOE VERA SHAMPOO 265ML",
     "summary": "<p>Saf organik biyoaktif Aloe Vera kullanmak, bitkinin faydalı polisakkarit seviyelerinin en üst düzeye çıkarılmasını sağlar. Doğal olarak üretilmiş temizleyicilerin seçkin bir karışımıyla birlikte oluşturulmuştur. Bu yatıştırıcı şampuan, saça ipeksi bir yumuşaklık, beslenmiş ve güzel bir parlak görünüm kazandırıyor.</p><p><br></p><p>Veganlar için uygundur.</p>",
@@ -237,10 +237,10 @@
     "productslug": "dro-aloe-vera-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 275,
+    "id": 275,
     "code": "DRO.00112",
     "name": "DRO ALOE VERA CONDITIONER 265ML",
     "summary": null,
@@ -261,10 +261,10 @@
     "productslug": "dro-aloe-vera-conditioner-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 276,
+    "id": 276,
     "code": "DRO.00115",
     "name": "DRO ALOE VERA TOOTHPASTE 100ML",
     "summary": null,
@@ -285,10 +285,10 @@
     "productslug": "dro-aloe-vera-toothpaste-100ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 277,
+    "id": 277,
     "code": "DRO.00116",
     "name": "DRO ALOE VERA MOUTHWASH 500ML",
     "summary": null,
@@ -309,10 +309,10 @@
     "productslug": "dro-aloe-vera-mouthwash-500ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 278,
+    "id": 278,
     "code": "DRO.00119",
     "name": "DRO VITAMIN E PURE OIL 50ML",
     "summary": null,
@@ -333,10 +333,10 @@
     "productslug": "dro-vitamin-e-pure-oil-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 279,
+    "id": 279,
     "code": "DRO.00120",
     "name": "DRO VITAMIN E SUPER HYDRATING CREAM 50ML",
     "summary": null,
@@ -357,10 +357,10 @@
     "productslug": "dro-vitamin-e-super-hydrating-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 280,
+    "id": 280,
     "code": "DRO.00121",
     "name": "DRO VITAMIN E SKIN LOTION 200ML",
     "summary": null,
@@ -381,10 +381,10 @@
     "productslug": "dro-vitamin-e-skin-lotion-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 281,
+    "id": 281,
     "code": "DRO.00123",
     "name": "DRO VITAMIN E DEODORANT 50ML",
     "summary": null,
@@ -405,10 +405,10 @@
     "productslug": "dro-vitamin-e-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 282,
+    "id": 282,
     "code": "DRO.00124",
     "name": "DRO VITAMIN E SOAP 100G",
     "summary": null,
@@ -429,10 +429,10 @@
     "productslug": "dro-vitamin-e-soap-100g",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 283,
+    "id": 283,
     "code": "DRO.00125",
     "name": "DRO VITAMIN E BODY WASH 250ML ",
     "summary": null,
@@ -453,10 +453,10 @@
     "productslug": "dro-vitamin-e-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 284,
+    "id": 284,
     "code": "DRO.00126",
     "name": "DRO VITAMIN E SHAMPOO 265ML ",
     "summary": null,
@@ -477,10 +477,10 @@
     "productslug": "dro-vitamin-e-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 285,
+    "id": 285,
     "code": "DRO.00127",
     "name": "DRO VITAMIN E CONDITIONER 265ML",
     "summary": null,
@@ -501,10 +501,10 @@
     "productslug": "dro-vitamin-e-conditioner-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 286,
+    "id": 286,
     "code": "DRO.00128",
     "name": "DRO VITAMIN E LIP BALM 5,7ML",
     "summary": null,
@@ -525,10 +525,10 @@
     "productslug": "dro-vitamin-e-lip-balm-5-7ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 287,
+    "id": 287,
     "code": "DRO.00130",
     "name": "DRO MANUKA HONEY RESCUE CREAM 50ML",
     "summary": null,
@@ -549,10 +549,10 @@
     "productslug": "dro-manuka-honey-rescue-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 288,
+    "id": 288,
     "code": "DRO.00131",
     "name": "DRO MANUKA HONEY SKIN LOTION 200ML",
     "summary": null,
@@ -573,10 +573,10 @@
     "productslug": "dro-manuka-honey-skin-lotion-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 289,
+    "id": 289,
     "code": "DRO.00133",
     "name": "DRO MANUKA HONEY DEODORANT 50ML",
     "summary": null,
@@ -597,10 +597,10 @@
     "productslug": "dro-manuka-honey-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 290,
+    "id": 290,
     "code": "DRO.00134",
     "name": "DRO MANUKA HONEY SOAP 100G",
     "summary": null,
@@ -621,10 +621,10 @@
     "productslug": "dro-manuka-honey-soap-100g",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 291,
+    "id": 291,
     "code": "DRO.00135",
     "name": "DRO MANUKA HONEY BODY WASH 250ML",
     "summary": null,
@@ -645,10 +645,10 @@
     "productslug": "dro-manuka-honey-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 292,
+    "id": 292,
     "code": "DRO.00136",
     "name": "DRO MANUKA HONEY SHAMPOO 265ML",
     "summary": null,
@@ -669,10 +669,10 @@
     "productslug": "dro-manuka-honey-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 293,
+    "id": 293,
     "code": "DRO.00137",
     "name": "DRO MANUKA HONEY CONDITIONER 265ML",
     "summary": null,
@@ -693,10 +693,10 @@
     "productslug": "dro-manuka-honey-conditioner-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 294,
+    "id": 294,
     "code": "DRO.00138",
     "name": "DRO MANUKA HONEY LIP BALM 5,7ML",
     "summary": null,
@@ -717,10 +717,10 @@
     "productslug": "dro-manuka-honey-lip-balm-5-7ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 295,
+    "id": 295,
     "code": "DRO.00139",
     "name": "DRO TEA TREE PURE OIL 10ML",
     "summary": null,
@@ -741,10 +741,10 @@
     "productslug": "dro-tea-tree-pure-oil-10ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 296,
+    "id": 296,
     "code": "DRO.00140",
     "name": "DRO TEA TREE BLEMISH STICK 8ML",
     "summary": null,
@@ -765,10 +765,10 @@
     "productslug": "dro-tea-tree-blemish-stick-8ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 297,
+    "id": 297,
     "code": "DRO.00142",
     "name": "DRO TEA TREE ANTISEPTIC CREAM 50ML",
     "summary": null,
@@ -789,10 +789,10 @@
     "productslug": "dro-tea-tree-antiseptic-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 298,
+    "id": 298,
     "code": "DRO.00145",
     "name": "DRO TEA TREE DEODORANT 50ML",
     "summary": null,
@@ -813,10 +813,10 @@
     "productslug": "dro-tea-tree-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 299,
+    "id": 299,
     "code": "DRO.00146",
     "name": "DRO TEA TREE HAND WASH 250ML",
     "summary": null,
@@ -837,10 +837,10 @@
     "productslug": "dro-tea-tree-hand-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 300,
+    "id": 300,
     "code": "DRO.00147",
     "name": "DRO TEA TREE SOAP 100G",
     "summary": null,
@@ -861,10 +861,10 @@
     "productslug": "dro-tea-tree-soap-100g",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 301,
+    "id": 301,
     "code": "DRO.00148",
     "name": "DRO TEA TREE BODY WASH 250ML",
     "summary": null,
@@ -885,10 +885,10 @@
     "productslug": "dro-tea-tree-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 302,
+    "id": 302,
     "code": "DRO.00149",
     "name": "DRO TEA TREE WET WIPES 20PCS",
     "summary": "",
@@ -909,10 +909,10 @@
     "productslug": "dro-tea-tree-wet-wipes-20pcs",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 303,
+    "id": 303,
     "code": "DRO.00150",
     "name": "DRO TEA TREE SHAMPOO 265ML",
     "summary": null,
@@ -933,10 +933,10 @@
     "productslug": "dro-tea-tree-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 304,
+    "id": 304,
     "code": "DRO.00151",
     "name": "DRO TEA TREE CONDITIONER 265ML",
     "summary": null,
@@ -957,10 +957,10 @@
     "productslug": "dro-tea-tree-conditioner-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 305,
+    "id": 305,
     "code": "DRO.00152",
     "name": "DRO TEA TREE LIP BALM 5,7ML",
     "summary": null,
@@ -981,10 +981,10 @@
     "productslug": "dro-tea-tree-lip-balm-5-7ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 306,
+    "id": 306,
     "code": "DRO.00153",
     "name": "DRO TEA TREE TOOTHPASTE 100ML",
     "summary": null,
@@ -1005,10 +1005,10 @@
     "productslug": "dro-tea-tree-toothpaste-100ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 307,
+    "id": 307,
     "code": "DRO.00154",
     "name": "DRO TEA TREE MOUTWASH 500ML",
     "summary": null,
@@ -1029,10 +1029,10 @@
     "productslug": "dro-tea-tree-moutwash-500ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 308,
+    "id": 308,
     "code": "DRO.00155",
     "name": "DRO POMEGRANATE EYE CREAM 15ML",
     "summary": "",
@@ -1053,10 +1053,10 @@
     "productslug": "dro-pomegranate-eye-cream-15ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 309,
+    "id": 309,
     "code": "DRO.00157",
     "name": "DRO POMEGRANATE DAY CREAM 50ML",
     "summary": null,
@@ -1077,10 +1077,10 @@
     "productslug": "dro-pomegranate-day-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 310,
+    "id": 310,
     "code": "DRO.00161",
     "name": "DRO POMEGRANATE DEODORANT 50ML",
     "summary": null,
@@ -1101,10 +1101,10 @@
     "productslug": "dro-pomegranate-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 311,
+    "id": 311,
     "code": "DRO.00162",
     "name": "DRO POMEGRANATE SOAP 100G",
     "summary": "",
@@ -1125,10 +1125,10 @@
     "productslug": "dro-pomegranate-soap-100g",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 312,
+    "id": 312,
     "code": "DRO.00163",
     "name": "DRO POMEGRANATE BODY WASH 250ML",
     "summary": null,
@@ -1149,10 +1149,10 @@
     "productslug": "dro-pomegranate-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 313,
+    "id": 313,
     "code": "DRO.00165",
     "name": "DRO POMEGRANATE SHAMPOO 265ML",
     "summary": null,
@@ -1173,10 +1173,10 @@
     "productslug": "dro-pomegranate-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 314,
+    "id": 314,
     "code": "DRO.00166",
     "name": "DRO POMEGRANATE CONDITIONER 265ML",
     "summary": null,
@@ -1197,10 +1197,10 @@
     "productslug": "dro-pomegranate-conditioner-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 315,
+    "id": 315,
     "code": "DRO.00168",
     "name": "DRO POMEGRANATE TOOTHPASTE 100ML",
     "summary": null,
@@ -1221,10 +1221,10 @@
     "productslug": "dro-pomegranate-toothpaste-100ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 316,
+    "id": 316,
     "code": "DRO.00171",
     "name": "DRO LAVANDER PURE OIL 10ML",
     "summary": null,
@@ -1245,10 +1245,10 @@
     "productslug": "dro-lavander-pure-oil-10ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 317,
+    "id": 317,
     "code": "DRO.00172",
     "name": "DRO LAVANDER SKIN LOTION 200ML",
     "summary": "",
@@ -1269,10 +1269,10 @@
     "productslug": "dro-lavander-skin-lotion-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 318,
+    "id": 318,
     "code": "DRO.00173",
     "name": "DRO LAVANDER DEODORANT 50ML",
     "summary": null,
@@ -1293,10 +1293,10 @@
     "productslug": "dro-lavander-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 319,
+    "id": 319,
     "code": "DRO.00174",
     "name": "DRO LAVANDER SOAP 100G",
     "summary": null,
@@ -1317,10 +1317,10 @@
     "productslug": "dro-lavander-soap-100g",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 320,
+    "id": 320,
     "code": "DRO.00175",
     "name": "DRO LAVANDER BODY WASH 250ML",
     "summary": null,
@@ -1341,10 +1341,10 @@
     "productslug": "dro-lavander-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 321,
+    "id": 321,
     "code": "DRO.00176",
     "name": "DRO LAVANDER SHAMPOO 265ML",
     "summary": null,
@@ -1365,10 +1365,10 @@
     "productslug": "dro-lavander-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 322,
+    "id": 322,
     "code": "DRO.00177",
     "name": "DRO LAVANDER CONDITIONER 265 ML",
     "summary": null,
@@ -1389,16 +1389,16 @@
     "productslug": "dro-lavander-conditioner-265-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 323,
+    "id": 323,
     "code": "DRO.00182",
     "name": "DRO MANUKA HONEY HAND & NAIL CREAM 125ML",
     "summary": null,
     "unit": "",
     "unitvalue": "",
-    "description": "Manuka Balı'nın onarıcı özelliklerini benzersiz biyoaktif özler ile birleştirir. Kremimiz, cildi yoğun şekilde nemlendirir. Epidermisi beslemek ve kuru elleri nemlendirmek için formüle edilmiştir.",
+    "description": "Manuka Balı'nın onarıcı özelliklerini benzersiz biyoaktif özler ile birleştirir. Kremimiz, cildi yoğun şekilde nemlendirir. Eidermisi beslemek ve kuru elleri nemlendirmek için formüle edilmiştir.",
     "ingredients": "Aloe barbadensis yaprak suyu, Aqua, Gliserin, Isocetyl palmitat, Caprylic/Capric trigliserit, Isopropyl palmitat, Ethylhexyl stearat, Polyglyceryl-3 methylglucose distearat, Olea europaea (Zeytin) sabunlaşmayan yağlar, Cetearyl alkol, Butyrosmperii (Shea) yağı, Theobroma kakao (Kakao) tohumu yağı, Bal Özü (Manuka Balı), Propolis, Gliseril kaprilat, Tokoferol, Helianthus annuus (Ayçiçeği) tohumu yağı, Parfüm, Sodyum fitat, Sitrik Asit, Sodyum benzoat, Potasyum sorbat.\r\n\r\nVejeteryanlar için uygun.",
     "howtouse": "Cilde bolca uygulayın. Gerektiğince tekrarlayın.",
     "warnings": "Dahili kullanım için değil. Gözlerle temasından kaçının. Tahriş olmuş cilde uygulamayın. Hassasiyet oluşursa kullanmayı bırakın. İçeriğindeki maddelerden herhangi birine alerjiniz veya hassasiyetiniz varsa bu üründen kaçının. Çocukların erişemeyeceği yerlerde saklayın. Direkt güneş ışığından uzakta, serin ve kuru bir yerde saklayın.\r\n\r\nBu ürün minimum %70 organik içerik içerir*. Ürünlerimiz doğanın kendisi kadar benzersizdir, bu nedenle renk, koku ve kıvam değişebilir. Bu, ürünlerimizin kalitesini etkilemez. *su ve tuz hariç.",
@@ -1413,10 +1413,10 @@
     "productslug": "dro-manuka-honey-hand-nail-cream-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 324,
+    "id": 324,
     "code": "DRO.00183",
     "name": "DRO MANUKA HONEY FOOT CREAM 125ML",
     "summary": null,
@@ -1437,10 +1437,10 @@
     "productslug": "dro-manuka-honey-foot-cream-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 325,
+    "id": 325,
     "code": "DRO.00184",
     "name": "DRO LAVANDER HAND WASH 250ML",
     "summary": null,
@@ -1461,10 +1461,10 @@
     "productslug": "dro-lavander-hand-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 326,
+    "id": 326,
     "code": "DRO.00238",
     "name": "DRO ALOE VERA GEL CUCUMBER 200ML",
     "summary": null,
@@ -1485,10 +1485,10 @@
     "productslug": "dro-aloe-vera-gel-cucumber-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 327,
+    "id": 327,
     "code": "DRO.00239",
     "name": "DRO ALOE VERA GEL TEA TREE 200ML",
     "summary": null,
@@ -1509,10 +1509,10 @@
     "productslug": "dro-aloe-vera-gel-tea-tree-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 328,
+    "id": 328,
     "code": "DRO.00240",
     "name": "DRO ALOE VERA EYE GEL 15ML",
     "summary": null,
@@ -1533,10 +1533,10 @@
     "productslug": "dro-aloe-vera-eye-gel-15ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 329,
+    "id": 329,
     "code": "DRO.00242",
     "name": "DRO VITAMIN E SCAR & STRETCH SERUM",
     "summary": null,
@@ -1557,10 +1557,10 @@
     "productslug": "dro-vitamin-e-scar-stretch-serum",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 330,
+    "id": 330,
     "code": "DRO.00243",
     "name": "DRO TEA TREE FACE WASH 200ML",
     "summary": null,
@@ -1581,10 +1581,10 @@
     "productslug": "dro-tea-tree-face-wash-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 331,
+    "id": 331,
     "code": "DRO.00244",
     "name": "DRO TEA TREE NAIL SOLUTION 10ML",
     "summary": null,
@@ -1605,10 +1605,10 @@
     "productslug": "dro-tea-tree-nail-solution-10ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 332,
+    "id": 332,
     "code": "DRO.00245",
     "name": "DRO MANUKA HONEY CUTICLE REPAIR 15ML",
     "summary": "",
@@ -1629,10 +1629,10 @@
     "productslug": "dro-manuka-honey-cuticle-repair-15ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 333,
+    "id": 333,
     "code": "DRO.00246",
     "name": "DRO MANUKA HONEY FACE MASK 125ML",
     "summary": null,
@@ -1653,10 +1653,10 @@
     "productslug": "dro-manuka-honey-face-mask-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 334,
+    "id": 334,
     "code": "DRO.00247",
     "name": "DRO MANUKA HONEY FACE SCRUB 125ML",
     "summary": null,
@@ -1677,10 +1677,10 @@
     "productslug": "dro-manuka-honey-face-scrub-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 335,
+    "id": 335,
     "code": "DRO.00248",
     "name": "DRO ROSE BATH OIL 100ML",
     "summary": "",
@@ -1701,10 +1701,10 @@
     "productslug": "dro-rose-bath-oil-100ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 336,
+    "id": 336,
     "code": "DRO.00249",
     "name": "DRO ROSE FACE MASK 125ML",
     "summary": null,
@@ -1725,10 +1725,10 @@
     "productslug": "dro-rose-face-mask-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 337,
+    "id": 337,
     "code": "DRO.00250",
     "name": "DRO ROSE FACE SCRUB 125ML",
     "summary": null,
@@ -1749,10 +1749,10 @@
     "productslug": "dro-rose-face-scrub-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 338,
+    "id": 338,
     "code": "DRO.00251",
     "name": "DRO ROSE DAY CREAM 50ML",
     "summary": null,
@@ -1773,10 +1773,10 @@
     "productslug": "dro-rose-day-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 339,
+    "id": 339,
     "code": "DRO.00252",
     "name": "DRO ROSE NIGHT CREAM 50ML",
     "summary": null,
@@ -1797,10 +1797,10 @@
     "productslug": "dro-rose-night-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 340,
+    "id": 340,
     "code": "DRO.00253",
     "name": "DRO ROSE LOTION 200ML",
     "summary": null,
@@ -1821,10 +1821,10 @@
     "productslug": "dro-rose-lotion-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 341,
+    "id": 341,
     "code": "DRO.00254",
     "name": "DRO ROSE BODY SCRUB 200ML",
     "summary": "",
@@ -1845,10 +1845,10 @@
     "productslug": "dro-rose-body-scrub-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 342,
+    "id": 342,
     "code": "DRO.00255",
     "name": "DRO ROSE EYE SERUM 15ML",
     "summary": null,
@@ -1869,10 +1869,10 @@
     "productslug": "dro-rose-eye-serum-15ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 343,
+    "id": 343,
     "code": "DRO.00257",
     "name": "DRO ROSE BODY WASH 250ML",
     "summary": null,
@@ -1893,10 +1893,10 @@
     "productslug": "dro-rose-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 344,
+    "id": 344,
     "code": "DRO.00258",
     "name": "DRO ROSE CLEANSING MILK 150ML",
     "summary": null,
@@ -1917,10 +1917,10 @@
     "productslug": "dro-rose-cleansing-milk-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 345,
+    "id": 345,
     "code": "DRO.00259",
     "name": "DRO ROSE FACIAL SERUM 30ML",
     "summary": null,
@@ -1941,10 +1941,10 @@
     "productslug": "dro-rose-facial-serum-30ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 346,
+    "id": 346,
     "code": "DRO.00260",
     "name": "DRO ROSE TONER 150ML",
     "summary": null,
@@ -1965,10 +1965,10 @@
     "productslug": "dro-rose-toner-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 347,
+    "id": 347,
     "code": "DRO.00261",
     "name": "DRO ROSE SHAMPOO 265ML",
     "summary": null,
@@ -1989,10 +1989,10 @@
     "productslug": "dro-rose-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 348,
+    "id": 348,
     "code": "DRO.00263",
     "name": "DRO ROSE LIP SERUM 10ML",
     "summary": "",
@@ -2013,10 +2013,10 @@
     "productslug": "dro-rose-lip-serum-10ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 349,
+    "id": 349,
     "code": "DRO.00264",
     "name": "DRO ROYAL JELLY DAY CREAM 50ML",
     "summary": null,
@@ -2037,10 +2037,10 @@
     "productslug": "dro-royal-jelly-day-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 350,
+    "id": 350,
     "code": "DRO.00265",
     "name": "DRO ROYAL JELLY NIGHT CREAM 50ML",
     "summary": null,
@@ -2061,10 +2061,10 @@
     "productslug": "dro-royal-jelly-night-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 351,
+    "id": 351,
     "code": "DRO.00266",
     "name": "DRO ROYAL JELLY SKIN LOTION 200ML",
     "summary": null,
@@ -2085,10 +2085,10 @@
     "productslug": "dro-royal-jelly-skin-lotion-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 352,
+    "id": 352,
     "code": "DRO.00267",
     "name": "DRO ROYAL JELLY EYE SERUM 15ML",
     "summary": "",
@@ -2109,10 +2109,10 @@
     "productslug": "dro-royal-jelly-eye-serum-15ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 353,
+    "id": 353,
     "code": "DRO.00269",
     "name": "DRO ROYAL JELLY CELLULITE CREAM 200ML",
     "summary": null,
@@ -2133,10 +2133,10 @@
     "productslug": "dro-royal-jelly-cellulite-cream-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 354,
+    "id": 354,
     "code": "DRO.00270",
     "name": "DRO ROYAL JELLY LIGHT & BRIGHT 125ML CREAM",
     "summary": null,
@@ -2157,10 +2157,10 @@
     "productslug": "dro-royal-jelly-light-bright-125ml-cream",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 355,
+    "id": 355,
     "code": "DRO.00271",
     "name": "DRO ROYAL JELLY LEG & VEIN CREAM 200ML",
     "summary": null,
@@ -2181,10 +2181,10 @@
     "productslug": "dro-royal-jelly-leg-vein-cream-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 356,
+    "id": 356,
     "code": "DRO.00272",
     "name": "DRO ROYAL JELLY BODY WASH 250ML",
     "summary": null,
@@ -2205,10 +2205,10 @@
     "productslug": "dro-royal-jelly-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 357,
+    "id": 357,
     "code": "DRO.00273",
     "name": "DRO ROYAL JELLY SHAMPOO 265ML",
     "summary": null,
@@ -2229,10 +2229,10 @@
     "productslug": "dro-royal-jelly-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 358,
+    "id": 358,
     "code": "DRO.00274",
     "name": "DRO ROYAL JELLY CONDITIONER 265ML",
     "summary": null,
@@ -2253,10 +2253,10 @@
     "productslug": "dro-royal-jelly-conditioner-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 359,
+    "id": 359,
     "code": "DRO.00275",
     "name": "DRO ROYAL JELLY LIP SERUM 10ML",
     "summary": "",
@@ -2277,10 +2277,10 @@
     "productslug": "dro-royal-jelly-lip-serum-10ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 360,
+    "id": 360,
     "code": "DRO.00276",
     "name": "DRO VIRGIN OLIVE OIL CUTICLE REPAIR 15ML",
     "summary": "",
@@ -2301,10 +2301,10 @@
     "productslug": "dro-virgin-olive-oil-cuticle-repair-15ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 361,
+    "id": 361,
     "code": "DRO.00277",
     "name": "DRO VIRGIN OLIVE OIL FACE MASK 125ML",
     "summary": "",
@@ -2325,10 +2325,10 @@
     "productslug": "dro-virgin-olive-oil-face-mask-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 362,
+    "id": 362,
     "code": "DRO.00278",
     "name": "DRO VIRGIN OLIVE OIL  FACE SCRUB 125ML",
     "summary": "",
@@ -2349,10 +2349,10 @@
     "productslug": "dro-virgin-olive-oil-face-scrub-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 363,
+    "id": 363,
     "code": "DRO.00279",
     "name": "DRO VIRGIN OLIVE OIL DAY CREAM 50ML",
     "summary": null,
@@ -2373,10 +2373,10 @@
     "productslug": "dro-virgin-olive-oil-day-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 364,
+    "id": 364,
     "code": "DRO.00280",
     "name": "DRO VIRGIN OLIVE OIL NIGHT CREAM 50ML",
     "summary": "",
@@ -2397,10 +2397,10 @@
     "productslug": "dro-virgin-olive-oil-night-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 365,
+    "id": 365,
     "code": "DRO.00282",
     "name": "DRO VIRGIN OLIVE OIL LOTION 200ML",
     "summary": null,
@@ -2421,10 +2421,10 @@
     "productslug": "dro-virgin-olive-oil-lotion-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 366,
+    "id": 366,
     "code": "DRO.00285",
     "name": "DRO VIRGIN OLIVE OIL EYE SERUM 15ML",
     "summary": "",
@@ -2445,10 +2445,10 @@
     "productslug": "dro-virgin-olive-oil-eye-serum-15ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 367,
+    "id": 367,
     "code": "DRO.00286",
     "name": "DRO VIRGIN OLIVE OIL HAND&NAIL CREAM 125ML",
     "summary": "",
@@ -2469,10 +2469,10 @@
     "productslug": "dro-virgin-olive-oil-hand-nail-cream-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 368,
+    "id": 368,
     "code": "DRO.00287",
     "name": "DRO VIRGIN OLIVE OIL FOOT & HEEL CREAM 125ML",
     "summary": null,
@@ -2493,10 +2493,10 @@
     "productslug": "dro-virgin-olive-oil-foot-heel-cream-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 369,
+    "id": 369,
     "code": "DRO.00288",
     "name": "DRO VIRGIN OLIVE OIL BODY WASH 250ML",
     "summary": null,
@@ -2517,10 +2517,10 @@
     "productslug": "dro-virgin-olive-oil-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 370,
+    "id": 370,
     "code": "DRO.00289",
     "name": "DRO VIRGIN OLIVE OIL SHAMPOO 265ML",
     "summary": null,
@@ -2541,10 +2541,10 @@
     "productslug": "dro-virgin-olive-oil-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 371,
+    "id": 371,
     "code": "DRO.00290",
     "name": "DRO VIRGIN OLIVE OIL CONDITIONER 265ML",
     "summary": null,
@@ -2565,10 +2565,10 @@
     "productslug": "dro-virgin-olive-oil-conditioner-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 372,
+    "id": 372,
     "code": "DRO.00291",
     "name": "DRO MANUKA HONEY FOOT SCRUB 125ML",
     "summary": "",
@@ -2589,10 +2589,10 @@
     "productslug": "dro-manuka-honey-foot-scrub-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 373,
+    "id": 373,
     "code": "DRO.00335",
     "name": "DRO M. ARGAN OIL DAY CREAM 50ML",
     "summary": null,
@@ -2613,10 +2613,10 @@
     "productslug": "dro-m-argan-oil-day-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 374,
+    "id": 374,
     "code": "DRO.00336",
     "name": "DRO M. ARGAN OIL NIGHT CREAM 50ML",
     "summary": null,
@@ -2637,10 +2637,10 @@
     "productslug": "dro-m-argan-oil-night-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 375,
+    "id": 375,
     "code": "DRO.00337",
     "name": "DRO M. ARGAN OIL BODY WASH 250ML",
     "summary": null,
@@ -2661,10 +2661,10 @@
     "productslug": "dro-m-argan-oil-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 376,
+    "id": 376,
     "code": "DRO.00338",
     "name": "DRO M. ARGAN OIL SHAMPOO 265ML",
     "summary": null,
@@ -2685,10 +2685,10 @@
     "productslug": "dro-m-argan-oil-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 377,
+    "id": 377,
     "code": "DRO.00339",
     "name": "DRO M. ARGAN OIL CONDITIONER 265ML",
     "summary": null,
@@ -2709,10 +2709,10 @@
     "productslug": "dro-m-argan-oil-conditioner-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 378,
+    "id": 378,
     "code": "DRO.00340",
     "name": "DRO M. ARGAN OIL HAIR TREATMENT COND.200ML",
     "summary": null,
@@ -2733,10 +2733,10 @@
     "productslug": "dro-m-argan-oil-hair-treatment-cond-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 379,
+    "id": 379,
     "code": "DRO.00341",
     "name": "DRO M. ARGAN  FACIAL OIL 30ML",
     "summary": null,
@@ -2757,10 +2757,10 @@
     "productslug": "dro-m-argan-facial-oil-30ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 380,
+    "id": 380,
     "code": "DRO.00342",
     "name": "DRO M. ARGAN OIL HAIR TREATMENT SERUM 100ML",
     "summary": null,
@@ -2781,10 +2781,10 @@
     "productslug": "dro-m-argan-oil-hair-treatment-serum-100ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 381,
+    "id": 381,
     "code": "DRO.00343",
     "name": "DRO M. ARGAN  BATH&MASSAGE OIL ",
     "summary": "",
@@ -2805,10 +2805,10 @@
     "productslug": "dro-m-argan-bath-massage-oil",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 382,
+    "id": 382,
     "code": "DRO.00344",
     "name": "DRO M. ARGAN OIL HAND&NAIL BALM 100ML",
     "summary": null,
@@ -2829,10 +2829,10 @@
     "productslug": "dro-m-argan-oil-hand-nail-balm-100ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 383,
+    "id": 383,
     "code": "DRO.00346",
     "name": "DRO VIRGIN COCONUT OIL DAY CREAM 50ML",
     "summary": null,
@@ -2853,10 +2853,10 @@
     "productslug": "dro-virgin-coconut-oil-day-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 384,
+    "id": 384,
     "code": "DRO.00347",
     "name": "DRO VIRGIN COCONUT OIL NIGHT CREAM 50ML",
     "summary": null,
@@ -2877,10 +2877,10 @@
     "productslug": "dro-virgin-coconut-oil-night-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 385,
+    "id": 385,
     "code": "DRO.00348",
     "name": "DRO VIRGIN COCONUT OIL HAND&NAIL CREAM 100ML",
     "summary": null,
@@ -2901,10 +2901,10 @@
     "productslug": "dro-virgin-coconut-oil-hand-nail-cream-100ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 386,
+    "id": 386,
     "code": "DRO.00349",
     "name": "DRO VIRGIN COCONUT EYE PERFECT WRINKLE FILLER 15ML",
     "summary": null,
@@ -2925,10 +2925,10 @@
     "productslug": "dro-virgin-coconut-eye-perfect-wrinkle-filler-15ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 387,
+    "id": 387,
     "code": "DRO.00351",
     "name": "DRO DEAD SEA  HAND&NAIL REPAIR CREAM 100ML",
     "summary": "",
@@ -2949,10 +2949,10 @@
     "productslug": "dro-dead-sea-hand-nail-repair-cream-100ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 388,
+    "id": 388,
     "code": "DRO.00352",
     "name": "DRO DEAD SEA  DAY CREAM 50ML",
     "summary": null,
@@ -2973,10 +2973,10 @@
     "productslug": "dro-dead-sea-day-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 389,
+    "id": 389,
     "code": "DRO.00353",
     "name": "DRO DEAD SEA  NIGHT CREAM 50ML",
     "summary": null,
@@ -2997,10 +2997,10 @@
     "productslug": "dro-dead-sea-night-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 390,
+    "id": 390,
     "code": "DRO.00354",
     "name": "DRO DEAD SEA  LOTION 200ML",
     "summary": null,
@@ -3021,10 +3021,10 @@
     "productslug": "dro-dead-sea-lotion-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 391,
+    "id": 391,
     "code": "DRO.00355",
     "name": "DRO DEAD SEA  RADIANCE SERUM 30ML",
     "summary": "",
@@ -3045,10 +3045,10 @@
     "productslug": "dro-dead-sea-radiance-serum-30ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 392,
+    "id": 392,
     "code": "DRO.00356",
     "name": "DRO DEAD SEA  SHAMPOO&CONDIT. 265ML",
     "summary": null,
@@ -3069,10 +3069,10 @@
     "productslug": "dro-dead-sea-shampoo-condit-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 393,
+    "id": 393,
     "code": "DRO.00357",
     "name": "DRO DEAD SEA  DEEP CLEANSING FACE WASH 200",
     "summary": null,
@@ -3093,10 +3093,10 @@
     "productslug": "dro-dead-sea-deep-cleansing-face-wash-200",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 394,
+    "id": 394,
     "code": "DRO.00358",
     "name": "DRO DEAD SEA  ANTI-AGING BIO-PLASMA MASK",
     "summary": "",
@@ -3117,10 +3117,10 @@
     "productslug": "dro-dead-sea-anti-aging-bio-plasma-mask",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 395,
+    "id": 395,
     "code": "DRO.00359",
     "name": "DRO DEAD SEA  SMOOTHING SOUFFLE 200ML",
     "summary": null,
@@ -3141,10 +3141,10 @@
     "productslug": "dro-dead-sea-smoothing-souffle-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 396,
+    "id": 396,
     "code": "DRO.00360",
     "name": "DRO DEAD SEA  BODY WASH 250ML",
     "summary": null,
@@ -3165,10 +3165,10 @@
     "productslug": "dro-dead-sea-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 397,
+    "id": 397,
     "code": "DRO.00361",
     "name": "DRO M. ARGAN OIL LOTION 200ML",
     "summary": null,
@@ -3189,10 +3189,10 @@
     "productslug": "dro-m-argan-oil-lotion-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 398,
+    "id": 398,
     "code": "DRO.00362",
     "name": "DRO M. ARGAN OIL BODY SOUFFLE 200ML",
     "summary": "",
@@ -3213,10 +3213,10 @@
     "productslug": "dro-m-argan-oil-body-souffle-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 399,
+    "id": 399,
     "code": "DRO.00363",
     "name": "DRO M. ARGAN  EYE SERUM ",
     "summary": null,
@@ -3237,10 +3237,10 @@
     "productslug": "dro-m-argan-eye-serum",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 400,
+    "id": 400,
     "code": "DRO.00364",
     "name": "DRO VIRGIN COCONUT OIL BODY WASH 250ML",
     "summary": null,
@@ -3261,10 +3261,10 @@
     "productslug": "dro-virgin-coconut-oil-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 401,
+    "id": 401,
     "code": "DRO.00365",
     "name": "DRO VIRGIN COCONUT OIL SHAMPOO 265ML",
     "summary": null,
@@ -3285,10 +3285,10 @@
     "productslug": "dro-virgin-coconut-oil-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 402,
+    "id": 402,
     "code": "DRO.00366",
     "name": "DRO VIRGIN COCONUT OIL CONDITIONER 265ML",
     "summary": null,
@@ -3309,16 +3309,16 @@
     "productslug": "dro-virgin-coconut-oil-conditioner-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 403,
+    "id": 403,
     "code": "DRO.00367",
     "name": "DRO VIRGIN COCONUT OIL SKIN LOTION 200ML",
     "summary": null,
     "unit": "",
     "unitvalue": "",
-    "description": "Organik Hindistan Cevizi Yağı, benzersiz besleyici ve nemlendirici özellikleri ile ünlüdür. Çok işlevli olan bu yağ, diğer doğal ve organik bileşenlerin tescilli karışımı ile birlikte uyum içinde çalışarak epidermal tabakayı etkili şekilde nemlendirir ve canlandırır. Cildi güzel kokulu, nemlenmiş ve pürüzsüz bırakır.\r\n\r\nVejetaryenler için uygundur.",
+    "description": "Organik Hindistan Cevizi Yağı, benzersiz besleyici ve nemlendirici özellikleri ile ünlüdür. Çok işlevli olan bu yağ, diğer doğal ve organik bileşenlerin tescilli karışımı ile birlikte uyum içinde çalışarak eidermal tabakayı etkili şekilde nemlendirir ve canlandırır. Cildi güzel kokulu, nemlenmiş ve pürüzsüz bırakır.\r\n\r\nVejetaryenler için uygundur.",
     "ingredients": "Aloe barbadensis yaprak suyu, Aqua, Lauril glukozit, Poligliseril-2 dipolyhidroksistearat, Myristyl miristat, Gliserin, Cera alba (Balmumu), Cetearyl alkol, Prunus amygdalus dulcis (Tatlı badem) yağı, Kaprilik/kaprik trigliserit, Butyros (Bütyros) Cocos nucifera (Hindistan cevizi) yağı, Persea gratissima (Avokado) yağı, Sodyum hyaluronat, Tokoferol, Helianthus annuus (Ayçiçeği) tohumu yağı, Ksantan sakızı, Chamomilla recutita (Papatya) özü, Melilotus officinalis (Tatlı yonca) özü, Malva yaprak özü, Cocos nucifera (Hindistan cevizi) meyve özü, Carica papaya meyve özü, Mangifera indica (Mango) meyve özü, Theobroma kakao (Kakao) tohum özü, Garcinia mangostana (Mangosteen) meyve özü, Ficus carica (İncir) meyve özü, Sitrik asit , Askorbik asit, Citrus aurantium dulcis (Portakal), Citrus aurantium bergamia (Bergamot) meyve yağı, Citrus limon (Limon) kabuğu yağı, Gamma undelactone, Maltol, 3-Hexenol, Gamma octalactone, Diacetyl natural, Sodyum phy tat, Sodyum benzoat, Potasyum sorbat, Limonen, Linalool.",
     "howtouse": "Cilde bolca uygulayın. Gerektiği kadar sık ​​tekrarlayın. Tüm vücutta kullanıma uygundur.",
     "warnings": "Bu ürün minimum %70 oranda organik içerik içerir*. Ürünlerimiz doğanın kendisi kadar benzersizdir, bu nedenle renk, koku ve kıvam partiden partiye değişebilir. Bu, ürünün kalitesini etkilemez. *su ve tuz hariç.\r\n\r\nDahili kullanım için değil. Gözlerle temasından kaçının. Tahriş olmuş cilde uygulamayın. Hassasiyet oluşursa kullanmayı bırakın. İçeriğindeki maddelerden herhangi birine alerjiniz veya hassasiyetiniz varsa bu üründen kaçının. Çocukların erişemeyeceği yerlerde saklayın. Serin, kuru bir yerde saklayın.",
@@ -3333,10 +3333,10 @@
     "productslug": "dro-virgin-coconut-oil-skin-lotion-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 404,
+    "id": 404,
     "code": "DRO.00368",
     "name": "DRO RAW COCONUT OIL 500ML SA",
     "summary": "",
@@ -3357,10 +3357,10 @@
     "productslug": "dro-raw-coconut-oil-500ml-sa",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 405,
+    "id": 405,
     "code": "DRO.00369",
     "name": "DRO VIRGIN COCONUT OIL MOISTUTE MELT 100ML",
     "summary": "",
@@ -3381,10 +3381,10 @@
     "productslug": "dro-virgin-coconut-oil-moistute-melt-100ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 406,
+    "id": 406,
     "code": "DRO.00370",
     "name": "DRO VIRGIN COCONUT OIL BODY SOUFFLE 200ML",
     "summary": "",
@@ -3405,10 +3405,10 @@
     "productslug": "dro-virgin-coconut-oil-body-souffle-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 407,
+    "id": 407,
     "code": "DRO.00371",
     "name": "DRO VIRGIN COCONUT OIL HYDRATING RADIANCE SERUM 30",
     "summary": "",
@@ -3429,10 +3429,10 @@
     "productslug": "dro-virgin-coconut-oil-hydrating-radiance-serum-30",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 408,
+    "id": 408,
     "code": "DRO.00372",
     "name": "DRO VIRGIN COCONUT OIL LIP RESCUE 10ML",
     "summary": null,
@@ -3453,10 +3453,10 @@
     "productslug": "dro-virgin-coconut-oil-lip-rescue-10ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 409,
+    "id": 409,
     "code": "DRO.00373",
     "name": "DRO VIRGIN COCONUT OIL DEODORANT 50ML",
     "summary": null,
@@ -3477,10 +3477,10 @@
     "productslug": "dro-virgin-coconut-oil-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 410,
+    "id": 410,
     "code": "DRO.00374",
     "name": "DRO M. ARGAN PURE OIL 50ML",
     "summary": null,
@@ -3501,10 +3501,10 @@
     "productslug": "dro-m-argan-pure-oil-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 411,
+    "id": 411,
     "code": "DRO.00376",
     "name": "DRO M. ARGAN OIL DEODORANT 50ML",
     "summary": null,
@@ -3525,10 +3525,10 @@
     "productslug": "dro-m-argan-oil-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 412,
+    "id": 412,
     "code": "DRO.00381",
     "name": "DRO DEAD SEA  DEODORANT 50ML",
     "summary": null,
@@ -3549,10 +3549,10 @@
     "productslug": "dro-dead-sea-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 413,
+    "id": 413,
     "code": "DRO.00382",
     "name": "DRO DEAD SEA  EYE SERUM 15ML",
     "summary": null,
@@ -3573,10 +3573,10 @@
     "productslug": "dro-dead-sea-eye-serum-15ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 414,
+    "id": 414,
     "code": "DRO.00383",
     "name": "DRO SNAIL GEL 50ML",
     "summary": "",
@@ -3597,10 +3597,10 @@
     "productslug": "dro-snail-gel-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 415,
+    "id": 415,
     "code": "DRO.00388",
     "name": "DRO M. ARGAN OIL ANTI-AGING SYSTEM 30ML",
     "summary": "",
@@ -3621,10 +3621,10 @@
     "productslug": "dro-m-argan-oil-anti-aging-system-30ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 416,
+    "id": 416,
     "code": "DRO.00389",
     "name": "DRO DEAD SEA  ANTI-AGING SYSTEM 30ML",
     "summary": "",
@@ -3645,10 +3645,10 @@
     "productslug": "dro-dead-sea-anti-aging-system-30ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 417,
+    "id": 417,
     "code": "DRO.00390",
     "name": "DRO ROSE DEODORANT 50ML",
     "summary": null,
@@ -3669,10 +3669,10 @@
     "productslug": "dro-rose-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 418,
+    "id": 418,
     "code": "DRO.00391",
     "name": "DRO VIRGIN OLIVE OIL DEODORANT 50ML",
     "summary": "",
@@ -3693,10 +3693,10 @@
     "productslug": "dro-virgin-olive-oil-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 419,
+    "id": 419,
     "code": "DRO.00392",
     "name": "DRO ROYAL JELLY DEODORANT 50ML",
     "summary": "",
@@ -3717,10 +3717,10 @@
     "productslug": "dro-royal-jelly-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 420,
+    "id": 420,
     "code": "DRO.00422",
     "name": "DRO MOROCCAN GLOW DARK SELF TAN MOUSSE 150ML",
     "summary": "",
@@ -3741,10 +3741,10 @@
     "productslug": "dro-moroccan-glow-dark-self-tan-mousse-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 421,
+    "id": 421,
     "code": "DRO.00424",
     "name": "DRO ALOE VERA ICE MINT LIP BALM 5,7ML",
     "summary": "",
@@ -3765,10 +3765,10 @@
     "productslug": "dro-aloe-vera-ice-mint-lip-balm-5-7ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 422,
+    "id": 422,
     "code": "DRO.00425",
     "name": "DRO ALOE VERA CHERRY LIP BALM 5.7ML",
     "summary": "",
@@ -3789,10 +3789,10 @@
     "productslug": "dro-aloe-vera-cherry-lip-balm-5-7ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 423,
+    "id": 423,
     "code": "DRO.00426",
     "name": "DRO ALOE VERA LIQUARICE LIP BALM 5,7ML",
     "summary": "",
@@ -3813,10 +3813,10 @@
     "productslug": "dro-aloe-vera-liquarice-lip-balm-5-7ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 424,
+    "id": 424,
     "code": "DRO.00427",
     "name": "DRO VIRGIN OLIVE OIL & LEMON LIP BLM 5,7ML",
     "summary": "",
@@ -3837,10 +3837,10 @@
     "productslug": "dro-virgin-olive-oil-lemon-lip-blm-5-7ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 425,
+    "id": 425,
     "code": "DRO.00428",
     "name": "DRO M. ARGAN OIL&AVOCADO&ALMOND LIP BALM",
     "summary": "",
@@ -3861,10 +3861,10 @@
     "productslug": "dro-m-argan-oil-avocado-almond-lip-balm",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 426,
+    "id": 426,
     "code": "DRO.00429",
     "name": "DRO VIRGIN COCONUT OIL LIP BALM 5,7ML",
     "summary": "",
@@ -3885,10 +3885,10 @@
     "productslug": "dro-virgin-coconut-oil-lip-balm-5-7ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 427,
+    "id": 427,
     "code": "DRO.00430",
     "name": "DRO ROYAL JELLY PROPOLIS & GINSENG LIP BALM ",
     "summary": "",
@@ -3909,10 +3909,10 @@
     "productslug": "dro-royal-jelly-propolis-ginseng-lip-balm",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 428,
+    "id": 428,
     "code": "DRO.00431",
     "name": "DRO LAVENDER GEL GLOVES",
     "summary": "",
@@ -3933,10 +3933,10 @@
     "productslug": "dro-lavender-gel-gloves",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 429,
+    "id": 429,
     "code": "DRO.00432",
     "name": "DRO LAVENDER GEL SOCKS",
     "summary": "",
@@ -3957,10 +3957,10 @@
     "productslug": "dro-lavender-gel-socks",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 430,
+    "id": 430,
     "code": "DRO.00438",
     "name": "DRO SNAIL GEL HYDRO HAND ELIXIR 50ML",
     "summary": "",
@@ -3981,10 +3981,10 @@
     "productslug": "dro-snail-gel-hydro-hand-elixir-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 431,
+    "id": 431,
     "code": "DRO.00439",
     "name": "DRO SNAIL GEL EYE SERUM 15ML",
     "summary": "",
@@ -4005,10 +4005,10 @@
     "productslug": "dro-snail-gel-eye-serum-15ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 432,
+    "id": 432,
     "code": "DRO.00440",
     "name": "DRO SNAIL GEL FACIAL SERUM 30ML",
     "summary": "",
@@ -4029,10 +4029,10 @@
     "productslug": "dro-snail-gel-facial-serum-30ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 433,
+    "id": 433,
     "code": "DRO.00442",
     "name": "DRO SNAIL GEL CREAM 50ML",
     "summary": "",
@@ -4053,10 +4053,10 @@
     "productslug": "dro-snail-gel-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 434,
+    "id": 434,
     "code": "DRO.00443",
     "name": "DRO SNAIL GEL FACE MASK 10ML SACHET",
     "summary": "",
@@ -4077,10 +4077,10 @@
     "productslug": "dro-snail-gel-face-mask-10ml-sachet",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 435,
+    "id": 435,
     "code": "DRO.00485",
     "name": "DRO MANUKA HONEY FACE WASH 150ML",
     "summary": null,
@@ -4101,10 +4101,10 @@
     "productslug": "dro-manuka-honey-face-wash-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 436,
+    "id": 436,
     "code": "DRO.00486",
     "name": "DRO ALOE VERA SOOTHING FACE WASH 150ML",
     "summary": "",
@@ -4125,10 +4125,10 @@
     "productslug": "dro-aloe-vera-soothing-face-wash-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 437,
+    "id": 437,
     "code": "DRO.00487",
     "name": "DRO M.ARGAN CREAMY FACE WASH 150ML",
     "summary": "",
@@ -4149,10 +4149,10 @@
     "productslug": "dro-m-argan-creamy-face-wash-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 438,
+    "id": 438,
     "code": "DRO.00488",
     "name": "DRO ROSE OTTO CREAMY FACE WASH 150ML",
     "summary": null,
@@ -4173,10 +4173,10 @@
     "productslug": "dro-rose-otto-creamy-face-wash-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 439,
+    "id": 439,
     "code": "DRO.00490",
     "name": "DRO M. ARGAN OIL SOAP 100G",
     "summary": "",
@@ -4197,10 +4197,10 @@
     "productslug": "dro-m-argan-oil-soap-100g",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 440,
+    "id": 440,
     "code": "DRO.00512",
     "name": "DRO SKIN CLEAR OIL CONTROL MOISTURISER 50 ML",
     "summary": "",
@@ -4221,10 +4221,10 @@
     "productslug": "dro-skin-clear-oil-control-moisturiser-50-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 441,
+    "id": 441,
     "code": "DRO.00513",
     "name": "DRO SKIN CLEAR EXFOLIATING SCRUB 150 ML",
     "summary": "",
@@ -4245,10 +4245,10 @@
     "productslug": "dro-skin-clear-exfoliating-scrub-150-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 442,
+    "id": 442,
     "code": "DRO.00514",
     "name": "DRO SKIN CLEAR 5in1 DEEP PORE CLEASING FACE WASH",
     "summary": "",
@@ -4269,10 +4269,10 @@
     "productslug": "dro-skin-clear-5in1-deep-pore-cleasing-face-wash",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 443,
+    "id": 443,
     "code": "DRO.00515",
     "name": "DRO SKIN CLEAR5 IN 1 TREATMENT GEL 10 ML",
     "summary": "",
@@ -4293,10 +4293,10 @@
     "productslug": "dro-skin-clear5-in-1-treatment-gel-10-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 444,
+    "id": 444,
     "code": "DRO.00516",
     "name": "DRO SKIN CLEAR5 IN 1 PURIFYING TONER 200 ML",
     "summary": "",
@@ -4317,10 +4317,10 @@
     "productslug": "dro-skin-clear5-in-1-purifying-toner-200-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 445,
+    "id": 445,
     "code": "DRO.00517",
     "name": "DRO SKIN CLEAR DEEP PORE CHARCOAL MASK 100 ML",
     "summary": "",
@@ -4341,10 +4341,10 @@
     "productslug": "dro-skin-clear-deep-pore-charcoal-mask-100-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 446,
+    "id": 446,
     "code": "DRO.00526",
     "name": "DRO SKIN CLEAR 5 IN 1 SPT TERATMENT PACK ",
     "summary": "",
@@ -4365,10 +4365,10 @@
     "productslug": "dro-skin-clear-5-in-1-spt-teratment-pack",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 447,
+    "id": 447,
     "code": "DRO.00542",
     "name": "DRO CHARCOAL TOOTHPASTE 100 ML FF",
     "summary": "",
@@ -4389,10 +4389,10 @@
     "productslug": "dro-charcoal-toothpaste-100-ml-ff",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 448,
+    "id": 448,
     "code": "DRO.00543",
     "name": "DRO CHARCOAL FACE MASK 125ML",
     "summary": "",
@@ -4413,10 +4413,10 @@
     "productslug": "dro-charcoal-face-mask-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 449,
+    "id": 449,
     "code": "DRO.00544",
     "name": "DRO CHARCOAL FACE SCRUB 125ML",
     "summary": "",
@@ -4437,10 +4437,10 @@
     "productslug": "dro-charcoal-face-scrub-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 450,
+    "id": 450,
     "code": "DRO.00546",
     "name": "DRO CHARCOAL SHAMPOO 265ML",
     "summary": "",
@@ -4461,10 +4461,10 @@
     "productslug": "dro-charcoal-shampoo-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 451,
+    "id": 451,
     "code": "DRO.00547",
     "name": "DRO CHARCOAL CONDITIONER 265ML",
     "summary": "",
@@ -4485,10 +4485,10 @@
     "productslug": "dro-charcoal-conditioner-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 452,
+    "id": 452,
     "code": "DRO.00558",
     "name": "DRO PRO COLLAGEN + DRAGONS BLOOD 50 ML",
     "summary": "",
@@ -4509,10 +4509,10 @@
     "productslug": "dro-pro-collagen-dragons-blood-50-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 453,
+    "id": 453,
     "code": "DRO.00559",
     "name": "DRO PRO COLLAGEN + PROBIOTIC 50 ML",
     "summary": "",
@@ -4533,10 +4533,10 @@
     "productslug": "dro-pro-collagen-probiotic-50-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 454,
+    "id": 454,
     "code": "DRO.00560",
     "name": "DRO PRO COLLAGEN + BLACK PEARL 50 ML",
     "summary": "",
@@ -4557,10 +4557,10 @@
     "productslug": "dro-pro-collagen-black-pearl-50-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 455,
+    "id": 455,
     "code": "DRO.00579",
     "name": "DRO COFFEE MINT BODY SCRUB 200ML",
     "summary": "",
@@ -4581,10 +4581,10 @@
     "productslug": "dro-coffee-mint-body-scrub-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 456,
+    "id": 456,
     "code": "DRO.00601",
     "name": "DRO COFFEE MINT FACE WASH 125ML",
     "summary": "",
@@ -4605,10 +4605,10 @@
     "productslug": "dro-coffee-mint-face-wash-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 457,
+    "id": 457,
     "code": "DRO.00606",
     "name": "DRO COFFEE MINT ANTI DANDRUFF SHAMPOO 200ML",
     "summary": "",
@@ -4629,10 +4629,10 @@
     "productslug": "dro-coffee-mint-anti-dandruff-shampoo-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 458,
+    "id": 458,
     "code": "DRO.00607",
     "name": "DRO COFFEE MINT ANTI DANDRUFF CONDITIONER 200ML",
     "summary": "",
@@ -4653,10 +4653,10 @@
     "productslug": "dro-coffee-mint-anti-dandruff-conditioner-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 459,
+    "id": 459,
     "code": "DRO.00608",
     "name": "DRO COFFEE MINT STIM HAIR&SCALP SHAMPOO 200ML",
     "summary": "",
@@ -4677,10 +4677,10 @@
     "productslug": "dro-coffee-mint-stim-hair-scalp-shampoo-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 460,
+    "id": 460,
     "code": "DRO.00618",
     "name": "DRO COFFEE MINT FACE SCRUB 125ML",
     "summary": "",
@@ -4701,10 +4701,10 @@
     "productslug": "dro-coffee-mint-face-scrub-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 461,
+    "id": 461,
     "code": "DRO.00622",
     "name": "DRO ALOE VERA MICELLAR WATER 200ML",
     "summary": "",
@@ -4725,10 +4725,10 @@
     "productslug": "dro-aloe-vera-micellar-water-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 462,
+    "id": 462,
     "code": "DRO.00623",
     "name": "DRO MANUKA MICELLAR WATER 200ML",
     "summary": null,
@@ -4749,10 +4749,10 @@
     "productslug": "dro-manuka-micellar-water-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 463,
+    "id": 463,
     "code": "DRO.00624",
     "name": "DRO COFFEE MINT FACE MASK 125ML",
     "summary": "",
@@ -4773,10 +4773,10 @@
     "productslug": "dro-coffee-mint-face-mask-125ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 464,
+    "id": 464,
     "code": "DRO.00647",
     "name": "DRO REISHI MUSHROOM FACE & NECK EMULSION 50 ML",
     "summary": null,
@@ -4797,10 +4797,10 @@
     "productslug": "dro-reishi-mushroom-face-neck-emulsion-50-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 465,
+    "id": 465,
     "code": "DRO.00648",
     "name": "DRO REISHI MUSHROOM EYE SERUM 15 ML",
     "summary": null,
@@ -4821,10 +4821,10 @@
     "productslug": "dro-reishi-mushroom-eye-serum-15-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 466,
+    "id": 466,
     "code": "DRO.00649",
     "name": "DRO REISHI MUSHROOM MASK 10ML SACHET",
     "summary": null,
@@ -4845,10 +4845,10 @@
     "productslug": "dro-reishi-mushroom-mask-10ml-sachet",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 467,
+    "id": 467,
     "code": "HLT.801000",
     "name": "HLT VITAMIN A 5000iu. 100's",
     "summary": "",
@@ -4869,10 +4869,10 @@
     "productslug": "hlt-vitamin-a-5000iu-100-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 468,
+    "id": 468,
     "code": "HLT.801005",
     "name": "HLT BETA CAROTENE 15 MG 30 CAPS",
     "summary": "",
@@ -4893,10 +4893,10 @@
     "productslug": "hlt-beta-carotene-15-mg-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 469,
+    "id": 469,
     "code": "HLT.801010",
     "name": "HLT VITAMIN A&D 60 CAPS",
     "summary": "",
@@ -4917,10 +4917,10 @@
     "productslug": "hlt-vitamin-a-d-60-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 470,
+    "id": 470,
     "code": "HLT.801015",
     "name": "HLT VITAMIN B COMPLEX SUPREME 30 CAPS",
     "summary": "",
@@ -4941,10 +4941,10 @@
     "productslug": "hlt-vitamin-b-complex-supreme-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 471,
+    "id": 471,
     "code": "HLT.801020",
     "name": "HLT VITAMIN B COMPLEX SUPREME 90 CAPS",
     "summary": "",
@@ -4965,10 +4965,10 @@
     "productslug": "hlt-vitamin-b-complex-supreme-90-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 472,
+    "id": 472,
     "code": "HLT.801025",
     "name": "HLT VITAMIN B50 COMPLEX 30 TABS",
     "summary": "",
@@ -4989,10 +4989,10 @@
     "productslug": "hlt-vitamin-b50-complex-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 473,
+    "id": 473,
     "code": "HLT.801030",
     "name": "HLT VITAMIN B99 COMPLEX PR 60 TABS",
     "summary": "",
@@ -5013,10 +5013,10 @@
     "productslug": "hlt-vitamin-b99-complex-pr-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 474,
+    "id": 474,
     "code": "HLT.801035",
     "name": "HLT VITAMIN B+C COMP.30 TABLET",
     "summary": "",
@@ -5037,10 +5037,10 @@
     "productslug": "hlt-vitamin-b-c-comp-30-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 475,
+    "id": 475,
     "code": "HLT.801040",
     "name": "HLT LIPOTROPIC (B+C) 60 TABS",
     "summary": "",
@@ -5061,10 +5061,10 @@
     "productslug": "hlt-lipotropic-b-c-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 476,
+    "id": 476,
     "code": "HLT.801045",
     "name": "HLT VITAMIN B1 100 MG 90 TABS",
     "summary": "",
@@ -5085,10 +5085,10 @@
     "productslug": "hlt-vitamin-b1-100-mg-90-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 477,
+    "id": 477,
     "code": "HLT.801050",
     "name": "HLT VITAMIN B2 100 MG 60 TABS",
     "summary": "",
@@ -5109,10 +5109,10 @@
     "productslug": "hlt-vitamin-b2-100-mg-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 478,
+    "id": 478,
     "code": "HLT.801055",
     "name": "HLT VITAMIN B3 250MG 90TAB.",
     "summary": "",
@@ -5133,10 +5133,10 @@
     "productslug": "hlt-vitamin-b3-250mg-90tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 479,
+    "id": 479,
     "code": "HLT.801060",
     "name": "HLT VITAMIN B5 69O MG 30 PR TABS",
     "summary": "",
@@ -5157,10 +5157,10 @@
     "productslug": "hlt-vitamin-b5-69o-mg-30-pr-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 480,
+    "id": 480,
     "code": "HLT.801070",
     "name": "HLT VITAMIN B6 50 MG 100 TABS",
     "summary": "",
@@ -5181,10 +5181,10 @@
     "productslug": "hlt-vitamin-b6-50-mg-100-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 481,
+    "id": 481,
     "code": "HLT.801080",
     "name": "HLT VITAMIN B12 1000 MCG 50 TABS",
     "summary": "",
@@ -5205,10 +5205,10 @@
     "productslug": "hlt-vitamin-b12-1000-mcg-50-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 482,
+    "id": 482,
     "code": "HLT.801085",
     "name": "HLT VITAMIN B12 1000 MCG 100 TABS",
     "summary": "",
@@ -5229,10 +5229,10 @@
     "productslug": "hlt-vitamin-b12-1000-mcg-100-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 483,
+    "id": 483,
     "code": "HLT.801086",
     "name": "HLT VIT B12 SUBLINGUAL (methylcobal) 1000UG 60 TAB",
     "summary": "",
@@ -5253,10 +5253,10 @@
     "productslug": "hlt-vit-b12-sublingual-methylcobal-1000ug-60-tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 484,
+    "id": 484,
     "code": "HLT.801090",
     "name": "HLT BREWERS YEAST 240 TABLET",
     "summary": "",
@@ -5277,10 +5277,10 @@
     "productslug": "hlt-brewers-yeast-240-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 485,
+    "id": 485,
     "code": "HLT.801100",
     "name": "HLT BIOTIN 800mcg 30's",
     "summary": "",
@@ -5301,10 +5301,10 @@
     "productslug": "hlt-biotin-800mcg-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 486,
+    "id": 486,
     "code": "HLT.801103",
     "name": "HLT BIOTIN 5000UG CAPS 60S",
     "summary": "",
@@ -5325,10 +5325,10 @@
     "productslug": "hlt-biotin-5000ug-caps-60s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 487,
+    "id": 487,
     "code": "HLT.801110",
     "name": "HLT FOLIC ACID 400ug 90's",
     "summary": "",
@@ -5349,10 +5349,10 @@
     "productslug": "hlt-folic-acid-400ug-90-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 488,
+    "id": 488,
     "code": "HLT.801125",
     "name": "HLT VITAMIN C 500 MG CW 60 TABS",
     "summary": "",
@@ -5373,10 +5373,10 @@
     "productslug": "hlt-vitamin-c-500-mg-cw-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 489,
+    "id": 489,
     "code": "HLT.801130",
     "name": "HLT VITAMIN C 500MG CHEW100,S",
     "summary": "",
@@ -5397,10 +5397,10 @@
     "productslug": "hlt-vitamin-c-500mg-chew100-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 490,
+    "id": 490,
     "code": "HLT.801135",
     "name": "HLT VITAMIN C 1000 MG CW 30 TABS",
     "summary": "",
@@ -5421,10 +5421,10 @@
     "productslug": "hlt-vitamin-c-1000-mg-cw-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 491,
+    "id": 491,
     "code": "HLT.801140",
     "name": "HLT VITAMIN C 1000 MG CW 60 TABS",
     "summary": "",
@@ -5445,10 +5445,10 @@
     "productslug": "hlt-vitamin-c-1000-mg-cw-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 492,
+    "id": 492,
     "code": "HLT.801150",
     "name": "HLT VITAMIN C 1000 MG PR 30 TABS",
     "summary": "",
@@ -5469,10 +5469,10 @@
     "productslug": "hlt-vitamin-c-1000-mg-pr-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 493,
+    "id": 493,
     "code": "HLT.801155",
     "name": "HLT VITAMIN C 1000 MG PR 60 TABS",
     "summary": "",
@@ -5493,10 +5493,10 @@
     "productslug": "hlt-vitamin-c-1000-mg-pr-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 494,
+    "id": 494,
     "code": "HLT.801160",
     "name": "HLT VITAMIN C 1000 MG PR 100 TABS",
     "summary": "",
@@ -5517,10 +5517,10 @@
     "productslug": "hlt-vitamin-c-1000-mg-pr-100-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 495,
+    "id": 495,
     "code": "HLT.801165",
     "name": "HLT VITAMIN C 1500 MG PR 30 TABS",
     "summary": "",
@@ -5541,10 +5541,10 @@
     "productslug": "hlt-vitamin-c-1500-mg-pr-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 496,
+    "id": 496,
     "code": "HLT.801170",
     "name": "HLT VITAMIN C 1500 MG PR 60 TABS",
     "summary": "",
@@ -5565,10 +5565,10 @@
     "productslug": "hlt-vitamin-c-1500-mg-pr-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 497,
+    "id": 497,
     "code": "HLT.801190",
     "name": "HLT VIT C 1000mg EFF BLACK CURRENT TABS 20S",
     "summary": "",
@@ -5589,10 +5589,10 @@
     "productslug": "hlt-vit-c-1000mg-eff-black-current-tabs-20s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 498,
+    "id": 498,
     "code": "HLT.801195",
     "name": "HLT VIT C 1000mg EFF LEMON TABS 20S",
     "summary": "",
@@ -5613,10 +5613,10 @@
     "productslug": "hlt-vit-c-1000mg-eff-lemon-tabs-20s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 499,
+    "id": 499,
     "code": "HLT.801200",
     "name": "HLT VIT C 1000mg EFF ORANGE TABS 20S",
     "summary": "",
@@ -5637,10 +5637,10 @@
     "productslug": "hlt-vit-c-1000mg-eff-orange-tabs-20s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 500,
+    "id": 500,
     "code": "HLT.801217",
     "name": "HLT VITAMIN K COMPLX+ D3 30TAB",
     "summary": "",
@@ -5661,10 +5661,10 @@
     "productslug": "hlt-vitamin-k-complx-d3-30tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 501,
+    "id": 501,
     "code": "HLT.801218",
     "name": "HLT VITAMIN D3 1000IU SPRAY 20 ML",
     "summary": "",
@@ -5685,10 +5685,10 @@
     "productslug": "hlt-vitamin-d3-1000iu-spray-20-ml",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 502,
+    "id": 502,
     "code": "HLT.801221",
     "name": "HLT VITAMIN D3 5.000IU 30'S",
     "summary": "",
@@ -5709,10 +5709,10 @@
     "productslug": "hlt-vitamin-d3-5-000iu-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 503,
+    "id": 503,
     "code": "HLT.801222",
     "name": "HLT VITAMIN D3 1000 IU 30 TABS",
     "summary": "",
@@ -5733,10 +5733,10 @@
     "productslug": "hlt-vitamin-d3-1000-iu-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 504,
+    "id": 504,
     "code": "HLT.801223",
     "name": "HLT VITAMIN D3 50.000IU 30 TABS",
     "summary": "",
@@ -5757,10 +5757,10 @@
     "productslug": "hlt-vitamin-d3-50-000iu-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 505,
+    "id": 505,
     "code": "HLT.801224",
     "name": "HLT VITAMIN D3 1000IU 120 TABS",
     "summary": "",
@@ -5781,10 +5781,10 @@
     "productslug": "hlt-vitamin-d3-1000iu-120-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 506,
+    "id": 506,
     "code": "HLT.801225",
     "name": "HLT VITAMIN D3 1000IU 1000 CAPS",
     "summary": "",
@@ -5805,10 +5805,10 @@
     "productslug": "hlt-vitamin-d3-1000iu-1000-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 507,
+    "id": 507,
     "code": "HLT.801226",
     "name": "HLT BABYVIT -D DROPS 50ML",
     "summary": "",
@@ -5829,10 +5829,10 @@
     "productslug": "hlt-babyvit-d-drops-50ml",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 508,
+    "id": 508,
     "code": "HLT.801227",
     "name": "HLT VITAMIN D3 10.000 IU 30 TAB",
     "summary": "",
@@ -5853,10 +5853,10 @@
     "productslug": "hlt-vitamin-d3-10-000-iu-30-tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 509,
+    "id": 509,
     "code": "HLT.801228",
     "name": "HLT VITAMIN D3 20.000IU 30 TABS",
     "summary": "",
@@ -5877,10 +5877,10 @@
     "productslug": "hlt-vitamin-d3-20-000iu-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 510,
+    "id": 510,
     "code": "HLT.801230",
     "name": "HLT VITAMIN E 200 IU 60 CAPS",
     "summary": "",
@@ -5901,10 +5901,10 @@
     "productslug": "hlt-vitamin-e-200-iu-60-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 511,
+    "id": 511,
     "code": "HLT.801240",
     "name": "HLT VITAMIN E 400 IU 30 CAPS",
     "summary": "",
@@ -5925,10 +5925,10 @@
     "productslug": "hlt-vitamin-e-400-iu-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 512,
+    "id": 512,
     "code": "HLT.801245",
     "name": "HLT VITAMIN E 400 IU 60 CAPS",
     "summary": "",
@@ -5949,10 +5949,10 @@
     "productslug": "hlt-vitamin-e-400-iu-60-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 513,
+    "id": 513,
     "code": "HLT.801250",
     "name": "HLT VITAMIN E 600IU 30CAPS.",
     "summary": "",
@@ -5973,10 +5973,10 @@
     "productslug": "hlt-vitamin-e-600iu-30caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 514,
+    "id": 514,
     "code": "HLT.801260",
     "name": "HLT VITAMIN E 1000 IU 30 CAPS",
     "summary": "",
@@ -5997,10 +5997,10 @@
     "productslug": "hlt-vitamin-e-1000-iu-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 515,
+    "id": 515,
     "code": "HLT.801280",
     "name": "HLT MULTI MINERALS 30 TABLET",
     "summary": "",
@@ -6021,10 +6021,10 @@
     "productslug": "hlt-multi-minerals-30-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 516,
+    "id": 516,
     "code": "HLT.801285",
     "name": "HLT CALMAGZINC 90'S",
     "summary": "",
@@ -6045,10 +6045,10 @@
     "productslug": "hlt-calmagzinc-90-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 517,
+    "id": 517,
     "code": "HLT.801290",
     "name": "HLT ZIMACAL WITH K&D 20 EFF.TAB",
     "summary": "",
@@ -6069,10 +6069,10 @@
     "productslug": "hlt-zimacal-with-k-d-20-eff-tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 518,
+    "id": 518,
     "code": "HLT.801295",
     "name": "HLT STRONG CALCIUM 600mg 60's",
     "summary": "",
@@ -6093,10 +6093,10 @@
     "productslug": "hlt-strong-calcium-600mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 519,
+    "id": 519,
     "code": "HLT.801300",
     "name": "HLT CALCIUM COMPLETE 800 MG 120 TABS",
     "summary": "",
@@ -6117,10 +6117,10 @@
     "productslug": "hlt-calcium-complete-800-mg-120-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 520,
+    "id": 520,
     "code": "HLT.801310",
     "name": "HLT MAGNESIUM + CALCIUM 90 TABS",
     "summary": "",
@@ -6141,10 +6141,10 @@
     "productslug": "hlt-magnesium-calcium-90-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 521,
+    "id": 521,
     "code": "HLT.801312",
     "name": "HLT MAGCITRA 60 TABLET",
     "summary": "",
@@ -6165,10 +6165,10 @@
     "productslug": "hlt-magcitra-60-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 522,
+    "id": 522,
     "code": "HLT.801315",
     "name": "HLT MAGNESIUM OROTATE 500mg TABS. 30's",
     "summary": "",
@@ -6189,10 +6189,10 @@
     "productslug": "hlt-magnesium-orotate-500mg-tabs-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 523,
+    "id": 523,
     "code": "HLT.801317",
     "name": "HLT MAGNESIUM BISGLYCINATE TABS 60s",
     "summary": "",
@@ -6213,10 +6213,10 @@
     "productslug": "hlt-magnesium-bisglycinate-tabs-60s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 524,
+    "id": 524,
     "code": "HLT.801320",
     "name": "HLT CHROMIUM PICOLINATE 60'S",
     "summary": "",
@@ -6237,10 +6237,10 @@
     "productslug": "hlt-chromium-picolinate-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 525,
+    "id": 525,
     "code": "HLT.801325",
     "name": "HLT IRON BISGLYCINATE 30's",
     "summary": "",
@@ -6261,10 +6261,10 @@
     "productslug": "hlt-iron-bisglycinate-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 526,
+    "id": 526,
     "code": "HLT.801335",
     "name": "HLT IRON FORMULA PLUS TABS 100S",
     "summary": "",
@@ -6285,10 +6285,10 @@
     "productslug": "hlt-iron-formula-plus-tabs-100s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 527,
+    "id": 527,
     "code": "HLT.801338",
     "name": "HLT IODINE 300UG 60 TABLET",
     "summary": "",
@@ -6309,10 +6309,10 @@
     "productslug": "hlt-iodine-300ug-60-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 528,
+    "id": 528,
     "code": "HLT.801340",
     "name": "HLT KELP 240'S",
     "summary": "",
@@ -6333,10 +6333,10 @@
     "productslug": "hlt-kelp-240-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 529,
+    "id": 529,
     "code": "HLT.801345",
     "name": "HLT MSM 1000MG 90 TABLET",
     "summary": "",
@@ -6357,10 +6357,10 @@
     "productslug": "hlt-msm-1000mg-90-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 530,
+    "id": 530,
     "code": "HLT.801355",
     "name": "HLT SELENIUM 100ug+VIT.E 400IU 30CAPS",
     "summary": "",
@@ -6381,10 +6381,10 @@
     "productslug": "hlt-selenium-100ug-vit-e-400iu-30caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 531,
+    "id": 531,
     "code": "HLT.801360",
     "name": "HLT SELENIUM 200ug 60 TABLET",
     "summary": "",
@@ -6405,10 +6405,10 @@
     "productslug": "hlt-selenium-200ug-60-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 532,
+    "id": 532,
     "code": "HLT.801365",
     "name": "HLT SELENIUM PLUS 60'S",
     "summary": "",
@@ -6429,10 +6429,10 @@
     "productslug": "hlt-selenium-plus-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 533,
+    "id": 533,
     "code": "HLT.801370",
     "name": "HLT ZINC GLUCONATE 70mg 90's",
     "summary": "",
@@ -6453,10 +6453,10 @@
     "productslug": "hlt-zinc-gluconate-70mg-90-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 534,
+    "id": 534,
     "code": "HLT.801373",
     "name": "HLT ZINC CITRATE 100MG 100TAB",
     "summary": "",
@@ -6477,10 +6477,10 @@
     "productslug": "hlt-zinc-citrate-100mg-100tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 535,
+    "id": 535,
     "code": "HLT.801375",
     "name": "HLT ZINC SULPHATE 200mg 90's",
     "summary": "",
@@ -6501,10 +6501,10 @@
     "productslug": "hlt-zinc-sulphate-200mg-90-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 536,
+    "id": 536,
     "code": "HLT.801380",
     "name": "HLT A-Z MULTIVIT TABS 30S",
     "summary": "",
@@ -6525,10 +6525,10 @@
     "productslug": "hlt-a-z-multivit-tabs-30s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 537,
+    "id": 537,
     "code": "HLT.801385",
     "name": "HLT A-Z MULTIVIT TABS 90S",
     "summary": "",
@@ -6549,10 +6549,10 @@
     "productslug": "hlt-a-z-multivit-tabs-90s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 538,
+    "id": 538,
     "code": "HLT.801387",
     "name": "HLT A-Z ACTIVE 20 EFF TABS",
     "summary": "",
@@ -6573,10 +6573,10 @@
     "productslug": "hlt-a-z-active-20-eff-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 539,
+    "id": 539,
     "code": "HLT.801390",
     "name": "HLT DAY-VIT ACTIVE 30 BLISTERS TB",
     "summary": "",
@@ -6597,10 +6597,10 @@
     "productslug": "hlt-day-vit-active-30-blisters-tb",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 540,
+    "id": 540,
     "code": "HLT.801395",
     "name": "HLT DAY-VIT PROBIO 30 BLISTERS TB",
     "summary": "",
@@ -6621,10 +6621,10 @@
     "productslug": "hlt-day-vit-probio-30-blisters-tb",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 541,
+    "id": 541,
     "code": "HLT.801400",
     "name": "HLT GERICAPS M.VIT & MINS 30's",
     "summary": "",
@@ -6645,10 +6645,10 @@
     "productslug": "hlt-gericaps-m-vit-mins-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 542,
+    "id": 542,
     "code": "HLT.801415",
     "name": "HLT GERICAPS ACTIVE CAPS. 30'S",
     "summary": "",
@@ -6669,10 +6669,10 @@
     "productslug": "hlt-gericaps-active-caps-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 543,
+    "id": 543,
     "code": "HLT.801445",
     "name": "HLT CHILDREN'S M.VITS 30'S",
     "summary": "",
@@ -6693,10 +6693,10 @@
     "productslug": "hlt-children-s-m-vits-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 544,
+    "id": 544,
     "code": "HLT.801455",
     "name": "HLT JUNIOR VIT CHEWABLE 30'S",
     "summary": "",
@@ -6717,10 +6717,10 @@
     "productslug": "hlt-junior-vit-chewable-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 545,
+    "id": 545,
     "code": "HLT.801460",
     "name": "HLT BABYVIT DROPS 25 ML",
     "summary": "",
@@ -6741,10 +6741,10 @@
     "productslug": "hlt-babyvit-drops-25-ml",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 546,
+    "id": 546,
     "code": "HLT.802000",
     "name": "HLT ALOE VERA 5000 MG 30 TABS",
     "summary": "",
@@ -6765,10 +6765,10 @@
     "productslug": "hlt-aloe-vera-5000-mg-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 547,
+    "id": 547,
     "code": "HLT.802030",
     "name": "HLT L-ARGININE 500MG 60'S",
     "summary": "",
@@ -6789,10 +6789,10 @@
     "productslug": "hlt-l-arginine-500mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 548,
+    "id": 548,
     "code": "HLT.802040",
     "name": "HLT ACETYL- L-CARNITINE TABS 550mg 30's",
     "summary": "",
@@ -6813,10 +6813,10 @@
     "productslug": "hlt-acetyl-l-carnitine-tabs-550mg-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 549,
+    "id": 549,
     "code": "HLT.802045",
     "name": "HLT L-CARNITINE TABS 550mg 30's",
     "summary": "",
@@ -6837,10 +6837,10 @@
     "productslug": "hlt-l-carnitine-tabs-550mg-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 550,
+    "id": 550,
     "code": "HLT.802055",
     "name": "HLT CREATINE( MONOHYDRATE) 1000MG 60TAB",
     "summary": "",
@@ -6861,10 +6861,10 @@
     "productslug": "hlt-creatine-monohydrate-1000mg-60tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 551,
+    "id": 551,
     "code": "HLT.802075",
     "name": "HLT L-GLUTAMINE 500mg. 60's",
     "summary": "",
@@ -6885,10 +6885,10 @@
     "productslug": "hlt-l-glutamine-500mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 552,
+    "id": 552,
     "code": "HLT.802080",
     "name": "HLT L-GLUTATHIONE 250MG 60TABLET",
     "summary": "",
@@ -6909,10 +6909,10 @@
     "productslug": "hlt-l-glutathione-250mg-60tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 553,
+    "id": 553,
     "code": "HLT.802085",
     "name": "HLT L-LYSINE HYDROCHLORIDE 500mg 60's",
     "summary": "",
@@ -6933,10 +6933,10 @@
     "productslug": "hlt-l-lysine-hydrochloride-500mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 554,
+    "id": 554,
     "code": "HLT.802110",
     "name": "HLT EVENING PRIMROSE OIL 500MG 30 CAPS.",
     "summary": "",
@@ -6957,10 +6957,10 @@
     "productslug": "hlt-evening-primrose-oil-500mg-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 555,
+    "id": 555,
     "code": "HLT.802115",
     "name": "HLT EVENING PRIMROSE OIL 500mg 60's",
     "summary": "",
@@ -6981,10 +6981,10 @@
     "productslug": "hlt-evening-primrose-oil-500mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 556,
+    "id": 556,
     "code": "HLT.802130",
     "name": "HLT EVENING PRIMROSE OIL 1000MG 30CAPSUL",
     "summary": "",
@@ -7005,10 +7005,10 @@
     "productslug": "hlt-evening-primrose-oil-1000mg-30capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 557,
+    "id": 557,
     "code": "HLT.802135",
     "name": "HLT EVENING PRIMROSE OIL 1000MG 60CAP.",
     "summary": "",
@@ -7029,10 +7029,10 @@
     "productslug": "hlt-evening-primrose-oil-1000mg-60cap",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 558,
+    "id": 558,
     "code": "HLT.802140",
     "name": "HLT EVENING PRIMROSE OIL 1000MG 90CAPSUL",
     "summary": "",
@@ -7053,10 +7053,10 @@
     "productslug": "hlt-evening-primrose-oil-1000mg-90capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 559,
+    "id": 559,
     "code": "HLT.802145",
     "name": "HLT EVENING PRIMROSE OIL 1300mg 30's",
     "summary": "",
@@ -7077,10 +7077,10 @@
     "productslug": "hlt-evening-primrose-oil-1300mg-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 560,
+    "id": 560,
     "code": "HLT.802155",
     "name": "HLT FLAXSEED OIL 1000mg. CAPS 60's",
     "summary": "",
@@ -7101,10 +7101,10 @@
     "productslug": "hlt-flaxseed-oil-1000mg-caps-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 561,
+    "id": 561,
     "code": "HLT.802180",
     "name": "HLT OMEGA 3.6.9. 60 S",
     "summary": "",
@@ -7125,10 +7125,10 @@
     "productslug": "hlt-omega-3-6-9-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 562,
+    "id": 562,
     "code": "HLT.802185",
     "name": "HLT OMEGA 3 750mg 30's",
     "summary": "",
@@ -7149,10 +7149,10 @@
     "productslug": "hlt-omega-3-750mg-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 563,
+    "id": 563,
     "code": "HLT.802190",
     "name": "HLT OMEGA 3 750mg 60's",
     "summary": "",
@@ -7173,10 +7173,10 @@
     "productslug": "hlt-omega-3-750mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 564,
+    "id": 564,
     "code": "HLT.802192",
     "name": "HLT DHA FORTE 350MG 30CAPSUL",
     "summary": "",
@@ -7197,10 +7197,10 @@
     "productslug": "hlt-dha-forte-350mg-30capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 565,
+    "id": 565,
     "code": "HLT.802194",
     "name": "HLT OMEGAZON PLUS 30TAB.",
     "summary": "",
@@ -7221,10 +7221,10 @@
     "productslug": "hlt-omegazon-plus-30tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 566,
+    "id": 566,
     "code": "HLT.802195",
     "name": "HLT OMEGAZON 30 CAPSUL",
     "summary": "",
@@ -7245,10 +7245,10 @@
     "productslug": "hlt-omegazon-30-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 567,
+    "id": 567,
     "code": "HLT.802196",
     "name": "HLT OMEGAZON 60 CAPSUL",
     "summary": "",
@@ -7269,10 +7269,10 @@
     "productslug": "hlt-omegazon-60-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 568,
+    "id": 568,
     "code": "HLT.802197",
     "name": "HLT KIDZOMEGA-3 CHW.60 CAPSUL",
     "summary": "",
@@ -7293,10 +7293,10 @@
     "productslug": "hlt-kidzomega-3-chw-60-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 569,
+    "id": 569,
     "code": "HLT.802198",
     "name": "HLT KIDZOMEGA 200 ML LIQUID",
     "summary": "",
@@ -7317,10 +7317,10 @@
     "productslug": "hlt-kidzomega-200-ml-liquid",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 570,
+    "id": 570,
     "code": "HLT.802200",
     "name": "HLT COD LIVER OIL 550MG 90'S",
     "summary": "",
@@ -7341,10 +7341,10 @@
     "productslug": "hlt-cod-liver-oil-550mg-90-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 571,
+    "id": 571,
     "code": "HLT.802215",
     "name": "HLT COD LIVER OIL 1000MG 30'S",
     "summary": "",
@@ -7365,10 +7365,10 @@
     "productslug": "hlt-cod-liver-oil-1000mg-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 572,
+    "id": 572,
     "code": "HLT.802230",
     "name": "HLT MARINE FISH OIL 1000MG 30S",
     "summary": "",
@@ -7389,10 +7389,10 @@
     "productslug": "hlt-marine-fish-oil-1000mg-30s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 573,
+    "id": 573,
     "code": "HLT.802235",
     "name": "HLT SALMON OIL 1000 MG 60 CAPS",
     "summary": "",
@@ -7413,10 +7413,10 @@
     "productslug": "hlt-salmon-oil-1000-mg-60-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 574,
+    "id": 574,
     "code": "HLT.802237",
     "name": "HLT KRILL LIFE 500 MG 60 CAPS",
     "summary": "",
@@ -7437,10 +7437,10 @@
     "productslug": "hlt-krill-life-500-mg-60-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 575,
+    "id": 575,
     "code": "HLT.802238",
     "name": "HLT BLACK GARLIC 750MG 30 CAPSUL",
     "summary": "",
@@ -7461,10 +7461,10 @@
     "productslug": "hlt-black-garlic-750mg-30-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 576,
+    "id": 576,
     "code": "HLT.802240",
     "name": "HLT GARLIC OIL 2MG 30S",
     "summary": "",
@@ -7485,10 +7485,10 @@
     "productslug": "hlt-garlic-oil-2mg-30s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 577,
+    "id": 577,
     "code": "HLT.802245",
     "name": "HLT GARLIC OIL 2mg 60's",
     "summary": "",
@@ -7509,10 +7509,10 @@
     "productslug": "hlt-garlic-oil-2mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 578,
+    "id": 578,
     "code": "HLT.802255",
     "name": "HLT KOREGIN GINSENG 3000MG  30 S",
     "summary": "",
@@ -7533,10 +7533,10 @@
     "productslug": "hlt-koregin-ginseng-3000mg-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 579,
+    "id": 579,
     "code": "HLT.802260",
     "name": "HLT KOREAN GINSENG 250 MG CAPS 50's",
     "summary": "",
@@ -7557,10 +7557,10 @@
     "productslug": "hlt-korean-ginseng-250-mg-caps-50-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 580,
+    "id": 580,
     "code": "HLT.802265",
     "name": "HLT SIBERGIN 2500MG CAPS 30,S(BLISTER)",
     "summary": "",
@@ -7581,10 +7581,10 @@
     "productslug": "hlt-sibergin-2500mg-caps-30-sblister",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 581,
+    "id": 581,
     "code": "HLT.802295",
     "name": "HLT LECITHIN CAPS. 1200mg. 50's",
     "summary": "",
@@ -7605,10 +7605,10 @@
     "productslug": "hlt-lecithin-caps-1200mg-50-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 582,
+    "id": 582,
     "code": "HLT.802310",
     "name": "HLT ACIDOPHILUS 60 TABS",
     "summary": "",
@@ -7629,10 +7629,10 @@
     "productslug": "hlt-acidophilus-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 583,
+    "id": 583,
     "code": "HLT.802320",
     "name": "HLT ACIDOPHILUS PLUS 60 TABS",
     "summary": "",
@@ -7653,10 +7653,10 @@
     "productslug": "hlt-acidophilus-plus-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 584,
+    "id": 584,
     "code": "HLT.802321",
     "name": "HLT SACARDI 5 BILLION 30 CAPSUL",
     "summary": "",
@@ -7677,10 +7677,10 @@
     "productslug": "hlt-sacardi-5-billion-30-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 585,
+    "id": 585,
     "code": "HLT.802323",
     "name": "HLT SENIORPROBIO 30 BILLION 30'S",
     "summary": "",
@@ -7701,10 +7701,10 @@
     "productslug": "hlt-seniorprobio-30-billion-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 586,
+    "id": 586,
     "code": "HLT.802324",
     "name": "HLT INFANT PROBIO  15 ML",
     "summary": "",
@@ -7725,10 +7725,10 @@
     "productslug": "hlt-infant-probio-15-ml",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 587,
+    "id": 587,
     "code": "HLT.802325",
     "name": "HLT KIDZ PROBIO 5 BILLION 30 G",
     "summary": "",
@@ -7749,10 +7749,10 @@
     "productslug": "hlt-kidz-probio-5-billion-30-g",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 588,
+    "id": 588,
     "code": "HLT.802327",
     "name": "HLT KIDZ PROBIO 2 BILLION 30TABLET",
     "summary": "",
@@ -7773,10 +7773,10 @@
     "productslug": "hlt-kidz-probio-2-billion-30tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 589,
+    "id": 589,
     "code": "HLT.802328",
     "name": "HLT COLIPROBIO 30 BILLION 30CAPS",
     "summary": "",
@@ -7797,10 +7797,10 @@
     "productslug": "hlt-coliprobio-30-billion-30caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 590,
+    "id": 590,
     "code": "HLT.802329",
     "name": "HLT MOODPROBIO 30 BILLION 30 CAPS",
     "summary": "",
@@ -7821,10 +7821,10 @@
     "productslug": "hlt-moodprobio-30-billion-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 591,
+    "id": 591,
     "code": "HLT.802330",
     "name": "HLT IMMUPROBIO 50 BILLION 30 CAPS",
     "summary": "",
@@ -7845,10 +7845,10 @@
     "productslug": "hlt-immuprobio-50-billion-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 592,
+    "id": 592,
     "code": "HLT.802331",
     "name": "HLT TRAVELPROBIO 4 BILLION 15 CAPSUL",
     "summary": "",
@@ -7869,10 +7869,10 @@
     "productslug": "hlt-travelprobio-4-billion-15-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 593,
+    "id": 593,
     "code": "HLT.802332",
     "name": "HLT DAILY PROBIO VEGICAPS 30",
     "summary": "",
@@ -7893,10 +7893,10 @@
     "productslug": "hlt-daily-probio-vegicaps-30",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 594,
+    "id": 594,
     "code": "HLT.802333",
     "name": "HLT ULTRA PROBIO 100BILLION 30CAPS",
     "summary": "",
@@ -7917,10 +7917,10 @@
     "productslug": "hlt-ultra-probio-100billion-30caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 595,
+    "id": 595,
     "code": "HLT.802335",
     "name": "HLT BEE PROPOLIS 1000 60 TABS",
     "summary": "",
@@ -7941,10 +7941,10 @@
     "productslug": "hlt-bee-propolis-1000-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 596,
+    "id": 596,
     "code": "HLT.802340",
     "name": "HLT ROYAL-3 CAPS 30's",
     "summary": "",
@@ -7965,10 +7965,10 @@
     "productslug": "hlt-royal-3-caps-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 597,
+    "id": 597,
     "code": "HLT.802350",
     "name": "HLT ALPHA LIPOIC ACID 250 MG 60 CAPS",
     "summary": "",
@@ -7989,10 +7989,10 @@
     "productslug": "hlt-alpha-lipoic-acid-250-mg-60-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 598,
+    "id": 598,
     "code": "HLT.803000",
     "name": "HLT DIAGLUCOFORTE 60'S",
     "summary": "",
@@ -8013,10 +8013,10 @@
     "productslug": "hlt-diaglucoforte-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 599,
+    "id": 599,
     "code": "HLT.803005",
     "name": "HLT COLESTROFORTE 60'S",
     "summary": "",
@@ -8037,10 +8037,10 @@
     "productslug": "hlt-colestroforte-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 600,
+    "id": 600,
     "code": "HLT.803007",
     "name": "HLT HEARTMAX 60 CAPS BLISTER",
     "summary": "",
@@ -8061,10 +8061,10 @@
     "productslug": "hlt-heartmax-60-caps-blister",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 601,
+    "id": 601,
     "code": "HLT.803023",
     "name": "HLT RED YEAST RICE 650MG 90TABS",
     "summary": "",
@@ -8085,10 +8085,10 @@
     "productslug": "hlt-red-yeast-rice-650mg-90tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 602,
+    "id": 602,
     "code": "HLT.803025",
     "name": "HLT V-VEIN 60'S",
     "summary": "",
@@ -8109,10 +8109,10 @@
     "productslug": "hlt-v-vein-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 603,
+    "id": 603,
     "code": "HLT.803030",
     "name": "HLT LIVERCARE 60'S",
     "summary": "",
@@ -8133,10 +8133,10 @@
     "productslug": "hlt-livercare-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 604,
+    "id": 604,
     "code": "HLT.803035",
     "name": "HLT MILK THISTLE COMPLEX 60'S",
     "summary": "",
@@ -8157,10 +8157,10 @@
     "productslug": "hlt-milk-thistle-complex-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 605,
+    "id": 605,
     "code": "HLT.803055",
     "name": "HLT COLONEASE 30 TABS",
     "summary": "",
@@ -8181,10 +8181,10 @@
     "productslug": "hlt-colonease-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 606,
+    "id": 606,
     "code": "HLT.803057",
     "name": "HLT COLONEASE PLUS 60 TABLET",
     "summary": "",
@@ -8205,10 +8205,10 @@
     "productslug": "hlt-colonease-plus-60-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 607,
+    "id": 607,
     "code": "HLT.803060",
     "name": "HLT DIGESTON 60 TABLET **DISCONTINUED**",
     "summary": null,
@@ -8229,10 +8229,10 @@
     "productslug": "hlt-digeston-60-tablet-discontinued",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 608,
+    "id": 608,
     "code": "HLT.803063",
     "name": "HLT DIGESTON PLUS 30TABLET",
     "summary": "",
@@ -8253,10 +8253,10 @@
     "productslug": "hlt-digeston-plus-30tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 609,
+    "id": 609,
     "code": "HLT.803065",
     "name": "HLT BROMELAIN 500MG 30 TABLET",
     "summary": "",
@@ -8277,10 +8277,10 @@
     "productslug": "hlt-bromelain-500mg-30-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 610,
+    "id": 610,
     "code": "HLT.803070",
     "name": "HLT GASTONE 260mg 60's",
     "summary": "",
@@ -8301,10 +8301,10 @@
     "productslug": "hlt-gastone-260mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 611,
+    "id": 611,
     "code": "HLT.803075",
     "name": "HLT INTERFRESH TABS 60's",
     "summary": "",
@@ -8325,10 +8325,10 @@
     "productslug": "hlt-interfresh-tabs-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 612,
+    "id": 612,
     "code": "HLT.803090",
     "name": "HLT PSYLLIUM HUSK 1000MG 60 CAP.",
     "summary": "",
@@ -8349,10 +8349,10 @@
     "productslug": "hlt-psyllium-husk-1000mg-60-cap",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 613,
+    "id": 613,
     "code": "HLT.803095",
     "name": "HLT PSYLLIUM HUSK FIBRE 300 GR",
     "summary": "",
@@ -8373,10 +8373,10 @@
     "productslug": "hlt-psyllium-husk-fibre-300-gr",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 614,
+    "id": 614,
     "code": "HLT.803099",
     "name": "HLT B-VITAL EFF TAB 20'S",
     "summary": "",
@@ -8397,10 +8397,10 @@
     "productslug": "hlt-b-vital-eff-tab-20-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 615,
+    "id": 615,
     "code": "HLT.803100",
     "name": "HLT CO-Q-10 20 MG 30 TABS",
     "summary": "",
@@ -8421,10 +8421,10 @@
     "productslug": "hlt-co-q-10-20-mg-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 616,
+    "id": 616,
     "code": "HLT.803105",
     "name": "HLT CONERGY 30 MG 30 CAPS",
     "summary": "",
@@ -8445,10 +8445,10 @@
     "productslug": "hlt-conergy-30-mg-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 617,
+    "id": 617,
     "code": "HLT.803107",
     "name": "HLT CONERGY 30MG 90 CAPSUL",
     "summary": "",
@@ -8469,10 +8469,10 @@
     "productslug": "hlt-conergy-30mg-90-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 618,
+    "id": 618,
     "code": "HLT.803110",
     "name": "HLT CO-Q-10 120 MG 30 CAPS",
     "summary": "",
@@ -8493,10 +8493,10 @@
     "productslug": "hlt-co-q-10-120-mg-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 619,
+    "id": 619,
     "code": "HLT.803115",
     "name": "HLT CO-Q-10 200 MG 30 CAPS",
     "summary": "",
@@ -8517,10 +8517,10 @@
     "productslug": "hlt-co-q-10-200-mg-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 620,
+    "id": 620,
     "code": "HLT.803117",
     "name": "HLT D-RIBOSE 100MG 90 TABLET",
     "summary": "",
@@ -8541,10 +8541,10 @@
     "productslug": "hlt-d-ribose-100mg-90-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 621,
+    "id": 621,
     "code": "HLT.803130",
     "name": "HLT HAEMOVIT PLUS 30CAPSUL",
     "summary": "",
@@ -8565,10 +8565,10 @@
     "productslug": "hlt-haemovit-plus-30capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 622,
+    "id": 622,
     "code": "HLT.803135",
     "name": "HLT HAEMOVIT LIQUID GOLD TONIC LIQUID 200ml",
     "summary": "",
@@ -8589,10 +8589,10 @@
     "productslug": "hlt-haemovit-liquid-gold-tonic-liquid-200ml",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 623,
+    "id": 623,
     "code": "HLT.803161",
     "name": "HLT EYEVIT PLUS 30 CAPSUL",
     "summary": "",
@@ -8613,10 +8613,10 @@
     "productslug": "hlt-eyevit-plus-30-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 624,
+    "id": 624,
     "code": "HLT.803163",
     "name": "HLT EYEVIT FORTE BLISTER 30 TABS",
     "summary": "",
@@ -8637,10 +8637,10 @@
     "productslug": "hlt-eyevit-forte-blister-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 625,
+    "id": 625,
     "code": "HLT.803170",
     "name": "HLT AQUAFLOW 60 TABS",
     "summary": "",
@@ -8661,10 +8661,10 @@
     "productslug": "hlt-aquaflow-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 626,
+    "id": 626,
     "code": "HLT.803173",
     "name": "HLT CRANPROBIO 5 BILLION 30 CAPSUL",
     "summary": "",
@@ -8685,10 +8685,10 @@
     "productslug": "hlt-cranprobio-5-billion-30-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 627,
+    "id": 627,
     "code": "HLT.803175",
     "name": "HLT CYSTICARE 60 TB",
     "summary": "",
@@ -8709,10 +8709,10 @@
     "productslug": "hlt-cysticare-60-tb",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 628,
+    "id": 628,
     "code": "HLT.803180",
     "name": "HLT FEMMEVIT CAPS 60's",
     "summary": "",
@@ -8733,10 +8733,10 @@
     "productslug": "hlt-femmevit-caps-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 629,
+    "id": 629,
     "code": "HLT.803182",
     "name": "HLT FEMPROBIO 50BILLION 30 CAPSUL",
     "summary": "",
@@ -8757,10 +8757,10 @@
     "productslug": "hlt-femprobio-50billion-30-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 630,
+    "id": 630,
     "code": "HLT.803185",
     "name": "HLT MENOVITAL 60 BILISTERS TB",
     "summary": "",
@@ -8781,10 +8781,10 @@
     "productslug": "hlt-menovital-60-bilisters-tb",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 631,
+    "id": 631,
     "code": "HLT.803187",
     "name": "HLT MULTIMAX FOR WOMEN 60TAB.",
     "summary": "",
@@ -8805,10 +8805,10 @@
     "productslug": "hlt-multimax-for-women-60tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 632,
+    "id": 632,
     "code": "HLT.803197",
     "name": "HLT PREGNAZON COMPLETE 60 CAPS BLISTER",
     "summary": "",
@@ -8829,10 +8829,10 @@
     "productslug": "hlt-pregnazon-complete-60-caps-blister",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 633,
+    "id": 633,
     "code": "HLT.803200",
     "name": "HLT SOY ISOFLAVONE  910mg 30's",
     "summary": "",
@@ -8853,10 +8853,10 @@
     "productslug": "hlt-soy-isoflavone-910mg-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 634,
+    "id": 634,
     "code": "HLT.803205",
     "name": "HLT SOY ISOFLAVONE 910mg 60's",
     "summary": "",
@@ -8877,10 +8877,10 @@
     "productslug": "hlt-soy-isoflavone-910mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 635,
+    "id": 635,
     "code": "HLT.803210",
     "name": "HLT HAIR-VIT 30 CAPS",
     "summary": "",
@@ -8901,10 +8901,10 @@
     "productslug": "hlt-hair-vit-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 636,
+    "id": 636,
     "code": "HLT.803220",
     "name": "HLT HAIR, SKIN & NAIL 30's",
     "summary": "",
@@ -8925,10 +8925,10 @@
     "productslug": "hlt-hair-skin-nail-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 637,
+    "id": 637,
     "code": "HLT.803231",
     "name": "HLT NURIDEEN PLUS 60 TABS",
     "summary": "",
@@ -8949,10 +8949,10 @@
     "productslug": "hlt-nurideen-plus-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 638,
+    "id": 638,
     "code": "HLT.803240",
     "name": "HLT RADIANCE HYDROLYSED COLLAGEN 60'S",
     "summary": "",
@@ -8973,10 +8973,10 @@
     "productslug": "hlt-radiance-hydrolysed-collagen-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 639,
+    "id": 639,
     "code": "HLT.803248",
     "name": "HLT ACAIACE (ACAI BERRY) 30 CAPS",
     "summary": null,
@@ -8997,10 +8997,10 @@
     "productslug": "hlt-acaiace-acai-berry-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 640,
+    "id": 640,
     "code": "HLT.803255",
     "name": "HLT BETAIMUNE 30 CAPS",
     "summary": "",
@@ -9021,10 +9021,10 @@
     "productslug": "hlt-betaimune-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 641,
+    "id": 641,
     "code": "HLT.803265",
     "name": "HLT IMMUTONE(SHARK LIVER OIL)1000mg. 30's",
     "summary": "",
@@ -9045,10 +9045,10 @@
     "productslug": "hlt-immutoneshark-liver-oil1000mg-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 642,
+    "id": 642,
     "code": "HLT.803267",
     "name": "HLT RESOLIFE 250MG 60 CAPSUL",
     "summary": "",
@@ -9069,10 +9069,10 @@
     "productslug": "hlt-resolife-250mg-60-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 643,
+    "id": 643,
     "code": "HLT.803270",
     "name": "HLT SHARK CARTILAGE 750 MG 50 CAPS",
     "summary": "",
@@ -9093,10 +9093,10 @@
     "productslug": "hlt-shark-cartilage-750-mg-50-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 644,
+    "id": 644,
     "code": "HLT.803276",
     "name": "HLT LUNGFORTE 30 TABLET",
     "summary": "",
@@ -9117,10 +9117,10 @@
     "productslug": "hlt-lungforte-30-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 645,
+    "id": 645,
     "code": "HLT.803280",
     "name": "HLT WINTERVITS 30'S",
     "summary": "",
@@ -9141,10 +9141,10 @@
     "productslug": "hlt-wintervits-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 646,
+    "id": 646,
     "code": "HLT.803285",
     "name": "HLT ZINCOVIT-C 60's",
     "summary": "",
@@ -9165,10 +9165,10 @@
     "productslug": "hlt-zincovit-c-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 647,
+    "id": 647,
     "code": "HLT.803287",
     "name": "HLT BETA GLUCAN COMPLEX 30 TABLET",
     "summary": "",
@@ -9189,10 +9189,10 @@
     "productslug": "hlt-beta-glucan-complex-30-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 648,
+    "id": 648,
     "code": "HLT.803290",
     "name": "HLT ATROTONE 60 TABS",
     "summary": "",
@@ -9213,10 +9213,10 @@
     "productslug": "hlt-atrotone-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 649,
+    "id": 649,
     "code": "HLT.803294",
     "name": "HLT OSTEOFLEX & OMEGA-3 30TAB*30CAPS",
     "summary": "",
@@ -9237,10 +9237,10 @@
     "productslug": "hlt-osteoflex-omega-3-30tab-30caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 650,
+    "id": 650,
     "code": "HLT.803295",
     "name": "HLT OSTEOFLEX 30 TABS",
     "summary": "",
@@ -9261,10 +9261,10 @@
     "productslug": "hlt-osteoflex-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 651,
+    "id": 651,
     "code": "HLT.803300",
     "name": "HLT OSTEOFLEX 90 TABS",
     "summary": "",
@@ -9285,10 +9285,10 @@
     "productslug": "hlt-osteoflex-90-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 652,
+    "id": 652,
     "code": "HLT.803301",
     "name": "HLT OSTEOFLEX PLUS 30 TABS",
     "summary": "",
@@ -9309,10 +9309,10 @@
     "productslug": "hlt-osteoflex-plus-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 653,
+    "id": 653,
     "code": "HLT.803302",
     "name": "HLT OSTEOFLEX 20 FIZZ TABS",
     "summary": "",
@@ -9333,10 +9333,10 @@
     "productslug": "hlt-osteoflex-20-fizz-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 654,
+    "id": 654,
     "code": "HLT.803304",
     "name": "HLT OSTEOFLEX CREAM 100ML",
     "summary": "",
@@ -9357,10 +9357,10 @@
     "productslug": "hlt-osteoflex-cream-100ml",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 655,
+    "id": 655,
     "code": "HLT.803310",
     "name": "HLT GLUCOSAMINE 500 MG 30 TABS",
     "summary": "",
@@ -9381,10 +9381,10 @@
     "productslug": "hlt-glucosamine-500-mg-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 656,
+    "id": 656,
     "code": "HLT.803315",
     "name": "HLT GLUCOSAMINE 1000 MG 30 TABS",
     "summary": "",
@@ -9405,10 +9405,10 @@
     "productslug": "hlt-glucosamine-1000-mg-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 657,
+    "id": 657,
     "code": "HLT.803325",
     "name": "HLT GLUCOSAMINE 1500 MG 30 TABS",
     "summary": "",
@@ -9429,10 +9429,10 @@
     "productslug": "hlt-glucosamine-1500-mg-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 658,
+    "id": 658,
     "code": "HLT.803333",
     "name": "HLT URIPRINOL 60 TABLET",
     "summary": "",
@@ -9453,10 +9453,10 @@
     "productslug": "hlt-uriprinol-60-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 659,
+    "id": 659,
     "code": "HLT.803335",
     "name": "HLT HYALURONIC ACID 55MG 30 TABLET",
     "summary": "",
@@ -9477,10 +9477,10 @@
     "productslug": "hlt-hyaluronic-acid-55mg-30-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 660,
+    "id": 660,
     "code": "HLT.803337",
     "name": "HLT HYALUROVIT 150 MG 30 TABS",
     "summary": "",
@@ -9501,10 +9501,10 @@
     "productslug": "hlt-hyalurovit-150-mg-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 661,
+    "id": 661,
     "code": "HLT.803340",
     "name": "HLT SERRAPEPTASE 60.000 IU 30 CAPSUL",
     "summary": "",
@@ -9525,10 +9525,10 @@
     "productslug": "hlt-serrapeptase-60-000-iu-30-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 662,
+    "id": 662,
     "code": "HLT.803345",
     "name": "HLT OSTEOVIT TABS 60s",
     "summary": "",
@@ -9549,10 +9549,10 @@
     "productslug": "hlt-osteovit-tabs-60s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 663,
+    "id": 663,
     "code": "HLT.803347",
     "name": "HLT OSTEOZIN BLISTER 90TAB.",
     "summary": "",
@@ -9573,10 +9573,10 @@
     "productslug": "hlt-osteozin-blister-90tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 664,
+    "id": 664,
     "code": "HLT.803370",
     "name": "HLT GENTLEMENS 3 CAPS 30s",
     "summary": "",
@@ -9597,10 +9597,10 @@
     "productslug": "hlt-gentlemens-3-caps-30s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 665,
+    "id": 665,
     "code": "HLT.803375",
     "name": "HLT MALE FORMULA 30 TABLET",
     "summary": "",
@@ -9621,10 +9621,10 @@
     "productslug": "hlt-male-formula-30-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 666,
+    "id": 666,
     "code": "HLT.803377",
     "name": "HLT MULTIMAX FOR MEN 30CAPS.",
     "summary": "",
@@ -9645,10 +9645,10 @@
     "productslug": "hlt-multimax-for-men-30caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 667,
+    "id": 667,
     "code": "HLT.803380",
     "name": "HLT LYCOPENE 25mg CAPS 30's",
     "summary": "",
@@ -9669,10 +9669,10 @@
     "productslug": "hlt-lycopene-25mg-caps-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 668,
+    "id": 668,
     "code": "HLT.803385",
     "name": "HLT PROSTAVITAL 30 BILISTERS TB",
     "summary": "",
@@ -9693,10 +9693,10 @@
     "productslug": "hlt-prostavital-30-bilisters-tb",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 669,
+    "id": 669,
     "code": "HLT.803390",
     "name": "HLT GINKGO VITAL BILOBA  5000mg 30's",
     "summary": "",
@@ -9717,10 +9717,10 @@
     "productslug": "hlt-ginkgo-vital-biloba-5000mg-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 670,
+    "id": 670,
     "code": "HLT.803395",
     "name": "HLT GINKOVITAL +3 30CAPSUL",
     "summary": "",
@@ -9741,10 +9741,10 @@
     "productslug": "hlt-ginkovital-3-30capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 671,
+    "id": 671,
     "code": "HLT.803400",
     "name": "HLT BRAINVIT 60 TABS",
     "summary": "",
@@ -9765,10 +9765,10 @@
     "productslug": "hlt-brainvit-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 672,
+    "id": 672,
     "code": "HLT.803410",
     "name": "HLT 5-HTP 50mg 60's",
     "summary": "",
@@ -9789,10 +9789,10 @@
     "productslug": "hlt-5-htp-50mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 673,
+    "id": 673,
     "code": "HLT.803420",
     "name": "HLT TRANQUIL CAPS 30's",
     "summary": "",
@@ -9813,10 +9813,10 @@
     "productslug": "hlt-tranquil-caps-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 674,
+    "id": 674,
     "code": "HLT.803430",
     "name": "HLT NEUROFORTE 30'S",
     "summary": "",
@@ -9837,10 +9837,10 @@
     "productslug": "hlt-neuroforte-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 675,
+    "id": 675,
     "code": "HLT.803445",
     "name": "HLT SEX-O-VIT  FORTE 30 TABLET",
     "summary": "",
@@ -9861,10 +9861,10 @@
     "productslug": "hlt-sex-o-vit-forte-30-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 676,
+    "id": 676,
     "code": "HLT.803450",
     "name": "HLT SEX-O-VIT FORTE TABS 90s",
     "summary": "",
@@ -9885,10 +9885,10 @@
     "productslug": "hlt-sex-o-vit-forte-tabs-90s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 677,
+    "id": 677,
     "code": "HLT.803465",
     "name": "HLT MALE MAX  30TABLET",
     "summary": "",
@@ -9909,10 +9909,10 @@
     "productslug": "hlt-male-max-30tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 678,
+    "id": 678,
     "code": "HLT.803466",
     "name": "HLT FEM-X 60 TAB",
     "summary": "",
@@ -9933,10 +9933,10 @@
     "productslug": "hlt-fem-x-60-tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 679,
+    "id": 679,
     "code": "HLT.803468",
     "name": "HLT BODYLEAN DUAL PACK 30 TABS 30 CAPS",
     "summary": "",
@@ -9957,10 +9957,10 @@
     "productslug": "hlt-bodylean-dual-pack-30-tabs-30-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 680,
+    "id": 680,
     "code": "HLT.803470",
     "name": "HLT CARBOSLIM PHASE 2 - 60 CAPS",
     "summary": "",
@@ -9981,10 +9981,10 @@
     "productslug": "hlt-carboslim-phase-2-60-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 681,
+    "id": 681,
     "code": "HLT.803473",
     "name": "HLT CELLUSITE 60 TAB",
     "summary": "",
@@ -10005,10 +10005,10 @@
     "productslug": "hlt-cellusite-60-tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 682,
+    "id": 682,
     "code": "HLT.803475",
     "name": "HLT CHITOSAN COMPLEX 90's",
     "summary": "",
@@ -10029,10 +10029,10 @@
     "productslug": "hlt-chitosan-complex-90-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 683,
+    "id": 683,
     "code": "HLT.803485",
     "name": "HLT CIDER TRIM 90'S",
     "summary": "",
@@ -10053,10 +10053,10 @@
     "productslug": "hlt-cider-trim-90-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 684,
+    "id": 684,
     "code": "HLT.803487",
     "name": "HLT COFFEESLIM 60 CAPSUL",
     "summary": "",
@@ -10077,10 +10077,10 @@
     "productslug": "hlt-coffeeslim-60-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 685,
+    "id": 685,
     "code": "HLT.803490",
     "name": "HLT CONJUGATED LINOLEIC ACID (CLA) 30'S",
     "summary": "",
@@ -10101,10 +10101,10 @@
     "productslug": "hlt-conjugated-linoleic-acid-cla-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 686,
+    "id": 686,
     "code": "HLT.803493",
     "name": "HLT GARCIASLIM 60 TABLET",
     "summary": "",
@@ -10125,10 +10125,10 @@
     "productslug": "hlt-garciaslim-60-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 687,
+    "id": 687,
     "code": "HLT.804000",
     "name": "HLT AGNUS CASTUS 550 MG 60 TABS",
     "summary": "",
@@ -10149,10 +10149,10 @@
     "productslug": "hlt-agnus-castus-550-mg-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 688,
+    "id": 688,
     "code": "HLT.804003",
     "name": "HLT ASHWAGANDHA TABS 60S",
     "summary": "",
@@ -10173,10 +10173,10 @@
     "productslug": "hlt-ashwagandha-tabs-60s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 689,
+    "id": 689,
     "code": "HLT.804010",
     "name": "HLT ARTICHOKE 8350mg 60 TABS",
     "summary": "",
@@ -10197,10 +10197,10 @@
     "productslug": "hlt-artichoke-8350mg-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 690,
+    "id": 690,
     "code": "HLT.804015",
     "name": "HLT ASTRAGALUS 545mg ",
     "summary": "",
@@ -10221,10 +10221,10 @@
     "productslug": "hlt-astragalus-545mg",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 691,
+    "id": 691,
     "code": "HLT.804018",
     "name": "HLT BEETROOT EXTTACT 750 MG 60 S",
     "summary": "",
@@ -10245,10 +10245,10 @@
     "productslug": "hlt-beetroot-exttact-750-mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 692,
+    "id": 692,
     "code": "HLT.804020",
     "name": "HLT BILBERRY 30's",
     "summary": "",
@@ -10269,10 +10269,10 @@
     "productslug": "hlt-bilberry-30-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 693,
+    "id": 693,
     "code": "HLT.804025",
     "name": "HLT BLACK COHOSH 60'S",
     "summary": "",
@@ -10293,10 +10293,10 @@
     "productslug": "hlt-black-cohosh-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 694,
+    "id": 694,
     "code": "HLT.804030",
     "name": "HLT BOSWELLIA 520MG 60 CAPSUL",
     "summary": "",
@@ -10317,10 +10317,10 @@
     "productslug": "hlt-boswellia-520mg-60-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 695,
+    "id": 695,
     "code": "HLT.804050",
     "name": "HLT CHLORELLA 550 MG 60 TB",
     "summary": "",
@@ -10341,10 +10341,10 @@
     "productslug": "hlt-chlorella-550-mg-60-tb",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 696,
+    "id": 696,
     "code": "HLT.804055",
     "name": "HLT CINNAMON 850MG 30 TAB",
     "summary": "",
@@ -10365,10 +10365,10 @@
     "productslug": "hlt-cinnamon-850mg-30-tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 697,
+    "id": 697,
     "code": "HLT.804060",
     "name": "HLT CRANBERRY 5000mg 60's",
     "summary": "",
@@ -10389,10 +10389,10 @@
     "productslug": "hlt-cranberry-5000mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 698,
+    "id": 698,
     "code": "HLT.804062",
     "name": "HLT CURCUMIN 3 -600MG 30TAB",
     "summary": "",
@@ -10413,10 +10413,10 @@
     "productslug": "hlt-curcumin-3-600mg-30tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 699,
+    "id": 699,
     "code": "HLT.804080",
     "name": "HLT ECHINACEA 500 MG 60 TABS",
     "summary": "",
@@ -10437,10 +10437,10 @@
     "productslug": "hlt-echinacea-500-mg-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 700,
+    "id": 700,
     "code": "HLT.804085",
     "name": "HLT ECHINACEA 500 MG 120 TABS",
     "summary": "",
@@ -10461,10 +10461,10 @@
     "productslug": "hlt-echinacea-500-mg-120-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 701,
+    "id": 701,
     "code": "HLT.804090",
     "name": "HLT ECHINACEA BLEND 1000 MG 60 TABS",
     "summary": "",
@@ -10485,10 +10485,10 @@
     "productslug": "hlt-echinacea-blend-1000-mg-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 702,
+    "id": 702,
     "code": "HLT.804100",
     "name": "HLT FENUGREEK SEED EXTRACT 300mg 60's",
     "summary": "",
@@ -10509,10 +10509,10 @@
     "productslug": "hlt-fenugreek-seed-extract-300mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 703,
+    "id": 703,
     "code": "HLT.804115",
     "name": "HLT GINGER ROOT 560MG 60 TABLET",
     "summary": "",
@@ -10533,10 +10533,10 @@
     "productslug": "hlt-ginger-root-560mg-60-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 704,
+    "id": 704,
     "code": "HLT.804120",
     "name": "HLT GINKO BILOBA 5000MG 30 CAPSUL",
     "summary": "",
@@ -10557,10 +10557,10 @@
     "productslug": "hlt-ginko-biloba-5000mg-30-capsul",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 705,
+    "id": 705,
     "code": "HLT.804130",
     "name": "HLT GRAPESEED 5000MG 60'S",
     "summary": "",
@@ -10581,10 +10581,10 @@
     "productslug": "hlt-grapeseed-5000mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 706,
+    "id": 706,
     "code": "HLT.804133",
     "name": "HLT GREEN COFFEE BEAN EXTRACT 60'S",
     "summary": "",
@@ -10605,10 +10605,10 @@
     "productslug": "hlt-green-coffee-bean-extract-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 707,
+    "id": 707,
     "code": "HLT.804135",
     "name": "HLT GREEN TEA EXTRACT 60 TABS",
     "summary": "",
@@ -10629,10 +10629,10 @@
     "productslug": "hlt-green-tea-extract-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 708,
+    "id": 708,
     "code": "HLT.804155",
     "name": "HLT MACA 500 MG 60 TABS",
     "summary": "",
@@ -10653,10 +10653,10 @@
     "productslug": "hlt-maca-500-mg-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 709,
+    "id": 709,
     "code": "HLT.804165",
     "name": "HLT MELISSA LEAF EXTRACT VEG CAPS 30S",
     "summary": "",
@@ -10677,10 +10677,10 @@
     "productslug": "hlt-melissa-leaf-extract-veg-caps-30s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 710,
+    "id": 710,
     "code": "HLT.804170",
     "name": "HLT MILK THISTLE 500MG 30 TABLET",
     "summary": "",
@@ -10701,10 +10701,10 @@
     "productslug": "hlt-milk-thistle-500mg-30-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 711,
+    "id": 711,
     "code": "HLT.804178",
     "name": "HLT MORINGA LEAF VEGAN 60 CAPS.",
     "summary": "",
@@ -10725,10 +10725,10 @@
     "productslug": "hlt-moringa-leaf-vegan-60-caps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 712,
+    "id": 712,
     "code": "HLT.804185",
     "name": "HLT NETTLE LEAF EXT 60 TABS",
     "summary": "",
@@ -10749,10 +10749,10 @@
     "productslug": "hlt-nettle-leaf-ext-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 713,
+    "id": 713,
     "code": "HLT.804195",
     "name": "HLT PASSIFLORA 1000MG 30TABLET",
     "summary": "",
@@ -10773,10 +10773,10 @@
     "productslug": "hlt-passiflora-1000mg-30tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 714,
+    "id": 714,
     "code": "HLT.804205",
     "name": "HLT PYCNOGENOL 30 MG 30 TABS",
     "summary": "",
@@ -10797,10 +10797,10 @@
     "productslug": "hlt-pycnogenol-30-mg-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 715,
+    "id": 715,
     "code": "HLT.804215",
     "name": "HLT RHODIOLA 500MG 60 TAB.",
     "summary": "",
@@ -10821,10 +10821,10 @@
     "productslug": "hlt-rhodiola-500mg-60-tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 716,
+    "id": 716,
     "code": "HLT.804220",
     "name": "HLT ROSEHIP 3000MG 60TABLET",
     "summary": "",
@@ -10845,10 +10845,10 @@
     "productslug": "hlt-rosehip-3000mg-60tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 717,
+    "id": 717,
     "code": "HLT.804235",
     "name": "HLT SAW PALMETTO 265MG 30 TABLET",
     "summary": "",
@@ -10869,10 +10869,10 @@
     "productslug": "hlt-saw-palmetto-265mg-30-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 718,
+    "id": 718,
     "code": "HLT.804250",
     "name": "HLT SPIRULINA 500mg 60's",
     "summary": "",
@@ -10893,10 +10893,10 @@
     "productslug": "hlt-spirulina-500mg-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 719,
+    "id": 719,
     "code": "HLT.804255",
     "name": "HLT ST.JOHN'S WORT 500MG 30 TABLET",
     "summary": "",
@@ -10917,10 +10917,10 @@
     "productslug": "hlt-st-john-s-wort-500mg-30-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 720,
+    "id": 720,
     "code": "HLT.804275",
     "name": "HLT TURMERIC 750MG 60 TAB.",
     "summary": "",
@@ -10941,10 +10941,10 @@
     "productslug": "hlt-turmeric-750mg-60-tab",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 721,
+    "id": 721,
     "code": "HLT.804280",
     "name": "HLT VALERIAN ROOT 60'S",
     "summary": "",
@@ -10965,10 +10965,10 @@
     "productslug": "hlt-valerian-root-60-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 722,
+    "id": 722,
     "code": "HLT.804301",
     "name": "HLT SUPER GREENS POWDER 200GR",
     "summary": "",
@@ -10989,10 +10989,10 @@
     "productslug": "hlt-super-greens-powder-200gr",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 723,
+    "id": 723,
     "code": "HLT.804303",
     "name": "HLT SUPER BERRIES POWDER 180GR",
     "summary": "",
@@ -11013,10 +11013,10 @@
     "productslug": "hlt-super-berries-powder-180gr",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 724,
+    "id": 724,
     "code": "HLT.804323",
     "name": "HLT BLACK SEED OIL LIQUID 150ML ",
     "summary": "",
@@ -11037,10 +11037,10 @@
     "productslug": "hlt-black-seed-oil-liquid-150ml",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 725,
+    "id": 725,
     "code": "HLT.804360",
     "name": "HLT CHILDRENS ECHINACEA 50ml",
     "summary": "",
@@ -11061,10 +11061,10 @@
     "productslug": "hlt-childrens-echinacea-50ml",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 726,
+    "id": 726,
     "code": "HLT.804365",
     "name": "HLT ECHINACEA LIQUID 50ML drps",
     "summary": "",
@@ -11085,10 +11085,10 @@
     "productslug": "hlt-echinacea-liquid-50ml-drps",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 727,
+    "id": 727,
     "code": "HLT.804435",
     "name": "HLT MACA LIQUID 50 ML",
     "summary": "",
@@ -11109,10 +11109,10 @@
     "productslug": "hlt-maca-liquid-50-ml",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 728,
+    "id": 728,
     "code": "HLT.805105",
     "name": "HLT EUCALYPTUS OIL 10ML",
     "summary": "",
@@ -11133,10 +11133,10 @@
     "productslug": "hlt-eucalyptus-oil-10ml",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 738,
+    "id": 738,
     "code": "SPT.00996",
     "name": "SPLAT SPECIAL SEA MINERALS 75ML",
     "summary": "",
@@ -11157,10 +11157,10 @@
     "productslug": "splat-special-sea-minerals-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 739,
+    "id": 739,
     "code": "SPT.01009",
     "name": "SPLAT SPECIAL ORGANIC TOOTHPASTE 75ML",
     "summary": null,
@@ -11181,10 +11181,10 @@
     "productslug": "splat-special-organic-toothpaste-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 740,
+    "id": 740,
     "code": "SPT.01016",
     "name": "SPLAT SPECIAL EXTREME WHITE 75ML",
     "summary": null,
@@ -11205,10 +11205,10 @@
     "productslug": "splat-special-extreme-white-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 741,
+    "id": 741,
     "code": "SPT.01061",
     "name": "SPLAT PROFESSIONAL WHITE PLUS 100ML",
     "summary": null,
@@ -11229,10 +11229,10 @@
     "productslug": "splat-professional-white-plus-100ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 742,
+    "id": 742,
     "code": "SPT.01085",
     "name": "SPLAT PROFESSIONAL GREEN TEA TOOTPASTE 100ML",
     "summary": "",
@@ -11253,10 +11253,10 @@
     "productslug": "splat-professional-green-tea-tootpaste-100ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 743,
+    "id": 743,
     "code": "SPT.01092",
     "name": "SPLAT PROFESSIONAL BIOCALCIUM TOOTHPASTE 100ML",
     "summary": null,
@@ -11277,10 +11277,10 @@
     "productslug": "splat-professional-biocalcium-toothpaste-100ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 744,
+    "id": 744,
     "code": "SPT.01108",
     "name": "SPLAT PROFESSIONAL ACTIVE TOOTHPASTE 100ML",
     "summary": "",
@@ -11301,10 +11301,10 @@
     "productslug": "splat-professional-active-toothpaste-100ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 745,
+    "id": 745,
     "code": "SPT.01122",
     "name": "SPLAT PROFESSIONAL LIKVUM GEL TOOTHPASTE 100ML",
     "summary": "",
@@ -11325,10 +11325,10 @@
     "productslug": "splat-professional-likvum-gel-toothpaste-100ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 746,
+    "id": 746,
     "code": "SPT.01139",
     "name": "SPLAT PROFESSIONAL MEDICAL HERBS 100ML",
     "summary": null,
@@ -11349,10 +11349,10 @@
     "productslug": "splat-professional-medical-herbs-100ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 747,
+    "id": 747,
     "code": "SPT.01856",
     "name": "SPLAT SPECIAL BLACKWOOD 75ML",
     "summary": null,
@@ -11373,10 +11373,10 @@
     "productslug": "splat-special-blackwood-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 748,
+    "id": 748,
     "code": "SPT.02568",
     "name": "SPLAT SO HAPPY KIDS TOOTBRUSH",
     "summary": "",
@@ -11397,10 +11397,10 @@
     "productslug": "splat-so-happy-kids-tootbrush",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 749,
+    "id": 749,
     "code": "SPT.03980",
     "name": "SPLAT SPECIAL GOLD TOOTHPASTE 75ML",
     "summary": "",
@@ -11421,10 +11421,10 @@
     "productslug": "splat-special-gold-toothpaste-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 750,
+    "id": 750,
     "code": "SPT.04000",
     "name": "SPLAT SPECIAL GINGER 75ML",
     "summary": "",
@@ -11445,10 +11445,10 @@
     "productslug": "splat-special-ginger-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 751,
+    "id": 751,
     "code": "SPT.05427",
     "name": "SPLAT BIOCALCIUM MOUTHWASH 275ML",
     "summary": "",
@@ -11469,10 +11469,10 @@
     "productslug": "splat-biocalcium-mouthwash-275ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 752,
+    "id": 752,
     "code": "SPT.05540",
     "name": "SPLAT WHITE PLUS MOUTHWASH 275ML",
     "summary": "",
@@ -11493,10 +11493,10 @@
     "productslug": "splat-white-plus-mouthwash-275ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 753,
+    "id": 753,
     "code": "SPT.06233",
     "name": "SPLAT BABY 0-3 APPLE-BANANA TOOTHPASTE 40 ML",
     "summary": null,
@@ -11517,10 +11517,10 @@
     "productslug": "splat-baby-0-3-apple-banana-toothpaste-40-ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 754,
+    "id": 754,
     "code": "SPT.06257",
     "name": "SPLAT BABY 0-3 VANILLIA TOOTHPASTE 40 ML",
     "summary": "",
@@ -11541,10 +11541,10 @@
     "productslug": "splat-baby-0-3-vanillia-toothpaste-40-ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 755,
+    "id": 755,
     "code": "SPT.06271",
     "name": "SPLAT KIDS 2-6 FRUIT ICE-CREAM 50ML",
     "summary": "<p><br></p>",
@@ -11565,10 +11565,10 @@
     "productslug": "splat-kids-2-6-fruit-ice-cream-50ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 756,
+    "id": 756,
     "code": "SPT.06318",
     "name": "SPLAT KIDS 2-6 STRAWBERRY-CHERRY 50ML",
     "summary": null,
@@ -11589,10 +11589,10 @@
     "productslug": "splat-kids-2-6-strawberry-cherry-50ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 757,
+    "id": 757,
     "code": "SPT.07247",
     "name": "SPLAT COMPLETE MEDIUM TOOTHBRUSH",
     "summary": "",
@@ -11613,10 +11613,10 @@
     "productslug": "splat-complete-medium-toothbrush",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 758,
+    "id": 758,
     "code": "SPT.07322",
     "name": "SPLAT PROFESSIONAL LAVANDERSEPT TOOTHPASTE 100 ML",
     "summary": "",
@@ -11637,10 +11637,10 @@
     "productslug": "splat-professional-lavandersept-toothpaste-100-ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 759,
+    "id": 759,
     "code": "SPT.07421",
     "name": "SPLAT TOOTHBRUSH SENSITIVE MEDIUM",
     "summary": "",
@@ -11661,10 +11661,10 @@
     "productslug": "splat-toothbrush-sensitive-medium",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 760,
+    "id": 760,
     "code": "SPT.08473",
     "name": "SPLAT PROFESSIONAL SENSITIVE WHITE 100ML",
     "summary": null,
@@ -11685,10 +11685,10 @@
     "productslug": "splat-professional-sensitive-white-100ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 761,
+    "id": 761,
     "code": "SPT.08541",
     "name": "SPLAT SPECIAL BLACK LOTUS TOOTHPASTE 75ML",
     "summary": null,
@@ -11709,10 +11709,10 @@
     "productslug": "splat-special-black-lotus-toothpaste-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 762,
+    "id": 762,
     "code": "SPT.09814",
     "name": "SPLAT SPECIAL STRESS OFF TOOTHPASTE 75ML",
     "summary": "",
@@ -11733,10 +11733,10 @@
     "productslug": "splat-special-stress-off-toothpaste-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 763,
+    "id": 763,
     "code": "SPT.09838",
     "name": "SPLAT SPECIAL CHILLI TOOTHPASTE 75ML",
     "summary": "",
@@ -11757,10 +11757,10 @@
     "productslug": "splat-special-chilli-toothpaste-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 764,
+    "id": 764,
     "code": "SPT.09852",
     "name": "SPLAT SPECIAL SILVER TOOTHPASTE 75ML",
     "summary": "",
@@ -11781,10 +11781,10 @@
     "productslug": "splat-special-silver-toothpaste-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 765,
+    "id": 765,
     "code": "SPT.09982",
     "name": "SPLAT HEALTHY GUMS MOUTHWASH 275 ML",
     "summary": "",
@@ -11805,10 +11805,10 @@
     "productslug": "splat-healthy-gums-mouthwash-275-ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 766,
+    "id": 766,
     "code": "SPT.10483",
     "name": "SPLAT HERBAL COMPLEX MOUTHWASH 275 ML",
     "summary": "",
@@ -11829,10 +11829,10 @@
     "productslug": "splat-herbal-complex-mouthwash-275-ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 767,
+    "id": 767,
     "code": "SPT.30424",
     "name": "BIOMED CHARCOAL TOOTPASTE 100 GR",
     "summary": null,
@@ -11853,10 +11853,10 @@
     "productslug": "biomed-charcoal-tootpaste-100-gr",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 768,
+    "id": 768,
     "code": "SPT.30479",
     "name": "SPLAT TOOTHBURSH BIOMED COMPLETE CARE",
     "summary": "",
@@ -11877,10 +11877,10 @@
     "productslug": "splat-toothbursh-biomed-complete-care",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 769,
+    "id": 769,
     "code": "SPT.30509",
     "name": "SPLAT BIOMED SILVER TOOTHBRUSH",
     "summary": "",
@@ -11901,10 +11901,10 @@
     "productslug": "splat-biomed-silver-toothbrush",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 770,
+    "id": 770,
     "code": "SPT.31049",
     "name": "BIOMED CITRUS FRESH TOOTHPASTE 100 GR",
     "summary": null,
@@ -11925,10 +11925,10 @@
     "productslug": "biomed-citrus-fresh-toothpaste-100-gr",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 771,
+    "id": 771,
     "code": "SPT.70010",
     "name": "BIOMED PROPOLINE TOOTHPASTE 100 GR",
     "summary": null,
@@ -11949,10 +11949,10 @@
     "productslug": "biomed-propoline-toothpaste-100-gr",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 772,
+    "id": 772,
     "code": "SPT.70034",
     "name": "BIOMED BIOCOMPLEX TOOTHPASTE 100 GR",
     "summary": "",
@@ -11973,10 +11973,10 @@
     "productslug": "biomed-biocomplex-toothpaste-100-gr",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 773,
+    "id": 773,
     "code": "SPT.70058",
     "name": "BIOMED SUPERWHITE TOOTHPASTE 100 GR",
     "summary": null,
@@ -11997,10 +11997,10 @@
     "productslug": "biomed-superwhite-toothpaste-100-gr",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 774,
+    "id": 774,
     "code": "SPT.70072",
     "name": "BIOMED SENSITIVE TOOTHPASTE 100 GR",
     "summary": null,
@@ -12021,10 +12021,10 @@
     "productslug": "biomed-sensitive-toothpaste-100-gr",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 775,
+    "id": 775,
     "code": "SPT.70096",
     "name": "BIOMED CALCIMAX TOOTHPASTE 100 GR",
     "summary": "",
@@ -12045,10 +12045,10 @@
     "productslug": "biomed-calcimax-toothpaste-100-gr",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 776,
+    "id": 776,
     "code": "SPT.WW",
     "name": "SPLAT SPECIAL WONDER WHITE TOOTHPASTE 75ML",
     "summary": null,
@@ -12069,10 +12069,10 @@
     "productslug": "splat-special-wonder-white-toothpaste-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 781,
+    "id": 781,
     "code": "HLT.803242",
     "name": "HLT COLLAGEN COMPLEX TABS 60´s",
     "summary": null,
@@ -12093,10 +12093,10 @@
     "productslug": "hlt-collagen-complex-tabs-60s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 782,
+    "id": 782,
     "code": "HLT.803064",
     "name": "HLT DIGESTON MAX",
     "summary": null,
@@ -12117,10 +12117,10 @@
     "productslug": "hlt-digeston-max",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 784,
+    "id": 784,
     "code": "HLT.801229",
     "name": "HLT VITAMIN D3 2.000IU 120'S",
     "summary": null,
@@ -12141,10 +12141,10 @@
     "productslug": "hlt-vitamin-d3-2-000iu-120-s",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 786,
+    "id": 786,
     "code": "HLT.803282",
     "name": "HLT IMMUPROTECT 30 TABS",
     "summary": null,
@@ -12165,10 +12165,10 @@
     "productslug": "hlt-immuprotect-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 787,
+    "id": 787,
     "code": "HLT.801214",
     "name": "HLT VITAMIN C ESTERIFIED 1000 MG 30 TABS",
     "summary": null,
@@ -12189,10 +12189,10 @@
     "productslug": "hlt-vitamin-c-esterified-1000-mg-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 788,
+    "id": 788,
     "code": "HLT.801212",
     "name": "HLT VITAMIN C ESTERIFIED 500 MG 60 TABS",
     "summary": null,
@@ -12213,10 +12213,10 @@
     "productslug": "hlt-vitamin-c-esterified-500-mg-60-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 789,
+    "id": 789,
     "code": "DRO.00653",
     "name": "DRO GUAVA BODY WASH 250ML",
     "summary": null,
@@ -12237,10 +12237,10 @@
     "productslug": "dro-guava-body-wash-250ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 790,
+    "id": 790,
     "code": "DRO.00652",
     "name": "DRO GUAVA EYE SERUM 15ML",
     "summary": null,
@@ -12261,10 +12261,10 @@
     "productslug": "dro-guava-eye-serum-15ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 791,
+    "id": 791,
     "code": "DRO.00654",
     "name": "DRO GUAVA FACE MASK 50 ML",
     "summary": null,
@@ -12285,10 +12285,10 @@
     "productslug": "dro-guava-face-mask-50-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 792,
+    "id": 792,
     "code": "DRO.00657",
     "name": "DRO GUAVA FACIAL SERUM 30 ML",
     "summary": null,
@@ -12309,10 +12309,10 @@
     "productslug": "dro-guava-facial-serum-30-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 793,
+    "id": 793,
     "code": "DRO.00656",
     "name": "DRO GUAVA GEL MOISTURISER 50 ML",
     "summary": null,
@@ -12333,10 +12333,10 @@
     "productslug": "dro-guava-gel-moisturiser-50-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 794,
+    "id": 794,
     "code": "DRO.00660",
     "name": "DRO CALENDULA BODY WASH 250 ML",
     "summary": null,
@@ -12357,10 +12357,10 @@
     "productslug": "dro-calendula-body-wash-250-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 795,
+    "id": 795,
     "code": "DRO.00659",
     "name": "DRO CALENDULA CONDITIONER 265 ML",
     "summary": null,
@@ -12381,10 +12381,10 @@
     "productslug": "dro-calendula-conditioner-265-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 796,
+    "id": 796,
     "code": "DRO.00658",
     "name": "DRO CALENDULA SHAMPOO 265 ML",
     "summary": null,
@@ -12405,10 +12405,10 @@
     "productslug": "dro-calendula-shampoo-265-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 797,
+    "id": 797,
     "code": "DRO.00661",
     "name": "DRO CALENDULA SKIN LOTION 200 ML",
     "summary": null,
@@ -12429,10 +12429,10 @@
     "productslug": "dro-calendula-skin-lotion-200-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 798,
+    "id": 798,
     "code": "DRO.00662",
     "name": "DRO CALENDULA SKIN MOISTURISER CREAM 50 ML",
     "summary": null,
@@ -12453,10 +12453,10 @@
     "productslug": "dro-calendula-skin-moisturiser-cream-50-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 799,
+    "id": 799,
     "code": "DRO.00650",
     "name": "DRO PRO COLLAGEN + BAKUCHIOL 50 ML",
     "summary": null,
@@ -12477,10 +12477,10 @@
     "productslug": "dro-pro-collagen-bakuchiol-50-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 800,
+    "id": 800,
     "code": "DRO.00575",
     "name": "DRO SHEA BUTTER DAY CREAM 50ML",
     "summary": null,
@@ -12501,10 +12501,10 @@
     "productslug": "dro-shea-butter-day-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 801,
+    "id": 801,
     "code": "DRO.00576",
     "name": "DRO SHEA BUTTER NIGHT CREAM 50ML",
     "summary": null,
@@ -12525,10 +12525,10 @@
     "productslug": "dro-shea-butter-night-cream-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 802,
+    "id": 802,
     "code": "DRO.00572",
     "name": "DRO SHEA BUTTER WONDER OIL 150ML",
     "summary": null,
@@ -12549,10 +12549,10 @@
     "productslug": "dro-shea-butter-wonder-oil-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 803,
+    "id": 803,
     "code": "DRO.00529",
     "name": "DRO COCOA BUTTER WONDER OIL 150ML",
     "summary": null,
@@ -12573,10 +12573,10 @@
     "productslug": "dro-cocoa-butter-wonder-oil-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 804,
+    "id": 804,
     "code": "DRO.00167",
     "name": "DRO POMEGRANATE LIP BALM 5,7ML",
     "summary": null,
@@ -12597,10 +12597,10 @@
     "productslug": "dro-pomegranate-lip-balm-5-7ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 805,
+    "id": 805,
     "code": "SPT.01597",
     "name": "SPLAT SPECIAL DREAM TOOTHPASTE 75ML",
     "summary": null,
@@ -12621,10 +12621,10 @@
     "productslug": "splat-special-dream-toothpaste-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 808,
+    "id": 808,
     "code": "SPT.02433",
     "name": "SPLAT SPECIAL LOVE TOOTHPASTE 75ML",
     "summary": null,
@@ -12645,10 +12645,10 @@
     "productslug": "splat-special-love-toothpaste-75ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 811,
+    "id": 811,
     "code": "HLT.803250",
     "name": "HLT ALLERGFORTE 60 TABLET",
     "summary": null,
@@ -12669,10 +12669,10 @@
     "productslug": "hlt-allergforte-60-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 812,
+    "id": 812,
     "code": "HLT.802182",
     "name": "HLT OMEGA 3.6.9 VEGAN",
     "summary": null,
@@ -12693,10 +12693,10 @@
     "productslug": "hlt-omega-3-6-9-vegan",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 813,
+    "id": 813,
     "code": "HLT.803140",
     "name": "HLT HERBAL BOOSTER 30 TABS",
     "summary": null,
@@ -12717,10 +12717,10 @@
     "productslug": "hlt-herbal-booster-30-tabs",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 814,
+    "id": 814,
     "code": "NTR.29868",
     "name": "NUTRATEA TRIM",
     "summary": null,
@@ -12741,10 +12741,10 @@
     "productslug": "nutratea-trim",
     "Status": null,
     "brandid": 15,
-    "brandname": "Nutratea"
+    "brand": "Nutratea"
   },
   {
-    "pid": 815,
+    "id": 815,
     "code": "NTR.29912",
     "name": "NUTRATEA JOINT",
     "summary": null,
@@ -12765,10 +12765,10 @@
     "productslug": "nutratea-joint",
     "Status": null,
     "brandid": 15,
-    "brandname": "Nutratea"
+    "brand": "Nutratea"
   },
   {
-    "pid": 816,
+    "id": 816,
     "code": "NTR.29783",
     "name": "NUTRATEA RELAX",
     "summary": null,
@@ -12789,10 +12789,10 @@
     "productslug": "nutratea-relax",
     "Status": null,
     "brandid": 15,
-    "brandname": "Nutratea"
+    "brand": "Nutratea"
   },
   {
-    "pid": 819,
+    "id": 819,
     "code": "NTR.29844",
     "name": "NUTRATEA DEFENCE",
     "summary": null,
@@ -12813,10 +12813,10 @@
     "productslug": "nutratea-defence",
     "Status": null,
     "brandid": 15,
-    "brandname": "Nutratea"
+    "brand": "Nutratea"
   },
   {
-    "pid": 820,
+    "id": 820,
     "code": "HLT.801314",
     "name": "HLT MAGNESIUM CITRATE POWDER 200G",
     "summary": null,
@@ -12837,10 +12837,10 @@
     "productslug": "hlt-magnesium-citrate-powder-200g",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 821,
+    "id": 821,
     "code": "SPT.07315",
     "name": "SPLAT WHITENING MEDIUM DİŞ FIRÇASI",
     "summary": null,
@@ -12861,10 +12861,10 @@
     "productslug": "splat-whitening-medium-dIs-fircasi",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 822,
+    "id": 822,
     "code": "SPT.07278",
     "name": "SPLAT TOOTHBRUSH COMPLETE SOFT",
     "summary": null,
@@ -12885,10 +12885,10 @@
     "productslug": "splat-toothbrush-complete-soft",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 823,
+    "id": 823,
     "code": "SPT.31636",
     "name": "BIOMED CITRUS FRESH MOUTHWASH 250ML",
     "summary": null,
@@ -12909,10 +12909,10 @@
     "productslug": "biomed-citrus-fresh-mouthwash-250ml",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 824,
+    "id": 824,
     "code": "SPT.32589",
     "name": "BIOMED GUM HEALTH  TOOTHPASTE 100 GR",
     "summary": null,
@@ -12933,10 +12933,10 @@
     "productslug": "biomed-gum-health-toothpaste-100-gr",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 1823,
+    "id": 1823,
     "code": "DRO.00144",
     "name": "DRO TEA TREE LOTION  200ML",
     "summary": null,
@@ -12957,10 +12957,10 @@
     "productslug": "dro-tea-tree-lotion-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1824,
+    "id": 1824,
     "code": "DRO.00678",
     "name": "DRO ALOE VERA WET SKIN MOUSTR.150ML",
     "summary": null,
@@ -12981,10 +12981,10 @@
     "productslug": "dro-aloe-vera-wet-skin-moustr-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1825,
+    "id": 1825,
     "code": "DRO.00557",
     "name": "DRO VIRGIN COCONUT  TOOTHPASTE 100ML",
     "summary": null,
@@ -13005,10 +13005,10 @@
     "productslug": "dro-virgin-coconut-toothpaste-100ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1826,
+    "id": 1826,
     "code": "DRO.00655",
     "name": "DRO GUAVA EXF.FACE WASH 150ML",
     "summary": null,
@@ -13029,10 +13029,10 @@
     "productslug": "dro-guava-exf-face-wash-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1827,
+    "id": 1827,
     "code": "DRO.00679",
     "name": "DRO GUAVA WET SKIN  MOISTURISER 150ML",
     "summary": null,
@@ -13053,10 +13053,10 @@
     "productslug": "dro-guava-wet-skin-moisturiser-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1828,
+    "id": 1828,
     "code": "DRO.00673",
     "name": "DRO TEA TREE & LIME CREAM DEODORANT 50ML",
     "summary": null,
@@ -13077,10 +13077,10 @@
     "productslug": "dro-tea-tree-lime-cream-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1829,
+    "id": 1829,
     "code": "DRO.00672",
     "name": "DRO ROSE&VANILLA  CREAM DEODORANT 50ML",
     "summary": null,
@@ -13101,10 +13101,10 @@
     "productslug": "dro-rose-vanilla-cream-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1830,
+    "id": 1830,
     "code": "DRO.00671",
     "name": "DRO ALOE VERA & CUCUMBER CREAM DEODORANT 50ML",
     "summary": null,
@@ -13125,10 +13125,10 @@
     "productslug": "dro-aloe-vera-cucumber-cream-deodorant-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1831,
+    "id": 1831,
     "code": "DRO.00562",
     "name": "DRO CHARCOAL FACE WASH 200ML",
     "summary": null,
@@ -13149,10 +13149,10 @@
     "productslug": "dro-charcoal-face-wash-200ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1832,
+    "id": 1832,
     "code": "DRO.00256",
     "name": "DRO ROSE HAND&NAIL CREAM 125 ML",
     "summary": null,
@@ -13173,10 +13173,10 @@
     "productslug": "dro-rose-hand-nail-cream-125-ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1833,
+    "id": 1833,
     "code": "DRO.00262",
     "name": "DRO ROSE CONDITIONER 265ML",
     "summary": null,
@@ -13197,10 +13197,10 @@
     "productslug": "dro-rose-conditioner-265ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1836,
+    "id": 1836,
     "code": "MRD.69050",
     "name": "MERIDIAN SMOOTH %100 PEANUT BUTTER 1000G",
     "summary": null,
@@ -13221,10 +13221,10 @@
     "productslug": "meridian-smooth-100-peanut-butter-1000g",
     "Status": null,
     "brandid": 30,
-    "brandname": "Meridian"
+    "brand": "Meridian"
   },
   {
-    "pid": 1839,
+    "id": 1839,
     "code": "MRD.67050",
     "name": "MERIDIAN CRUNCHY %100 PEANUT BUTTER 1000G",
     "summary": null,
@@ -13245,10 +13245,10 @@
     "productslug": "meridian-crunchy-100-peanut-butter-1000g",
     "Status": null,
     "brandid": 30,
-    "brandname": "Meridian"
+    "brand": "Meridian"
   },
   {
-    "pid": 1840,
+    "id": 1840,
     "code": "MRD.71015",
     "name": "MERIDIAN CRUNCHY %100 PEANUT BUTTER 470 G",
     "summary": null,
@@ -13269,10 +13269,10 @@
     "productslug": "meridian-crunchy-100-peanut-butter-470-g",
     "Status": null,
     "brandid": 30,
-    "brandname": "Meridian"
+    "brand": "Meridian"
   },
   {
-    "pid": 1841,
+    "id": 1841,
     "code": "MRD.71020",
     "name": "MERIDIAN SMOOTH %100 PEANUT BUTTER 470 G",
     "summary": null,
@@ -13293,10 +13293,10 @@
     "productslug": "meridian-smooth-100-peanut-butter-470-g",
     "Status": null,
     "brandid": 30,
-    "brandname": "Meridian"
+    "brand": "Meridian"
   },
   {
-    "pid": 1842,
+    "id": 1842,
     "code": "DRO.00674",
     "name": "DRO MORINGA BODY WASH",
     "summary": null,
@@ -13317,10 +13317,10 @@
     "productslug": "dro-moringa-body-wash",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1843,
+    "id": 1843,
     "code": "DRO.00675",
     "name": "DRO MORINGA FACE MASK 50ML",
     "summary": null,
@@ -13341,10 +13341,10 @@
     "productslug": "dro-moringa-face-mask-50ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1844,
+    "id": 1844,
     "code": "DRO.00676",
     "name": "DRO MORINGA WET SKIN MOISTURISER 150ML",
     "summary": null,
@@ -13365,10 +13365,10 @@
     "productslug": "dro-moringa-wet-skin-moisturiser-150ml",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1845,
+    "id": 1845,
     "code": "DRO.00677",
     "name": "DRO MORINGA FACIAL CLEANSING POWDER 15 G",
     "summary": null,
@@ -13389,10 +13389,10 @@
     "productslug": "dro-moringa-facial-cleansing-powder-15-g",
     "Status": null,
     "brandid": 11,
-    "brandname": "Dr. Organic"
+    "brand": "Dr. Organic"
   },
   {
-    "pid": 1846,
+    "id": 1846,
     "code": "HLT.804040",
     "name": "HLT CATS CLAW BARK EXT.60 TABLET",
     "summary": null,
@@ -13413,10 +13413,10 @@
     "productslug": "hlt-cats-claw-bark-ext-60-tablet",
     "Status": null,
     "brandid": 5,
-    "brandname": "HealthAid"
+    "brand": "HealthAid"
   },
   {
-    "pid": 1848,
+    "id": 1848,
     "code": "WLT.600401",
     "name": "WLT VITAMIN E 400 IU 30 SOFTGEL",
     "summary": null,
@@ -13437,10 +13437,10 @@
     "productslug": "wlt-vitamin-e-400-iu-30-softgel",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1849,
+    "id": 1849,
     "code": "WLT.602001",
     "name": "WLT VITAMIN A-Z TURMERIC & GRAPESEED 60 TAB",
     "summary": null,
@@ -13461,10 +13461,10 @@
     "productslug": "wlt-vitamin-a-z-turmeric-grapeseed-60-tab",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1850,
+    "id": 1850,
     "code": "WLT.600100",
     "name": "WLT VITAMIN B COMPLEX 60 TABLET",
     "summary": null,
@@ -13485,10 +13485,10 @@
     "productslug": "wlt-vitamin-b-complex-60-tablet",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1851,
+    "id": 1851,
     "code": "WLT.600200",
     "name": "WLT VITAMIN C ROSEHIPS & BIOFLAVONOIDS 30 TABLET",
     "summary": null,
@@ -13509,10 +13509,10 @@
     "productslug": "wlt-vitamin-c-rosehips-bioflavonoids-30-tablet",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1852,
+    "id": 1852,
     "code": "WLT.600300",
     "name": "WLT VITAMIN D3 1000IU 30 TABLET",
     "summary": null,
@@ -13533,10 +13533,10 @@
     "productslug": "wlt-vitamin-d3-1000iu-30-tablet",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1853,
+    "id": 1853,
     "code": "WLT.600301",
     "name": "WLT VITAMIN D3 1000IU 120 TABLET",
     "summary": null,
@@ -13557,10 +13557,10 @@
     "productslug": "wlt-vitamin-d3-1000iu-120-tablet",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1854,
+    "id": 1854,
     "code": "WLT.600302",
     "name": "WLT VITAMIN D3 5.000 IU 30 TABLET",
     "summary": null,
@@ -13581,10 +13581,10 @@
     "productslug": "wlt-vitamin-d3-5-000-iu-30-tablet",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1855,
+    "id": 1855,
     "code": "WLT.619001",
     "name": "WLT GLUCOSAMINE, CHONDROTIN MSM 60 TAB",
     "summary": null,
@@ -13605,10 +13605,10 @@
     "productslug": "wlt-glucosamine-chondrotin-msm-60-tab",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1856,
+    "id": 1856,
     "code": "WLT.600306",
     "name": "WLT VITAMIN D3 50.000 IU 100 CAPS",
     "summary": null,
@@ -13629,10 +13629,10 @@
     "productslug": "wlt-vitamin-d3-50-000-iu-100-caps",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1857,
+    "id": 1857,
     "code": "WLT.600305",
     "name": "WLT VITAMIN D3 50.000 IU 10CAPS",
     "summary": null,
@@ -13653,10 +13653,10 @@
     "productslug": "wlt-vitamin-d3-50-000-iu-10caps",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1858,
+    "id": 1858,
     "code": "WLT.600304",
     "name": "WLT VITAMIN D3 10.000 IU 30 SOFTGEL",
     "summary": null,
@@ -13677,10 +13677,10 @@
     "productslug": "wlt-vitamin-d3-10-000-iu-30-softgel",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1859,
+    "id": 1859,
     "code": "WLT.619002",
     "name": "WLT GLUCOSAMINE, CHONDROTIN TURMERIC 60 CAPS",
     "summary": null,
@@ -13701,10 +13701,10 @@
     "productslug": "wlt-glucosamine-chondrotin-turmeric-60-caps",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1860,
+    "id": 1860,
     "code": "WLT.604001",
     "name": "WLT OMEGA 3 1000MG 100 SOFTGEL",
     "summary": null,
@@ -13725,10 +13725,10 @@
     "productslug": "wlt-omega-3-1000mg-100-softgel",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1861,
+    "id": 1861,
     "code": "WLT.603001",
     "name": "WLT MILK THISTLE 500MG 60 CAPS",
     "summary": null,
@@ -13749,10 +13749,10 @@
     "productslug": "wlt-milk-thistle-500mg-60-caps",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1862,
+    "id": 1862,
     "code": "WLT.614001",
     "name": "WLT CO-ENZYME Q10 100MG 30 CAPS",
     "summary": null,
@@ -13773,10 +13773,10 @@
     "productslug": "wlt-co-enzyme-q10-100mg-30-caps",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1863,
+    "id": 1863,
     "code": "WLT.605001",
     "name": "WLT IMMUNE BOOSTER MULTI FORCE 90 CAPS",
     "summary": null,
@@ -13797,10 +13797,10 @@
     "productslug": "wlt-immune-booster-multi-force-90-caps",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1864,
+    "id": 1864,
     "code": "WLT.605002",
     "name": "WLT IMMUNE BOOSTER PROBIO ACTION 60 CAPSUL",
     "summary": null,
@@ -13821,10 +13821,10 @@
     "productslug": "wlt-immune-booster-probio-action-60-capsul",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1865,
+    "id": 1865,
     "code": "WLT.603002",
     "name": "WLT SPIRULINA 500MG 30 CAPS",
     "summary": null,
@@ -13845,10 +13845,10 @@
     "productslug": "wlt-spirulina-500mg-30-caps",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1866,
+    "id": 1866,
     "code": "WLT.603003",
     "name": "WLT GARLIC 1000MG 60 SOFTGEL ODOURLESS",
     "summary": null,
@@ -13869,10 +13869,10 @@
     "productslug": "wlt-garlic-1000mg-60-softgel-odourless",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1867,
+    "id": 1867,
     "code": "WLT.601001",
     "name": "WLT ZINC GLUCONATE 25 MG 30 TAB.",
     "summary": null,
@@ -13893,10 +13893,10 @@
     "productslug": "wlt-zinc-gluconate-25-mg-30-tab",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1868,
+    "id": 1868,
     "code": "WLT.601002",
     "name": "WLT CALCIUM MAGNESIUM & VIT D3 30 TABLET",
     "summary": null,
@@ -13917,10 +13917,10 @@
     "productslug": "wlt-calcium-magnesium-vit-d3-30-tablet",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1869,
+    "id": 1869,
     "code": "WLT.601003",
     "name": "WLT CALCIUM MAGNESIUM & ZINC 90 TABLET",
     "summary": null,
@@ -13941,10 +13941,10 @@
     "productslug": "wlt-calcium-magnesium-zinc-90-tablet",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1870,
+    "id": 1870,
     "code": "WLT.615001",
     "name": "WLT EVENING PRIMROSE OIL 1000MG 30 SOFTGEL",
     "summary": null,
@@ -13965,10 +13965,10 @@
     "productslug": "wlt-evening-primrose-oil-1000mg-30-softgel",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1871,
+    "id": 1871,
     "code": "SPT.09883",
     "name": "SPLAT TOOTHBRUSH B.WOOD&CHARCOAL MEDIUM",
     "summary": null,
@@ -13989,10 +13989,10 @@
     "productslug": "splat-toothbrush-b-wood-charcoal-medium",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 1872,
+    "id": 1872,
     "code": "SPT.10025",
     "name": "SPLAT TOOTHBRUSH PROF.ULTRA SENSITIVE SOFT",
     "summary": null,
@@ -14013,10 +14013,10 @@
     "productslug": "splat-toothbrush-prof-ultra-sensitive-soft",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 1873,
+    "id": 1873,
     "code": "SPT.10025",
     "name": "SPLAT TOOTHBRUSH PROF.ULTRA SENSITIVE SOFT",
     "summary": null,
@@ -14037,10 +14037,10 @@
     "productslug": "splat-toothbrush-prof-ultra-sensitive-soft",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 1874,
+    "id": 1874,
     "code": "SPT.13422",
     "name": "SPLAT TOOTHBRUSH PROF.CLINIC CARE MEDIUM",
     "summary": null,
@@ -14061,10 +14061,10 @@
     "productslug": "splat-toothbrush-prof-clinic-care-medium",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 1875,
+    "id": 1875,
     "code": "SPT.11909",
     "name": "SPLAT TOOTHBRUSH PROF.ULTRA CARE MEDIUM",
     "summary": null,
@@ -14085,10 +14085,10 @@
     "productslug": "splat-toothbrush-prof-ultra-care-medium",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 1876,
+    "id": 1876,
     "code": "SPT.10032",
     "name": "SPLAT TOOTHBRUSH PROF.ULTRA WHITE SOFT",
     "summary": null,
@@ -14109,10 +14109,10 @@
     "productslug": "splat-toothbrush-prof-ultra-white-soft",
     "Status": null,
     "brandid": 10,
-    "brandname": "Splat"
+    "brand": "Splat"
   },
   {
-    "pid": 1877,
+    "id": 1877,
     "code": "WLT.604004",
     "name": "WLT RED KRILL OIL 60 SOFTGEL",
     "summary": null,
@@ -14133,10 +14133,10 @@
     "productslug": "wlt-red-krill-oil-60-softgel",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1878,
+    "id": 1878,
     "code": "WLT.604007",
     "name": "WLT OMEGA 3 1000MG 30 SOFTGEL",
     "summary": null,
@@ -14157,10 +14157,10 @@
     "productslug": "wlt-omega-3-1000mg-30-softgel",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1879,
+    "id": 1879,
     "code": "WLT.600201",
     "name": "WLT VITAMIN C 1000MG 30 TABLET",
     "summary": null,
@@ -14181,10 +14181,10 @@
     "productslug": "wlt-vitamin-c-1000mg-30-tablet",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1880,
+    "id": 1880,
     "code": "WLT.603004",
     "name": "WLT ORGANIC TURMERIC CURCUMIN W/ BIOPERINE 60 CAPS",
     "summary": null,
@@ -14205,10 +14205,10 @@
     "productslug": "wlt-organic-turmeric-curcumin-w-bioperine-60-caps",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1881,
+    "id": 1881,
     "code": "WLT.612001",
     "name": "WLT RASPBERRY KETONES & GARCINIA CAMBOGIA 60 CAPS",
     "summary": null,
@@ -14229,10 +14229,10 @@
     "productslug": "wlt-raspberry-ketones-garcinia-cambogia-60-caps",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1882,
+    "id": 1882,
     "code": "WLT.612006",
     "name": "WLT APPLE CIDER COMPLEX",
     "summary": null,
@@ -14253,10 +14253,10 @@
     "productslug": "wlt-apple-cider-complex",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1884,
+    "id": 1884,
     "code": "WLT.603009",
     "name": "WLT 5-HTP PLUS (VIT B3+B6) 60 CAPS",
     "summary": null,
@@ -14277,10 +14277,10 @@
     "productslug": "wlt-5-htp-plus-vit-b3-b6-60-caps",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1885,
+    "id": 1885,
     "code": "WLT.600203",
     "name": "WLT VITAMIN C ROSEHIPS & BIOFLAVONOIDS 60 TABLET",
     "summary": null,
@@ -14301,10 +14301,10 @@
     "productslug": "wlt-vitamin-c-rosehips-bioflavonoids-60-tablet",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1886,
+    "id": 1886,
     "code": "WLT.600202",
     "name": "WLT VITAMIN C 1000MG 60 TABLET",
     "summary": null,
@@ -14325,10 +14325,10 @@
     "productslug": "wlt-vitamin-c-1000mg-60-tablet",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   },
   {
-    "pid": 1888,
+    "id": 1888,
     "code": "WLT.600104",
     "name": "WLT VITAMIN B12 1000MCG 60 TABLET",
     "summary": null,
@@ -14349,6 +14349,6 @@
     "productslug": "wlt-vitamin-b12-1000mcg-60-tablet",
     "Status": null,
     "brandid": 31,
-    "brandname": "Wellington"
+    "brand": "Wellington"
   }
 ]

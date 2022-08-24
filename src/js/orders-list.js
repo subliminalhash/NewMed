@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     "divProductSearchSuggestions"
   );
 
+  const ulBasketItems = document.getElementById("ulBasketItems");
+
   // order create variables
   const hdnProductId = document.getElementById("hdnProductId");
   const spnProductName = document.getElementById("productNameSpan");
@@ -139,29 +141,26 @@ document.addEventListener("DOMContentLoaded", function (event) {
   });
 
   const displayQuantityModal = (el) => {
-    const productId = el.dataset.productid,
-      name = el.dataset.productname;
-
-    let basketItem = {
-      productId: el.dataset.productid,
+    const basketItem = {
+      id: el.dataset.id,
       brand: el.dataset.brand,
-      name: el.dataset.productname,
+      name: el.dataset.name,
+      image: el.dataset.image,
       price1: el.dataset.price1,
       price2: el.dataset.price2,
       vat: el.dataset.vat,
       vatpercent: el.dataset.vatPercent,
-      code: el.dataset.productcode,
+      code: el.dataset.code,
       barcode: el.dataset.barcode,
       campaign: el.dataset.campaignid,
-      qty: undefined,
+      quantity: undefined,
     };
 
-    let hdnBasketItem = document.getElementById("hdnBasketItem");
+    const hdnBasketItem = document.getElementById("hdnBasketItem");
     hdnBasketItem.value = JSON.stringify(basketItem);
 
-    hdnProductId.value = productId;
-
-    spnProductName.textContent = name;
+    hdnProductId.value = basketItem.id;
+    spnProductName.textContent = basketItem.name;
 
     productQuantityDialog.showModal();
     ddlProductQuantity.focus();
@@ -187,31 +186,28 @@ document.addEventListener("DOMContentLoaded", function (event) {
       // submit the form
       frmAcceptProductQuantity.submit();
 
-      // selected values - al bu bilgiyi ne yaparsan yap
-      const productId = hdnProductId.value;
-      const orderQty = ddlProductQuantity.value;
-      const name = spnProductName.textContent;
+      // convert the hidden textbox value of the basket object into a valid JSON object
       let basketItem = JSON.parse(hdnBasketItem.value);
-      basketItem.qty = orderQty;
       console.log(basketItem);
-      // reset values
+      // asign the order quantity
+      basketItem.qty = ddlProductQuantity.value;
+
+      // reset form values
       hdnProductId.value = "";
       ddlProductQuantity.value = "1";
       spnProductName.textContent = "";
+      hdnBasketItem.value = "";
 
       //focus back in the product search textbox
-
       productsSearchTextBox.focus();
 
       // inject a product row into the dom
-      //**
-      //** Code goes here
-      //**
+      ulBasketItems.innerHTML += addProductRow(basketItem, "productRow");
 
-      // display a toast for the added product
+      // display a confirmation toast for the added product
       document.querySelector(
         ".toast-body"
-      ).textContent = `${orderQty} adet ${name} sepete eklendi.`;
+      ).textContent = `${basketItem.qty} adet ${basketItem.name} sepete eklendi.`;
       const toast = new bootstrap.Toast(document.querySelector(".toast"), {
         animation: false,
         delay: 3000,
@@ -267,11 +263,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     // display product suggestions div
     divProductSearchSuggestions.classList.remove("d-none");
 
-    // lock the offcanvas so it does not close on esc key
-    const bsOffcanvas = new bootstrap.Offcanvas("#offCanvasOrderCreate", {
-      keyboard: false,
-    });
-
     const inputTop = productsSearchTextBox.offsetTop;
     const inputHeight = productsSearchTextBox.offsetHeight;
     divProductSearchSuggestions.style.top = inputTop + inputHeight;
@@ -284,39 +275,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     );
 
     results.forEach((p) => {
-      html += `<li tabIndex="-1" class="list-group-item" data-productid="${
-        p.pid
-      }" data-brand="${p.brandname}" data-productname="${
-        p.name
-      }" data-price1="${p.price1 / 100}" 
-            data-price2="${p.price2 / 100}" 
-            data-vat="${p.vat}" 
-            data-vat-percent="${p.vatpercent}" 
-            data-productcode="${p.code}" 
-            data-barcode="4645646465464" data-campaignid="2">
-            <div class="d-flex align-items-center justify-content-start">
-              <img src="./${p.image}" data-src="./${
-        p.image
-      }" class="me-2" width="60">
-              <div>
-                <small class="brand">${
-                  p.brandname
-                }</small> <small class="productcode">${p.code}</small><br/>
-                <span class="productname"><strong>${
-                  p.name
-                }</strong></span> <br/><span class="price">Toptan: ${
-        p.price1 / 100
-      }
-                </span> <span class="price">PSF: ${
-                  p.price2 / 100
-                }</span> <span class="price">KDV: ${p.vat / 100} (%${
-        p.vatpercent
-      })</span>
-              </div>
-              <button class="btnAddToBasket btn btn-circle btn-white ms-auto"><i class="fa fa-plus" ></i></button>
-            </div>
-            </td>
-          </li>`;
+      html += addProductRow(p, "search");
       ul.innerHTML = html;
     });
   });
@@ -333,8 +292,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
       displayQuantityModal(el);
     }
   });
-
-  const product = {};
 
   const search = document.getElementById("q");
   const searchddl = document.getElementById("divSearchSuggestionsWrapper");
@@ -419,28 +376,52 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   // ORDER DETAILS
 
-  const addProductRow = (product) => {
-    return `
-  <div class="product d-flex align-items-center justify-content-between">
-    <!-- photo -->
-    <div class="productphoto"><img src="${product.img}" width="60"></div>
-    <!-- details -->
-    <div class="productdetails">${product.name}</div>
-    <!-- basket actions -->
-    <div class="basketactions text-right">
-      <div id="basketActionsWrapper">
-        <button class="btn btn-white btn-circle remove"><i class="fa fa-trash"></i></button>
-        <select class="form-select form-select-sm">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        </select>
-      </div>
-    </div>
-  </div>
-  `;
+  const addProductRow = (product, returnType) => {
+    let actionHtml =
+      returnType === "search"
+        ? `<button class="btnAddToBasket btn btn-circle btn-white ms-auto"><i class="fa fa-plus" ></i></button>`
+        : `
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="#" class="btnRemoveFromBasket btn btn-circle btn-white bg-soft-danger">
+        <i class="fa fa-trash"></i>
+      </a>
+      <input type="text" class="form-control form-control-sm" value="${product.qty}"/>
+    </div>`;
+
+    return `<li tabIndex="-1" class="list-group-item mb-2 border-bottom pb-2" data-id="${
+      product.id
+    }" data-brand="${product.brand}" data-name="${product.name}" data-price1="${
+      product.price1 / 100
+    }" 
+          data-price2="${product.price2 / 100}" 
+          data-vat="${product.vat}" 
+          data-vat-percent="${product.vatpercent}" 
+          data-code="${product.code}" 
+          data-image="${product.image}"
+          data-barcode="4645646465464" data-campaignid="2">
+          <div class="d-flex align-items-center justify-content-start">
+            <img src="./${product.image}" data-src="./${
+      product.image
+    }" class="me-2" width="60">
+            <div class="flex-grow-1">
+              <small class="brand">${
+                product.brand
+              }</small> <small class="productcode">${product.code}</small><br/>
+              <span class="productname"><strong>${
+                product.name
+              }</strong></span> <br/><span class="price">Toptan: ${
+      product.price1 / 100
+    }
+              </span> <span class="price">PSF: ${
+                product.price2 / 100
+              }</span> <span class="price">KDV: ${product.vat / 100} (%${
+      product.vatpercent
+    })</span>
+            </div>
+            ${actionHtml}
+          </div>
+          </td>
+        </li>`;
   };
 
   // adds a click event listener to elements outside of the search suggestions div and closes it if the clicked area is outside.
@@ -614,7 +595,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         <button class="btn qtyChange decrement" type="button">-</button>
         <input type="text" class="form-control qty" value="{{qty}}" autocomplete="off">
         <button class="btn qtyChange increment" type="button">+</button>
-        <button class="btn addtocart" type="button" data-productid="{{productid}}" ><i class="fa-solid fa-cart-plus"></i></button>
+        <button class="btn addtocart" type="button" data-id="{{id}}" ><i class="fa-solid fa-cart-plus"></i></button>
       </div>
     </div>
   </td>

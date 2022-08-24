@@ -31,7 +31,9 @@
       
       <hr />
 <!-- ####################### NOTIFICATION AREA ####################### -->
-<div class="alert alert-danger d-none" id="errorNotifications"></div>
+<div class="alert alert-danger d-none" id="errorNotifications">
+
+</div>
 
       <!-- ####################### SEARCH BAR ####################### -->
       <div id="divSearchBar" class="mb-3">
@@ -520,12 +522,18 @@
           <input type="search" class="form-control border-0" id="txtSearchProducts" autocomplete="off" placeholder="Ürün adı, markası, kodu veya barkodu yazın">
           <button class="btn" type="button"><i class="fa fa-search"></i></button>
         </div>
-        <div id="divProductSearchSuggestions" class="d-none p-0 m-0 border-end border-start border-bottom bg-white">
+        <div id="divProductSearchSuggestions" class="d-none p-0 m-0 border-end border-start border-bottom bg-white" style="z-index: 1;">
           <ul id="ulProductSuggestions" class="list-group">
 
           </ul>
         </div>
       </div>
+    </div>
+
+
+    <!-- ordered items list-->
+    <div id="divBasketItems">
+      <ul id="ulBasketItems" class="p-0"></ul>
     </div>
 
     <!-- dialog - product quantity -->
@@ -639,19 +647,12 @@
         <input type="hidden" id="hdnBasketItem">
       </form>
     </dialogid>
-
-    <!-- ordered items list-->
-    <div id="orderedItems">
-      <table id="tblItems" class="table table-striped">
-        <tbody id="tblItemsBody"></tbody>
-      </table>
-    </div>
   </div>
 
 
   <!-- toast container -->
   <div class="toast-container position-fixed bottom-0 end-0 p-3">
-    <div class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast align-items-center text-bg-info border-0" role="alert" aria-live="assertive" aria-atomic="true">
       <div class="d-flex">
         <div class="toast-body text-white">
           
@@ -676,6 +677,52 @@
 
   <script>
 
+let items = [];
+let Basket = {
+
+
+
+//greet: function () {
+  add: item => {
+    // if we don't have anything to add, exit
+    alert('checking if item exists')
+    if (!item) return;
+
+    // check if quantity is a number
+    if (!Number.isInteger(item.qty)) return;
+
+
+    // check if already in basket. If so increment quantity instead of creating a new one.
+    const index = items.findIndex((obj => obj.id == item.id));
+    console.log(index)
+    //console.log(index);return;
+    if (index > -1) {
+      items[index].qty = item.qty;
+    }
+    else {
+      // add item to cart
+      items.push(item);
+    }
+    return;
+  },
+
+  remove: item => {
+    if (!item) return;
+    const index = items.findIndex((i) => i.id === item.id);
+    if (index) items.splice(i, 1);
+  },
+  
+  clear: () => { items = []},
+  
+  getItems: () => items
+}
+
+
+Basket.add({id:2, name:"dilek", qty:36})
+Basket.add({id:2, name:"dilek", qty:4})
+Basket.add({id:3, name:"kemal", qty:6})
+
+console.log(Basket.getItems())
   </script>
 
 
