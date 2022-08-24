@@ -679,13 +679,9 @@
 
 let items = [];
 let Basket = {
-
-
-
 //greet: function () {
   add: item => {
     // if we don't have anything to add, exit
-    alert('checking if item exists')
     if (!item) return;
 
     // check if quantity is a number
@@ -694,10 +690,8 @@ let Basket = {
 
     // check if already in basket. If so increment quantity instead of creating a new one.
     const index = items.findIndex((obj => obj.id == item.id));
-    console.log(index)
-    //console.log(index);return;
     if (index > -1) {
-      items[index].qty = item.qty;
+      items[index].qty += item.qty;
     }
     else {
       // add item to cart
