@@ -119,7 +119,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
         return;
         // or if the product suggestions div is open, then close that one.
       } else if (!divProductSearchSuggestions.classList.contains("d-none")) {
-        console.log("esc clicked, closing product suggestions");
         divProductSearchSuggestions.classList.add("d-none");
         return;
       } else if (offCanvasOrderCreate.classList.contains("show")) {
@@ -141,26 +140,26 @@ document.addEventListener("DOMContentLoaded", function (event) {
   });
 
   const displayQuantityModal = (el) => {
-    const basketItem = {
-      id: el.dataset.id,
-      brand: el.dataset.brand,
-      name: el.dataset.name,
-      image: el.dataset.image,
-      price1: el.dataset.price1,
-      price2: el.dataset.price2,
-      vat: el.dataset.vat,
-      vatpercent: el.dataset.vatPercent,
-      code: el.dataset.code,
-      barcode: el.dataset.barcode,
-      campaign: el.dataset.campaignid,
-      quantity: undefined,
-    };
+    const item = new basketItem(
+      el.dataset.id,
+      el.dataset.brand,
+      el.dataset.name,
+      el.dataset.image,
+      el.dataset.price1,
+      el.dataset.price2,
+      el.dataset.vat,
+      el.dataset.vatpercent,
+      el.dataset.code,
+      el.dataset.barcode,
+      el.dataset.campaignid,
+      undefined
+    );
 
     const hdnBasketItem = document.getElementById("hdnBasketItem");
-    hdnBasketItem.value = JSON.stringify(basketItem);
+    hdnBasketItem.value = JSON.stringify(item);
 
-    hdnProductId.value = basketItem.id;
-    spnProductName.textContent = basketItem.name;
+    hdnProductId.value = item.id;
+    spnProductName.textContent = item.name;
 
     productQuantityDialog.showModal();
     ddlProductQuantity.focus();
@@ -176,6 +175,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // form values inside of the dialog element can be received by not
   // listening to form submit event but by listening to dialog close event.
   // https://blog.logrocket.com/using-the-dialog-element/
+
   productQuantityDialog.addEventListener("close", (e) => {
     if (productQuantityDialog.returnValue === "cancel") {
       hdnProductId.value = "";
@@ -187,10 +187,23 @@ document.addEventListener("DOMContentLoaded", function (event) {
       frmAcceptProductQuantity.submit();
 
       // convert the hidden textbox value of the basket object into a valid JSON object
-      let basketItem = JSON.parse(hdnBasketItem.value);
-      console.log(basketItem);
+      const json = JSON.parse(hdnBasketItem.value);
+      let orderedItem = new basketItem(
+        parseInt(json.id),
+        json.brand,
+        json.name,
+        json.image,
+        parseFloat(json.price1),
+        parseFloat(json.price2),
+        parseFloat(json.vat),
+        parseFloat(json.vatpercent),
+        json.code,
+        json.barcode,
+        json.campaign
+      );
+
       // asign the order quantity
-      basketItem.qty = ddlProductQuantity.value;
+      orderedItem.quantity = parseInt(ddlProductQuantity.value);
 
       // reset form values
       hdnProductId.value = "";
@@ -201,13 +214,21 @@ document.addEventListener("DOMContentLoaded", function (event) {
       //focus back in the product search textbox
       productsSearchTextBox.focus();
 
+      // update the user basket
+      Basket.AddItem(orderedItem);
+
+      // save shekelbasket to local storage
+      if (Shekel.Utility.isLocalStorageAvailable) {
+        localStorage.setItem("ShekelBasket", JSON.stringify(ShekelBasket));
+      }
+
       // inject a product row into the dom
-      ulBasketItems.innerHTML += addProductRow(basketItem, "productRow");
+      drawProductRows();
 
       // display a confirmation toast for the added product
       document.querySelector(
         ".toast-body"
-      ).textContent = `${basketItem.qty} adet ${basketItem.name} sepete eklendi.`;
+      ).textContent = `${orderedItem.quantity} adet ${orderedItem.name} sepete eklendi.`;
       const toast = new bootstrap.Toast(document.querySelector(".toast"), {
         animation: false,
         delay: 3000,
@@ -216,6 +237,35 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   });
+
+  function drawProductRows() {
+    ulBasketItems.innerHTML = "";
+
+    const items = ShekelBasket.basketItems;
+    items.forEach((item) => {
+      ulBasketItems.innerHTML += addProductRow(item, "productRow");
+    });
+
+    // print summary table
+    const spanSubTotal = document.getElementById("spanSubTotal");
+    const spanDiscountTotal = document.getElementById("spanDiscountTotal");
+    const spanVatTotal = document.getElementById("spanVatTotal");
+    const spanGrandTotal = document.getElementById("spanGrandTotal");
+    const showAfterBasketHasItems = document.querySelectorAll(
+      ".showAfterBasketHasItem"
+    );
+
+    if (items.length) {
+      showAfterBasketHasItems.forEach((el) => el.classList.remove("d-none"));
+    } else {
+      showAfterBasketHasItems.forEach((el) => el.classList.add("d-none"));
+    }
+
+    spanSubTotal.innerText = ShekelBasket.subTotal;
+    spanDiscountTotal.innerText = ShekelBasket.discountTotal;
+    spanVatTotal.innerText = ShekelBasket.vatTotal;
+    spanGrandTotal.innerText = ShekelBasket.grandTotal;
+  }
 
   //*************** ENTER KEYPRESS EVENT **************** */
   document.addEventListener("keypress", (e) => {
@@ -374,6 +424,20 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
   });
 
+  // removing a product completely from basket
+  document.getElementById("divBasketItems").addEventListener("click", (e) => {
+    if (
+      e.target.classList.contains("btnRemoveFromBasket") ||
+      e.target.parentElement.classList.contains("btnRemoveFromBasket")
+    ) {
+      const el = e.target.closest("li");
+      const productId = parseInt(el.dataset.id);
+
+      Basket.RemoveItem(productId);
+      drawProductRows();
+    }
+  });
+
   // ORDER DETAILS
 
   const addProductRow = (product, returnType) => {
@@ -382,41 +446,25 @@ document.addEventListener("DOMContentLoaded", function (event) {
         ? `<button class="btnAddToBasket btn btn-circle btn-white ms-auto"><i class="fa fa-plus" ></i></button>`
         : `
     <div class="d-flex align-items-center justify-content-between">
-      <a href="#" class="btnRemoveFromBasket btn btn-circle btn-white bg-soft-danger">
+      <a href="#" data-productid="${product.id}" class="btnRemoveFromBasket btn btn-circle btn-white bg-soft-danger">
         <i class="fa fa-trash"></i>
       </a>
-      <input type="text" class="form-control form-control-sm" value="${product.qty}"/>
+      <input type="text" class="form-control form-control-sm" value="${product.quantity}"/>
     </div>`;
 
-    return `<li tabIndex="-1" class="list-group-item mb-2 border-bottom pb-2" data-id="${
-      product.id
-    }" data-brand="${product.brand}" data-name="${product.name}" data-price1="${
-      product.price1 / 100
-    }" 
-          data-price2="${product.price2 / 100}" 
+    return `<li tabIndex="-1" class="list-group-item mb-2 border-bottom pb-2" data-id="${product.id}" data-brand="${product.brand}" data-name="${product.name}" data-price1="${product.price1}" 
+          data-price2="${product.price2}" 
           data-vat="${product.vat}" 
           data-vat-percent="${product.vatpercent}" 
           data-code="${product.code}" 
           data-image="${product.image}"
           data-barcode="4645646465464" data-campaignid="2">
           <div class="d-flex align-items-center justify-content-start">
-            <img src="./${product.image}" data-src="./${
-      product.image
-    }" class="me-2" width="60">
+            <img src="./${product.image}" data-src="./${product.image}" class="me-2" width="60">
             <div class="flex-grow-1">
-              <small class="brand">${
-                product.brand
-              }</small> <small class="productcode">${product.code}</small><br/>
-              <span class="productname"><strong>${
-                product.name
-              }</strong></span> <br/><span class="price">Toptan: ${
-      product.price1 / 100
-    }
-              </span> <span class="price">PSF: ${
-                product.price2 / 100
-              }</span> <span class="price">KDV: ${product.vat / 100} (%${
-      product.vatpercent
-    })</span>
+              <small class="brand">${product.brand}</small> <small class="productcode">${product.code}</small><br/>
+              <span class="productname"><strong>${product.name}</strong></span> <br/><span class="price">Toptan: ${product.price1}
+              </span> <span class="price">PSF: ${product.price2}</span> <span class="price">KDV: ${product.vat} (%${product.vatpercent})</span>
             </div>
             ${actionHtml}
           </div>
@@ -593,7 +641,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       <div class="b-0 p-0 m-0 border d-flex">
         <div class="text-danger d-flex align-items-center p-2">{{stock}}</div>
         <button class="btn qtyChange decrement" type="button">-</button>
-        <input type="text" class="form-control qty" value="{{qty}}" autocomplete="off">
+        <input type="text" class="form-control qty" value="{{quantity}}" autocomplete="off">
         <button class="btn qtyChange increment" type="button">+</button>
         <button class="btn addtocart" type="button" data-id="{{id}}" ><i class="fa-solid fa-cart-plus"></i></button>
       </div>
