@@ -1,4 +1,4 @@
-//import { v4 as uuidv4 } from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 // let Shekel = (() => {
 //   // Code that runs in your function
@@ -24,7 +24,7 @@ let Shekel = window.Shekel || {};
     }
   };
 
-  Shekel.Utility.Guid = () => {};
+  Shekel.Utility.Guid = () => uuidv4();
 
   // Shekel.Uility.getPreviousSibling = (elem, callback) => {
   //   // Get the next sibling element
@@ -44,6 +44,8 @@ let Shekel = window.Shekel || {};
   // };
 })();
 
+window.Shekel = Shekel;
+
 function basketItem(
   id,
   brand,
@@ -58,7 +60,7 @@ function basketItem(
   campaign,
   quantity
 ) {
-  this.id = parseInt(id);
+  this.id = Number.parseInt(id, 10);
   this.brand = brand;
   this.name = name;
   this.image = image;
@@ -69,15 +71,17 @@ function basketItem(
   this.code = code;
   this.barcode = barcode;
   this.campaign = campaign;
-  this.quantity = parseInt(quantity);
+  this.quantity = Number.parseInt(quantity, 10);
 }
+
+window.basketItem = basketItem;
 
 let Basket = {
   Init: () => window.ShekelBasket || Basket.CreateNew(),
 
   CreateNew: () => {
     window.ShekelBasket = {
-      guid: "1234", //uuidv4(),
+      guid: uuidv4(),
       createdDate: new Date(),
       lastModifiedDate: new Date(),
       basketItems: [],
@@ -96,7 +100,7 @@ let Basket = {
     if (!item) return;
 
     // check if quantity is a number
-    if (!Number.isInteger(parseInt(item.quantity))) return;
+    if (!Number.isInteger(Number.parseInt(item.quantity))) return;
     // check if already in basket. If so increment quantity instead of creating a new one.
     const index = ShekelBasket.basketItems.findIndex(
       (obj) => obj.id == item.id
@@ -115,10 +119,10 @@ let Basket = {
   },
 
   RemoveItem: (productId) => {
-    if (!Number.isInteger(parseInt(productId))) return;
+    if (!Number.isInteger(Number.parseInt(productId, 10))) return;
 
     const index = ShekelBasket.basketItems.findIndex(
-      (x) => x.id === parseInt(productId)
+      (x) => x.id === Number.parseInt(productId, 10)
     );
 
     if (index !== -1) {
@@ -167,4 +171,5 @@ let Basket = {
   },
 };
 
+window.Basket = Basket;
 Basket.Init();

@@ -1,7 +1,6 @@
 const path = require("path");
 const glob = require("glob");
 const PurgecssPlugin = require("purgecss-webpack-plugin");
-const uuid = require("uuid");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const PATHS = {
@@ -9,9 +8,11 @@ const PATHS = {
 };
 
 module.exports = {
+  mode: "development",
   entry: ["./src/js/index.js", "./src/js/orders-list.js"],
+  devtool: "inline-source-map",
   output: {
-    filename: "./src/js/bundle.js",
+    filename: "./src/js/bundle_order_list.js",
     path: path.join(__dirname, "dist"),
   },
   optimization: {

@@ -1,4 +1,10 @@
+import Tags from "./Tags";
+import "./index.js";
+
 document.addEventListener("DOMContentLoaded", function (event) {
+  Tags.init(".tobeTagged");
+
+  //#region - global variables
   // variables for enabling up/down arrow keys for product selection
   // in the product suggestions div in order create offcanvas
   const body = document.querySelector("body");
@@ -10,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const divProductSearchSuggestions = document.getElementById(
     "divProductSearchSuggestions"
   );
+  const divOrderProductSearch = document.getElementById("orderProductSearch");
 
   const ulBasketItems = document.getElementById("ulBasketItems");
 
@@ -26,9 +33,30 @@ document.addEventListener("DOMContentLoaded", function (event) {
   );
   const offCanvasOrderCreate = document.getElementById("offCanvasOrderCreate");
 
+  // print summary table
+  const spanSubTotal = document.getElementById("spanSubTotal");
+  const spanDiscountTotal = document.getElementById("spanDiscountTotal");
+  const spanVatTotal = document.getElementById("spanVatTotal");
+  const spanGrandTotal = document.getElementById("spanGrandTotal");
+  const showAfterBasketHasItems = document.querySelectorAll(
+    ".showAfterBasketHasItem"
+  );
+
+  const search = document.getElementById("q");
+  const searchddl = document.getElementById("divSearchSuggestionsWrapper");
+  const ordersDiv = document.querySelector(".orders");
+
+  // ***************** ORDER CREATE *******************
+  const ddlCustomers = document.getElementById("ddlCustomers");
+  const ddlCustomersWrapper = document.getElementById(
+    "orderCreateSelectCustomer"
+  );
+
   let liSelectedProductSuggestion;
   let liProductIndex = -1;
   let next;
+
+  //#endregion
 
   // load this from server in production
   let products;
@@ -108,6 +136,23 @@ document.addEventListener("DOMContentLoaded", function (event) {
   offCanvasOrderCreate.addEventListener("hide.bs.offcanvas", (e) => {
     if (!divProductSearchSuggestions.classList.contains("d-none")) {
       return e.preventDefault();
+    }
+
+    if (
+      ShekelBasket.basketItems.length > 0 &&
+      ShekelBasket.basketItems != undefined
+    ) {
+      console.log(ShekelBasket.basketItems);
+      if (
+        !confirm(
+          "Yarım kalmış bu sipariş tamamen silinecek. Onaylıyor musunuz?"
+        )
+      ) {
+        return e.preventDefault();
+      } else {
+        customerDeSelected();
+        resetOrder();
+      }
     }
   });
 
@@ -189,21 +234,21 @@ document.addEventListener("DOMContentLoaded", function (event) {
       // convert the hidden textbox value of the basket object into a valid JSON object
       const json = JSON.parse(hdnBasketItem.value);
       let orderedItem = new basketItem(
-        parseInt(json.id),
+        Number.parseInt(json.id),
         json.brand,
         json.name,
         json.image,
-        parseFloat(json.price1),
-        parseFloat(json.price2),
-        parseFloat(json.vat),
-        parseFloat(json.vatpercent),
+        Number.parseFloat(json.price1),
+        Number.parseFloat(json.price2),
+        Number.parseFloat(json.vat),
+        Number.parseFloat(json.vatpercent),
         json.code,
         json.barcode,
         json.campaign
       );
 
       // asign the order quantity
-      orderedItem.quantity = parseInt(ddlProductQuantity.value);
+      orderedItem.quantity = Number.parseInt(ddlProductQuantity.value);
 
       // reset form values
       hdnProductId.value = "";
@@ -245,15 +290,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     items.forEach((item) => {
       ulBasketItems.innerHTML += addProductRow(item, "productRow");
     });
-
-    // print summary table
-    const spanSubTotal = document.getElementById("spanSubTotal");
-    const spanDiscountTotal = document.getElementById("spanDiscountTotal");
-    const spanVatTotal = document.getElementById("spanVatTotal");
-    const spanGrandTotal = document.getElementById("spanGrandTotal");
-    const showAfterBasketHasItems = document.querySelectorAll(
-      ".showAfterBasketHasItem"
-    );
 
     if (items.length) {
       showAfterBasketHasItems.forEach((el) => el.classList.remove("d-none"));
@@ -326,7 +362,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     results.forEach((p) => {
       html += addProductRow(p, "search");
-      ul.innerHTML = html;
+      ul.insertAdjacentHTML("beforeend", html);
     });
   });
 
@@ -342,10 +378,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
       displayQuantityModal(el);
     }
   });
-
-  const search = document.getElementById("q");
-  const searchddl = document.getElementById("divSearchSuggestionsWrapper");
-  const ordersDiv = document.querySelector(".orders");
 
   // this function calculates the height of the orders div by calculating height on the other elements on top of this div and then covering the complete visible space of the remaining viewable area.
   const calculateOrdersHeight = () => {
@@ -430,8 +462,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       e.target.classList.contains("btnRemoveFromBasket") ||
       e.target.parentElement.classList.contains("btnRemoveFromBasket")
     ) {
-      const el = e.target.closest("li");
-      const productId = parseInt(el.dataset.id);
+      const productId = Number.parseInt(e.target.closest("li").dataset.id);
 
       Basket.RemoveItem(productId);
       drawProductRows();
@@ -491,16 +522,20 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
   });
 
-  // ***************** ORDER CREATE *******************
-  const ddlCustomers = document.getElementById("ddlCustomers");
-  const ddlCustomersWrapper = document.getElementById(
-    "orderCreateSelectCustomer"
-  );
-
   // when a customer is selected, the tags input disappears and
   // customer name span with a close button appears.
   ddlCustomers.addEventListener("change", () => {
+    if (ddlCustomers.options.length) {
+      customerSelected();
+    } else {
+      customerDeSelected();
+      resetOrder();
+    }
+  });
+
+  function customerSelected() {
     const custId = ddlCustomers.value;
+
     const custName = ddlCustomers.textContent.trim();
 
     const parent = document.querySelector("#orderCreateDdlCustomersWrapper");
@@ -511,30 +546,78 @@ document.addEventListener("DOMContentLoaded", function (event) {
     );
 
     const h5 = document.createElement("h5");
-    h5.classList.add("m-0");
+    h5.classList.add("m-0", "customerHeaderRelated");
     h5.style.display = "inline-block";
     h5.textContent = custName;
 
     const a = document.createElement("a");
     a.href = "#";
-    a.classList.add("btn", "btn-circle", "btn-white", "ms-2");
+    a.classList.add(
+      "btn",
+      "btn-circle",
+      "btn-white",
+      "ms-2",
+      "customerHeaderRelated"
+    );
 
     const i = document.createElement("i");
-    i.classList.add("fa", "fa-times");
+    i.classList.add("fa", "fa-times", "customerHeaderRelated");
     a.appendChild(i);
 
     customerNameWrapper.append(h5, a);
 
     // reset the textbox to its default value after a customer is de-selected by clicking on the x icon after it's name
     a.addEventListener("click", () => {
-      a.remove();
-      h5.remove();
-      parent.classList.remove("d-none");
-      document.getElementById("ddlCustomers").options.length = 0;
-      document.querySelector(".bg-customer-selection-badge").remove();
-      productsSearchTextBox.focus();
+      customerDeSelected();
     });
-  });
+
+    // display orderProductSearch div
+    divOrderProductSearch.classList.remove("d-none");
+  }
+
+  function customerDeSelected() {
+    const parent = document.querySelector("#orderCreateDdlCustomersWrapper");
+
+    parent.classList.remove("d-none");
+
+    const customerNameWrapper = document.getElementById(
+      "orderCreateCustomerNameTitle"
+    );
+
+    customerNameWrapper.innerHTML = "";
+    customerNameWrapper.textContent = "";
+
+    divOrderProductSearch.classList.add("d-none");
+
+    let inst = Tags.getInstance(ddlCustomers);
+    inst.removeAll();
+    ddlCustomers.length = 0;
+    console.log("i am trying to re-initialize");
+    Tags.init(".tobeTagged");
+    console.log("init completed");
+
+    console.log("selecting next sibling of ddlCustomers");
+    ddlCustomers.nextSibling.querySelector("input").focus();
+  }
+
+  function resetOrder() {
+    // clear product rows
+    ulBasketItems.innerHTML = "";
+
+    // clear text of summary table & set classes to d-none for those who should not be visible
+    spanSubTotal.innerText = "";
+    spanDiscountTotal.innerText = "";
+    spanVatTotal.innerText = "";
+    spanGrandTotal.innerText = "";
+    showAfterBasketHasItems.forEach((el) => el.classList.add("d-none"));
+
+    // clear localStorage
+    localStorage.clear();
+
+    // clear ShekelBasket
+    Basket.Clear = [];
+    ShekelBasket.basketItems = [];
+  }
 
   // const showProductPhotos = () => {
   //   const suggestionsDiv = document.getElementById(

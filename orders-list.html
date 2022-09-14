@@ -516,10 +516,10 @@
       </div>
     </div> -->
     <!-- search & filter section -->
-    <div id="orderProductSearch" class="">
+    <div id="orderProductSearch" class="d-none">
       <div id="orderProductSarchInputWrapper">
         <div class="input-group border">
-          <input type="search" class="form-control border-0" id="txtSearchProducts" autocomplete="off" placeholder="Ürün adı, markası, kodu veya barkodu yazın">
+          <input type="search" class="form-control border-0 " id="txtSearchProducts" autocomplete="off" placeholder="Ürün adı, markası, kodu veya barkodu yazın">
           <button class="btn" type="button"><i class="fa fa-search"></i></button>
         </div>
         <div id="divProductSearchSuggestions" class="d-none p-0 m-0 border-end border-start border-bottom bg-white" style="z-index: 1;">
@@ -540,7 +540,7 @@
       </div>
       <div id="divBasketSummary" class="d-flex">
           <div class="p-2 flex-grow-1">
-              <textarea name="" id="txtInternalNotes" rows="4" class="form-control" ></textarea>
+              <textarea name="" id="txtInternalNotes" rows="4" class="form-control showAfterBasketHasItem d-none" ></textarea>
           </div>
 
           <div class="p-2 showAfterBasketHasItem d-none">
@@ -695,18 +695,18 @@
         <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
       </div>
     </div>
-  </div>
+  </div> 
 
- <script  src="./src/js/index.js"></script>
-<script  src="./src/js/orders-list.js"></script>
-<!-- <script type="module" src="dist/src/js/bundle.js"></script> 
-   <script data-main="scripts/main" src="scripts/require.js"></script> -->
+ <!-- <script type="module" src="./src/js/index.js"></script>
+<script  src="./src/js/orders-list.js"></script> -->
+<script src="dist/src/js/bundle_order_list.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <script type="module">
+    <!-- <script type="module">
       import Tags from "./src/js/tags.js";
       Tags.init(".tobeTagged");
-    </script>
+    </script> -->
 
   </body>
 
